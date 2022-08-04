@@ -1,11 +1,11 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: August 4th, 2022
+##### (blueprint)
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: identified the resources that will guide me do my first 30 days thats with django python
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** the first 30 days, I will do django based projects, then the next 30 days I will spent it doing react based projects, the other 30 I will spend doing ruby on rails based projects.
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Link to work:** [this is the blueprint](http://www.example.com)
 
