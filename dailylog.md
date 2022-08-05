@@ -9,3 +9,12 @@
 
 **Link to work:** [this is the blueprint](http://www.example.com)
 
+## Day 1: August 5th, 2022
+##### (setting up environment for a django work)
+
+**Today's Progress**: 
+Setting up the environment for django applications
+
+**Thoughts:**you need a virtual environment to run specific django applications; you also need django installed on those directories where you will build your django apps;to run or start an environment on the apps you run pipenv
+
+**Link to work:** [this is the blueprint](./DJANGO/testapp/)
