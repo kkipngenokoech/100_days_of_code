@@ -27,3 +27,13 @@ I have created my first django app and linked it explicitly to the main django p
 also I have gotten to learn about all the different python files created when you django-admin startproject and python manage.py startapp ...
 **thoughts:**webpages in django are made up of applications, these apps are supposed to be linked explicitly with the main django application; for this you have to edit the settings.py :
 open the settings.py scroll down to the list of installed applications and add the app on top .
+
+## Day 3: August 7th, 2022
+#### (hands on with django app views and urls)
+**today's progress**
+I have created and served my first application page to the web browser
+I created a view on the views.py which accepts http requests and gives a response
+the function created in the views is then imported into the newly created urls.py
+you sync this urls.py with the project level urls.py
+**thoughts:** Django works on request a view the url delivers it to you
+so it is url -> view -> model(incase)-> template

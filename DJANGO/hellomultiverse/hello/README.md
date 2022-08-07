@@ -10,3 +10,7 @@ go to our hellomultiverse directory and open settings.py scroll down to installe
 views determine what content is displayed whereas url configs determine where the contents are send
 **django request/response cycle*
 URL -> VIEW -> MODEL -> TEMPLATE
+## urls.py inside the app
+we need a urls.py file inside the app.
+this will help us in communicating with the urls.py file n th project level
+*N/B*: we had earlier said that urls.py tells django which page to build in response to django requests
