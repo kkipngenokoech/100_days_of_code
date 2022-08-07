@@ -38,3 +38,7 @@ this command creates a couple of files too so cd into the directory we talk thro
 5. tests.py - this is for this app's specific tests
 6. views.py - it's where we handle the request/response logic for our web app.
 for every created application you must add it explicitly to the list of installed application in settings.py- how to do this is found in the README.md for the individual apps.
+
+## day 2 - first django app views - hellomultiverse/hello
+look into the README.md for hello page for more information on day 3
+**Link to work:** [this is the blueprint](./DJANGO/hellomultiverse/hello/urls.py/)
