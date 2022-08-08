@@ -27,6 +27,8 @@ I have created my first django app and linked it explicitly to the main django p
 also I have gotten to learn about all the different python files created when you django-admin startproject and python manage.py startapp ...
 **thoughts:**webpages in django are made up of applications, these apps are supposed to be linked explicitly with the main django application; for this you have to edit the settings.py :
 open the settings.py scroll down to the list of installed applications and add the app on top .
+**Link to work:** [this is the blueprint](./DJANGO/hellomultiverse/hello/urls.py/)
+
 
 ## Day 3: August 7th, 2022
 #### (hands on with django app views and urls)
@@ -37,3 +39,22 @@ the function created in the views is then imported into the newly created urls.p
 you sync this urls.py with the project level urls.py
 **thoughts:** Django works on request a view the url delivers it to you
 so it is url -> view -> model(incase)-> template
+
+**Link to work:** [this is the blueprint](./DJANGO/hellomultiverse/hello/views.py)
+
+## Day 4: August 8th, 2022
+#### (recap of the last three days by creating the baseline of the new project newpages)
+**today's progress**
+1. created a new project - newpages
+2. took sometime but I now know the commands off the book
+3. the steps include:
+    create a directory(mkdir pages)
+    cd into the directory(cd newpages)
+    pipenv an environment (thats pipenv install django)
+    run the environment(pipenv shell)
+    create a django project(django-admin startproject pages .)
+    create an app(python manage.py startapp pageapp)
+    exit the environment(exit)
+with this you are all set to start your django project
+**thoughts:**that dot we include at the end of django-admin startproject is really important to avoid redundunacy of directories being created
+             ensure you are working on the environment for the right application lest you mess up the environments, that's the point of creating all this environments
