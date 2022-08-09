@@ -58,3 +58,11 @@ so it is url -> view -> model(incase)-> template
 with this you are all set to start your django project
 **thoughts:**that dot we include at the end of django-admin startproject is really important to avoid redundunacy of directories being created
              ensure you are working on the environment for the right application lest you mess up the environments, that's the point of creating all this environments
+
+## Day 4: August 9th, 2022
+#### (using templates in django)
+**today's progress**
+1. created a django template in index.html
+2. updated the settings.py to reroute django to check for templates in the django project-level directory(you do this by finding the templates[], and update 'DIRS': [] to this line 'DIRS': [os.path.join(BASE_DIR, 'templates')],)
+3. index.html has html content to it
+**thoughts:**every web page that you are going to serve to the web is in form of htmls, the generic model to do this is: template -> views -> urls (this pattern holds for every Django web page you make)
