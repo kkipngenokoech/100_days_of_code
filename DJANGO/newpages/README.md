@@ -14,3 +14,4 @@ Generic(template -> views -> urls)- this pattern holds for every Django web page
  in your settings.py: move to templates[]:
     then in the 'DIRS:', there's an empty list[], replace it with 
     [os.path.join(BASE_DIR, 'templates')],
+    
