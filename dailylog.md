@@ -17,7 +17,7 @@ Setting up the environment for django applications
 
 **Thoughts:**you need a virtual environment to run specific django applications; you also need django installed on those directories where you will build your django apps;to run or start an environment on the apps you run pipenv
 
-**Link to work:** [this is the blueprint](./DJANGO/testapp/)
+**Link to work:** [testapp](./DJANGO/testapp/)
 
 ## Day 2: August 6th, 2022
 #### (created my first django project and django application)
@@ -27,7 +27,7 @@ I have created my first django app and linked it explicitly to the main django p
 also I have gotten to learn about all the different python files created when you django-admin startproject and python manage.py startapp ...
 **thoughts:**webpages in django are made up of applications, these apps are supposed to be linked explicitly with the main django application; for this you have to edit the settings.py :
 open the settings.py scroll down to the list of installed applications and add the app on top .
-**Link to work:** [this is the blueprint](./DJANGO/hellomultiverse/hello/urls.py/)
+**Link to work:** [urls](./DJANGO/hellomultiverse/hello/urls.py/)
 
 
 ## Day 3: August 7th, 2022
@@ -40,7 +40,7 @@ you sync this urls.py with the project level urls.py
 **thoughts:** Django works on request a view the url delivers it to you
 so it is url -> view -> model(incase)-> template
 
-**Link to work:** [this is the blueprint](./DJANGO/hellomultiverse/hello/views.py)
+**Link to work:** [views](./DJANGO/hellomultiverse/hello/views.py)
 
 ## Day 4: August 8th, 2022
 #### (recap of the last three days by creating the baseline of the new project newpages)
@@ -58,6 +58,7 @@ so it is url -> view -> model(incase)-> template
 with this you are all set to start your django project
 **thoughts:**that dot we include at the end of django-admin startproject is really important to avoid redundunacy of directories being created
              ensure you are working on the environment for the right application lest you mess up the environments, that's the point of creating all this environments
+**Link to work:** [pageapp](./DJANGO/newpages/pageapp/)
 
 ## Day 5: August 9th, 2022
 #### (using templates in django)
@@ -65,4 +66,6 @@ with this you are all set to start your django project
 1. created a django template in index.html
 2. updated the settings.py to reroute django to check for templates in the django project-level directory(you do this by finding the templates[], and update 'DIRS': [] to this line 'DIRS': [os.path.join(BASE_DIR, 'templates')],)
 3. index.html has html content to it
+
 **thoughts:**every web page that you are going to serve to the web is in form of htmls, the generic model to do this is: template -> views -> urls (this pattern holds for every Django web page you make)
+**Link to work:** [templates](./DJANGO/newpages/templates/)
