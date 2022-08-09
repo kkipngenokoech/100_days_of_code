@@ -59,7 +59,7 @@ with this you are all set to start your django project
 **thoughts:**that dot we include at the end of django-admin startproject is really important to avoid redundunacy of directories being created
              ensure you are working on the environment for the right application lest you mess up the environments, that's the point of creating all this environments
 
-## Day 4: August 9th, 2022
+## Day 5: August 9th, 2022
 #### (using templates in django)
 **today's progress**
 1. created a django template in index.html
