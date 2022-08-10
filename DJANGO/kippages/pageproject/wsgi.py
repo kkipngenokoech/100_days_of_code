@@ -1,5 +1,5 @@
 """
-WSGI config for pages project.
+WSGI config for pageproject project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pages.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pageproject.settings')
 
 application = get_wsgi_application()
