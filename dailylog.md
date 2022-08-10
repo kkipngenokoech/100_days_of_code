@@ -75,3 +75,16 @@ with this you are all set to start your django project
 **thoughts:**every web page that you are going to serve to the web is in form of htmls, the generic model to do this is: template -> views -> urls (this pattern holds for every Django web page you make)
 
 **Link to work:** [templates](./DJANGO/newpages/templates/)
+
+## Day 6: August 10th, 2022
+#### (serving templates to the web)
+**today's progress**
+1. added the template view to the views.py
+2. added the view to urls.py
+3. upon running the server, I got an error of :
+    "TemplateResponseMixin requires either a definition of 'template_name' or an implementation of 'get_template_names()'"
+4. I will come back later and work on this since I have not found the solution yet to it
+
+**thoughts:**I have no thoughts today, I have encountered an error, and until I solve it, I don't, it is something to do with how I am serving my webpages, but I will be back to this
+
+**Link to work:** [views.py](./DJANGO/kippages/pageapp/views.py)
