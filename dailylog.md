@@ -84,6 +84,26 @@ with this you are all set to start your django project
 3. upon running the server, I got an error of :
     "TemplateResponseMixin requires either a definition of 'template_name' or an implementation of 'get_template_names()'"
 4. I will come back later and work on this since I have not found the solution yet to it
+#### update on the error I encountered:
+
+**what the code was supposed to do:** serve me a webpage having the line: first django template
+
+**error:**" TemplateResponseMixin requires either a definition of 'template_name' or an implementation of 'get_template_names()'"
+
+**line that was containing the error:** in the pageapp urls, the file we created , when configuring url patterns this is the line I had written:
+    ```
+    urlpatterns = [
+    path('',HomePageView.as_view(),name='home'),
+    ]
+    ```
+**updated line that fixed the error:** 
+    ```
+    urlpatterns = [
+    path('',HomePageView.as_view(template_name="home.html"),name='home'),
+    ]
+    ```
+
+[link to work](./DJANGO/kippages/pageapp/urls.py)
 
 **thoughts:**I have no thoughts today, I have encountered an error, and until I solve it, I don't, it is something to do with how I am serving my webpages, but I will be back to this
 
