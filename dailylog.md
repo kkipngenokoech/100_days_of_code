@@ -108,3 +108,16 @@ with this you are all set to start your django project
 **thoughts:**I have no thoughts today, I have encountered an error, and until I solve it, I don't, it is something to do with how I am serving my webpages, but I will be back to this
 
 **Link to work:** [views.py](./DJANGO/kippages/pageapp/views.py)
+
+
+## Day 7 August 11th, 2022
+#### (serving the about page to webpage)
+**today's progress**
+1. created an about.html template - purpose is to serve the about's page
+2. created a view for the about's page in the views.py
+3. routed the url of the view(AboutPageView) in the app's urls.py
+4. upon running the server at [about](http://127.0.0.1:8000/about/), the page worked perfectly
+
+**thoughts:** yesterday I encountered an [error](./dailylog.md),about template_name not defined, the solution to it is to pass a parameter into your as_view() method; that is to say: path('',HomePageView.as_view(template_name="(nameofthehtmltemplate for this case)home.html"),name='home')
+
+**Link to work:** [urls.py](./DJANGO/kippages/pageapp/urls.py)
