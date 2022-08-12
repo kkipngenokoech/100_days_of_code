@@ -121,3 +121,16 @@ with this you are all set to start your django project
 **thoughts:** yesterday I encountered an [error](./dailylog.md),about template_name not defined, the solution to it is to pass a parameter into your as_view() method; that is to say: path('',HomePageView.as_view(template_name="(nameofthehtmltemplate for this case)home.html"),name='home')
 
 **Link to work:** [urls.py](./DJANGO/kippages/pageapp/urls.py)
+
+## Day 8 August 12th, 2022
+#### (creating an 'NavBar' kinda template)
+**today's progress**
+1. created a new template [base page](./DJANGO/kippages/templates/base.html)
+2. this template acts as a navigation bar
+3. navigation bar is normally consistent across all the pages present in a website
+4. it contains links to the other pages present in the app
+5. visit the link below to see how they are called into the base.html and how the base page extends to the other pages.
+
+**thoughts:** creating a navigation page in django is pretty easy, you just have a template on its own, write and style it up to your perfection and then extend it to the pages you have in your application.
+
+**link to work:** [base bar](./DJANGO/kippages/templates/base.html)
