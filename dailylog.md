@@ -134,3 +134,17 @@ with this you are all set to start your django project
 **thoughts:** creating a navigation page in django is pretty easy, you just have a template on its own, write and style it up to your perfection and then extend it to the pages you have in your application.
 
 **link to work:** [base bar](./DJANGO/kippages/templates/base.html)
+
+
+## Day 9 August 13th, 2022
+#### (automating tests in Django)
+**today's progress**
+1. in [tests](./DJANGO/kippages/pageapp/tests.py), we have added a new class, with two methods.
+2. Each method is designed for each of our two pages [home](./DJANGO/kippages/templates/home.html) and [about](./DJANGO/kippages/templates/about.html)
+3. It gets the status code of the client side
+4. Then compares it with status 200 
+5. Returns true if it passes the code.
+
+**thoughts:** writing tests code, can really save you a lot of time, because you don't have to manually check your pages if they are being served to the client
+
+**link to work:** [tests](./DJANGO/kippages/pageapp/tests.py)
