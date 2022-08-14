@@ -148,3 +148,14 @@ with this you are all set to start your django project
 **thoughts:** writing tests code, can really save you a lot of time, because you don't have to manually check your pages if they are being served to the client
 
 **link to work:** [tests](./DJANGO/kippages/pageapp/tests.py)
+
+## Day 10 August 14th, 2022
+#### (deployment of the application)
+**today's progress**
+1. the site to use for deployment is heroku
+2. the directions and commands on how to done the deployment are found in [heruko](./DJANGO/kippages/heruko.md)
+3. I haven't succeded yet, encountered an error:     Couldn't find that process type (web). when I run heroku ps:scale web=1
+
+**thoughts:** I have to take a break before this deployment stage bursts me up, I will work on it tomorrow
+
+**link to work:** [procfile](./DJANGO/kippages/Procfile)
