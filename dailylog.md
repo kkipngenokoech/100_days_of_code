@@ -148,3 +148,12 @@ with this you are all set to start your django project
 **thoughts:** writing tests code, can really save you a lot of time, because you don't have to manually check your pages if they are being served to the client
 
 **link to work:** [tests](./DJANGO/kippages/pageapp/tests.py)
+
+## Day 10 August 15th, 2022
+#### (start of a new project)
+**today's progress**
+1. basic layout of the message_board_app
+2. blog : name of the directory
+3. blog_project : name of the blog projects
+4. blog : name of the apps
+5. add the created app in the list of installed apps in project level
