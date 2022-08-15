@@ -16,5 +16,5 @@ to make our heroku app online: heroku ps:scale web=1
 **N/B:** if you ran into this error:To https://git.heroku.com/glacial-chamber-82324.git ! [remote rejected] main -> main (pre-receive hook declined) error: failed to push some refs to 'https://git.heroku.com/glacial-chamber-82324.git'
 **solution:** create a new branch and push your code again
 thats to say: 
-    1. git checkout -b name_of_your_branch
+    1. git checkout -b name_of_your_branch(branch)
     2. git push heroku name_of_your_branch

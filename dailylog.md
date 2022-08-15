@@ -159,3 +159,15 @@ with this you are all set to start your django project
 **thoughts:** I have to take a break before this deployment stage bursts me up, I will work on it tomorrow
 
 **link to work:** [procfile](./DJANGO/kippages/Procfile)
+
+## Day 11 August 15th, 2022
+#### (start of a new project)
+**today's progress**
+1. basic layout of the message_board_app
+2. blog : name of the directory
+3. blog_project : name of the blog projects
+4. blog : name of the apps
+5. add the created app in the list of installed apps in project level
+
+**Thoughts:** it is the start of a project with backend servers.
+**link to work:** [blog app](./DJANGO/blog)
