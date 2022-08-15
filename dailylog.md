@@ -149,7 +149,18 @@ with this you are all set to start your django project
 
 **link to work:** [tests](./DJANGO/kippages/pageapp/tests.py)
 
-## Day 10 August 15th, 2022
+## Day 10 August 14th, 2022
+#### (deployment of the application)
+**today's progress**
+1. the site to use for deployment is heroku
+2. the directions and commands on how to done the deployment are found in [heruko](./DJANGO/kippages/heruko.md)
+3. I haven't succeded yet, encountered an error:     Couldn't find that process type (web). when I run heroku ps:scale web=1
+
+**thoughts:** I have to take a break before this deployment stage bursts me up, I will work on it tomorrow
+
+**link to work:** [procfile](./DJANGO/kippages/Procfile)
+
+## Day 11 August 15th, 2022
 #### (start of a new project)
 **today's progress**
 1. basic layout of the message_board_app
@@ -159,3 +170,4 @@ with this you are all set to start your django project
 5. add the created app in the list of installed apps in project level
 
 **Thoughts:** it is the start of a project with backend servers.
+**link to work:** [blog app](./DJANGO/blog)
