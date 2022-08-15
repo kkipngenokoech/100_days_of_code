@@ -157,3 +157,5 @@ with this you are all set to start your django project
 3. blog_project : name of the blog projects
 4. blog : name of the apps
 5. add the created app in the list of installed apps in project level
+
+**Thoughts:** it is the start of a project with backend servers.
