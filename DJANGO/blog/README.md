@@ -8,3 +8,6 @@ for each individual post.
 2. migrate the record for it to make changes in our database model
     (python manage.py makemigrations nameoftheapp(blog) then python manage.py migrate blog)
 3. this then, if success allows us to have validation that our database is configured
+
+## CREATING A SUPERUSER
+python manage.py createsuperuser
