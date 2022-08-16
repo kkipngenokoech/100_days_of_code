@@ -15,3 +15,10 @@ this is the admin of the app.
 
 ## ADMIN.PY
 we created a database model and so we have to update our admin.py to recognize the database, reference [admin.py](./blog/admin.py)
+
+## SHARING OUR BLOGS
+now that we have our database with our blogs, we need to service them to the web application
+1. first configure our project-level urls and app-level urls
+    i) touch blog/urls.py
+    ii)import your view into it
+    iii)update project level urls.py so as to redirect traffic to the app urls
