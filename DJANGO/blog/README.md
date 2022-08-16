@@ -22,3 +22,6 @@ now that we have our database with our blogs, we need to service them to the web
     i) touch blog/urls.py
     ii)import your view into it
     iii)update project level urls.py so as to redirect traffic to the app urls
+2. creating the views that are going to be served
+    we are going to use class-based views here(one can also use functional based views)
+    check [views](./blog/views.py) for the implementation of the views
