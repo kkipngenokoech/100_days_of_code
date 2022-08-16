@@ -159,3 +159,18 @@ with this you are all set to start your django project
 5. add the created app in the list of installed apps in project level
 
 **Thoughts:** it is the start of a project with backend servers.
+
+**link to work:** [django base setup](./DJANGO/blog/blog/)
+
+
+## Day 11 August 16th, 2022
+#### (database models + views + urls + templates)
+**today's progress**
+1. created a [database model](./DJANGO/blog/blog/models.py)
+2. created a [view](./DJANGO/blog/blog/views.py) to help serve the content
+3. configured the [project level urls](./DJANGO/blog/blog_project/urls.py) and the [app level urls](./DJANGO/blog/blog/urls.py)
+4. created [templates](./DJANGO/blog/templates/) to help on creation of the webpages
+
+**thoughts:** Django is a really exciting framework, creating the databases is something really sweet
+
+**link to work:** [django blog](./DJANGO/blog/)
