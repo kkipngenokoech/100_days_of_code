@@ -11,3 +11,7 @@ for each individual post.
 
 ## CREATING A SUPERUSER
 python manage.py createsuperuser
+this is the admin of the app.
+
+## ADMIN.PY
+we created a database model and so we have to update our admin.py to recognize the database, reference [admin.py](./blog/admin.py)
