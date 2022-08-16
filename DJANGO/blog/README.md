@@ -25,3 +25,9 @@ now that we have our database with our blogs, we need to service them to the web
 2. creating the views that are going to be served
     we are going to use class-based views here(one can also use functional based views)
     check [views](./blog/views.py) for the implementation of the views
+
+## TEMPLATES
+1. create a project-level directory template directory
+2. create a template( home and base ), html templates.
+3. update your project-level settings.py so as to know where to look for the templates (DIRS: [os.path.join(BASE_DIR, 'templates')])
+4. update the html files in the template
