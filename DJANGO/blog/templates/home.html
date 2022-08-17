@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>home page</title>
+    </head>
+    <body>
+        {% extends 'base.html' %}
+        {% block content %}
+        {% for post in object_list %}
+        <div class="post-entry">
+            <h2><a href="">{{post.title}}</a></h2>
+            <p>{{post.body}}</p>
+        </div>
+        {% endfor %}
+        {% endblock content %}
+    </body>
+</html>
