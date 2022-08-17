@@ -186,4 +186,13 @@ with this you are all set to start your django project
 
 **link to work:** [django blog](./DJANGO/blog/)
 
+## Day 13 August 17th, 2022
+#### (static files, each blog with its page)
+1. created a css file to help in styling
+2. created a new view, linked it to url to help distribute our pages to individual blogs
+
+**thoughts:** our page is shaping up, I have gotten the full idea / full picture of how the django works/framework view -> url -> template
+
+**link to work:** [post page](./DJANGO/blog/templates/post_detail.html)
+
 
