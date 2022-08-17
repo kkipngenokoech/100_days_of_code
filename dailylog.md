@@ -1,5 +1,5 @@
 # 100 Days Of Code - Log
-
+DJANGO COMMON PATTERN : view -> url -> template
 ### Day 0: August 4th, 2022
 ##### (blueprint)
 
