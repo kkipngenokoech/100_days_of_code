@@ -31,3 +31,15 @@ now that we have our database with our blogs, we need to service them to the web
 2. create a template( home and base ), html templates.
 3. update your project-level settings.py so as to know where to look for the templates (DIRS: [os.path.join(BASE_DIR, 'templates')])
 4. update the html files in the template
+
+## STATIC FILES
+this includes the Js and Css files
+this files helps us design our websites
+In a production-ready Django project you would typically store this on a Content
+Delivery Network (CDN) for better performance, but for our purposes storing the
+files locally is fine.
+so steps include:
+1. create a project-level static folder/directory
+2. update our prpject-level settings.py to tell it where to find our static files
+3. go to [settings.py](./blog_project/settings.py)
+4. in the STATICFILES_DIRS add this line [os.path.join(BASE_DIR, 'static')]

@@ -174,7 +174,7 @@ with this you are all set to start your django project
 **link to work:** [django base setup](./DJANGO/blog/blog/)
 
 
-## Day 11 August 16th, 2022
+## Day 12 August 16th, 2022
 #### (database models + views + urls + templates)
 **today's progress**
 1. created a [database model](./DJANGO/blog/blog/models.py)
