@@ -45,3 +45,8 @@ so steps include:
 4. in the STATICFILES_DIRS add this line [os.path.join(BASE_DIR, 'static')]
 5. create a css file in the [css directory](./static/css/base.css)
 6. then extend it to [base file](./templates/base.html) which will inturn extend it to the other html documents
+
+
+
+## TESTS
+here we test our models and views
