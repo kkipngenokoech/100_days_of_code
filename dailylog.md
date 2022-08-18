@@ -195,4 +195,10 @@ with this you are all set to start your django project
 
 **link to work:** [post page](./DJANGO/blog/templates/post_detail.html)
 
+## Day 14 August 18th, 2022
+#### (created tests cases for our files so far)
+1. wrote test cases and imported modules into our [tests.py](./DJANGO/blog/blog/tests.py)
 
+**thoughts:** I still need to learn the ropes of these django tests
+
+**link to work:** [tests](./DJANGO/blog/blog/tests.py)
