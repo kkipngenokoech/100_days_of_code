@@ -1,9 +1,9 @@
 import email
-from turtle import title
+#from turtle import title
 from urllib import response
 from django.test import TestCase
 from django.contrib.auth import get_user_model
-from django.test import client, TestCase
+from django.test import Client, TestCase
 from django.urls import reverse
 from .models import post
 
