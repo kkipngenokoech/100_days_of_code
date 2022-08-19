@@ -50,3 +50,24 @@ so steps include:
 
 ## TESTS
 here we test our models and views
+
+
+
+# FORMS
+forms help us interact with the users.  A user can create,edit,delete any of their blog entries.
+STEP 1:
+    update the base.html so as to show the link to the new post section
+STEP 2:
+    add a new urlconfig for the view we are going to create
+STEP 3:
+    create a view for the url we just configured
+STEP 4:
+    finally create a template for our view
+N/B (the url -> view -> template model we've been talking about)
+
+## contents of our post_new.html template
+1. of course we have to inherit pr extend the content of the base.html
+2. we are sending data to the so we use POST method
+3. csrf_token : it helps prevents our form from cross-site scripting attacks
+4. to output form data you form.as_p that renders it in paragraph
+5. Finally specify an input type of submit and assign it the value “Save”.
