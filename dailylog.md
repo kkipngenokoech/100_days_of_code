@@ -202,3 +202,15 @@ with this you are all set to start your django project
 **thoughts:** I still need to learn the ropes of these django tests
 
 **link to work:** [tests](./DJANGO/blog/blog/tests.py)
+
+## DAY 15 August 19th, 2022
+#### (working with forms)
+1. I want a user to add there own blogs
+2. so I first create a new url to link us to a view for creating the blog template
+3. I then create the view
+5. and finally the [template](./DJANGO/blog/templates/post_new.html) that is going to be served to the webpage
+
+**thoughts:** I emphasized more on what is needed to create a django web page (url -> view -> template) and did a little introduction to forms.
+right now I can comfortably create a webpage to be served into a webpage
+
+**link to work:** [post form](./DJANGO/blog/templates/post_new.html)
