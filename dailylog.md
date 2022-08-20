@@ -214,3 +214,14 @@ with this you are all set to start your django project
 right now I can comfortably create a webpage to be served into a webpage
 
 **link to work:** [post form](./DJANGO/blog/templates/post_new.html)
+
+## DAY 16 August 20th, 2022
+#### (default login system)
+1. created the base requirements for a django application
+2. created a home.html page to be served when login is successful
+3. created a superuser for the login justification
+4. the default django login template works well and the project in genral
+
+**thoughts:** Django by default has its own login model, and that's what I have used in this project, tomorrow I am going to use a customized view
+
+**link to work:** [loginsystem](./DJANGO/loginsystem/)
