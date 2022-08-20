@@ -19,6 +19,6 @@ from django.contrib.auth import views as auth_views
 #paths added below are for the home page and login page
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('login/', auth_views.LoginView.as_view(),name='login'),
-    path('login/',include('home.urls'))
+    path('', auth_views.LoginView.as_view(),name='login'),
+    path('',include('home.urls'))
 ]
