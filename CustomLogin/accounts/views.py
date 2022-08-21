@@ -1,6 +1,6 @@
-import email
 from django.shortcuts import render, redirect, HttpResponse
 from django.contrib import messages
+from django.contrib.auth.models import User, auth   
 
 # Create your views here.
 def register(request):
@@ -28,3 +28,20 @@ def register(request):
             return redirect(register)
     else:
         return render(request,'registration.html')
+
+def login_user(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+
+        user = auth.authenticate(username=username, password=password )
+        
+        if user is not None:
+            auth.login(request, user)
+            return redirect('home')
+        else:
+            messages.info(request,'invalid username or password')
+            return redirect('login_user')
+
+    else:
+        return render(request, 'login.html')
