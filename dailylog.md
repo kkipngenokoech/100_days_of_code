@@ -225,3 +225,13 @@ right now I can comfortably create a webpage to be served into a webpage
 **thoughts:** Django by default has its own login model, and that's what I have used in this project, tomorrow I am going to use a customized view
 
 **link to work:** [loginsystem](./DJANGO/loginsystem/)
+
+## DAY 17 August 21st, 2022
+#### (custom login system)
+1. created a [customlogin project](./CustomLogin/)
+2. created an [account app](./CustomLogin/accounts/)
+3. this app has views for the login, registration and home page
+
+**thoughts:** today's project has emphasized more the urls -> views -> template model django users.
+
+**link to work:** [CustomLogin](./CustomLogin/)
