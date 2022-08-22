@@ -1,7 +1,7 @@
 from django.shortcuts import render
 # we are going to use listview and the model we created
 from django.views.generic import ListView, DetailView
-from django.views.generic.edit import CreateView
+from django.views.generic.edit import CreateView, UpdateView
 from .models import post
 
 # Create your views here.
@@ -17,3 +17,8 @@ class BlogCreateView(CreateView):
     model = post
     template_name = 'post_new.html'
     fields = '__all__'
+
+class BlogUpdateView(UpdateView):
+    model = post
+    template_name = 'post_edit.html'
+    fields = ['title', 'body']
