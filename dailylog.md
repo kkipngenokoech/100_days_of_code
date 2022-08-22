@@ -235,3 +235,12 @@ right now I can comfortably create a webpage to be served into a webpage
 **thoughts:** today's project has emphasized more the urls -> views -> template model django users.
 
 **link to work:** [CustomLogin](./CustomLogin/)
+
+
+## DAY 18 August 22nd, 2022
+#### (delete and update post)
+1. added a functionality for deleting and updating post
+2. created templates, views and urls configuration for the above functionalities
+
+**thoughts:** I have added functionalities to the app
+**link to work:** [views](./DJANGO/blog/blog/views.py)
