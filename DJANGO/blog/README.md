@@ -71,3 +71,16 @@ N/B (the url -> view -> template model we've been talking about)
 3. csrf_token : it helps prevents our form from cross-site scripting attacks
 4. to output form data you form.as_p that renders it in paragraph
 5. Finally specify an input type of submit and assign it the value “Save”.
+
+
+# USER AUTHENTICATION
+whenever you create a new project, by default django installs the auth app , which provides us with a user object containing:
+username
+first_name
+last_name
+email
+
+to use a default django login model:
+1. add a project level url pattern for the auth system
+2. login template
+3. a tweak on our settings.py file
