@@ -90,3 +90,14 @@ here we donot need to create any logic view or database model since django auth 
 # LOGOUT
 1. just add a link to logout in our base.html
 2. and a logout redirect url in our settings.py
+
+# USER SIGNUP
+we need to allow users to sign up for our platform
+Django provides us with a UserCreationForm - form class for this task
+it normally comes with three fields; username, password 1 and password 2
+here we are going to create a whole new app for dedication of this sign up page (accounts)
+ as usual
+    1. python manage.py startapp accounts
+    2. add our new app to the project level settings.py list of installed apps
+    3. configure [project level urls ](./blog_project/urls.py)
+    4. configure [app-level urls](./accounts/urls.py)
