@@ -83,6 +83,10 @@ email
 to use a default django login model:
 1. add a project level url pattern for the auth system
 2. login template(django is designed to automatically look into templates/registration for the login template)
-3. a tweak on our settings.py file
+3. a tweak on our settings.py file(login redirect url)
 
 here we donot need to create any logic view or database model since django auth system provides that to us already.
+
+# LOGOUT
+1. just add a link to logout in our base.html
+2. and a logout redirect url in our settings.py
