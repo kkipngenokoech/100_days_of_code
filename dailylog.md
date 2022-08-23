@@ -244,3 +244,9 @@ right now I can comfortably create a webpage to be served into a webpage
 
 **thoughts:** I have added functionalities to the app
 **link to work:** [views](./DJANGO/blog/blog/views.py)
+
+## DAY 19 August 22nd, 2022
+#### (signup and login and hosting)
+1. used the django login default has illustrated three days ago in day 16.
+2. created a signview, imported the loginview
+**thoughts:** hosting at heroku has been a challange to me upto now, I hope this finallly works
