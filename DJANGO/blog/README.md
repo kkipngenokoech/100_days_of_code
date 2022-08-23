@@ -101,3 +101,9 @@ here we are going to create a whole new app for dedication of this sign up page 
     2. add our new app to the project level settings.py list of installed apps
     3. configure [project level urls ](./blog_project/urls.py)
     4. configure [app-level urls](./accounts/urls.py)
+    [accounts/views.py](./accounts/views.py)
+        we subclass generic class view CreateView
+        reverse_lazy is used to redirect the user to log in page upon successful registration
+        Why use reverse_lazy here instead of reverse? The reason is that for all generic class-
+        based views the URLs are not loaded when the file is imported, so we have to use the
+        lazy form of reverse to load them later when they’re available.
