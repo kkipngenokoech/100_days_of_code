@@ -84,3 +84,5 @@ to use a default django login model:
 1. add a project level url pattern for the auth system
 2. login template(django is designed to automatically look into templates/registration for the login template)
 3. a tweak on our settings.py file
+
+here we donot need to create any logic view or database model since django auth system provides that to us already.
