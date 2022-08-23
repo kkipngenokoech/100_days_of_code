@@ -107,3 +107,10 @@ here we are going to create a whole new app for dedication of this sign up page 
         Why use reverse_lazy here instead of reverse? The reason is that for all generic class-
         based views the URLs are not loaded when the file is imported, so we have to use the
         lazy form of reverse to load them later when they’re available.
+
+# DEPLOYING VIA HEROKU
+there four changes that need to be made in this application.
+1. update Pipfile.lock( change python version from 3.10 to 3.7) - then run pipenv lock to update it
+2. new Procfile (touch Procfile, and add the following line - web: gunicorn blog_project.wsgi --log-file -)
+3. install gunicorn
+4. update settings.py
