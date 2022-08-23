@@ -112,5 +112,14 @@ here we are going to create a whole new app for dedication of this sign up page 
 there four changes that need to be made in this application.
 1. update Pipfile.lock( change python version from 3.10 to 3.7) - then run pipenv lock to update it
 2. new Procfile (touch Procfile, and add the following line - web: gunicorn blog_project.wsgi --log-file -)
-3. install gunicorn
-4. update settings.py
+3. install gunicorn (pipenv install gunicorn==19.9.0)
+4. update settings.py(update allowed_hosts to all [*])
+
+# HEROKU DEPLOYMENT
+Heroku login command
+create a container for our app to live in (heroku create kipblogger)
+configuring heroku so it auto-deploys (heroku git:remote -a kipblogger)
+we need to serve our css file(static files)and so we use whitenose since django by default does not (pipenv install whitenoise==3.3.1)
+add whitenoise to our list of installed above the bultin staticfiles app(Add whitenoise to the INSTALLED_APPS above the built-
+in staticfiles app and also to MIDDLEWARE on the third line. Order matters for both
+INSTALLED_APPS and MIDDLEWARE)
