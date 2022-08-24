@@ -14,3 +14,14 @@ and python manage.py migrate
 
 # CREATE A SUPERUSER ACCOUNT
 python manage.py createsuperuser
+
+
+# USER AUTHENTICATION
+We need to give the user the ability to sign up, log in and log out
+Django provides us everything for logging in and loggin out 
+    it will look for the template in the registration folder.
+    update the [settings.py](./DJANGO/news/news_project/settings.py) to check for our templates in project level directory
+    we need to tell django where to redirect us upon successful login or logout
+    for login - LOGIN_REDIRECT_URL = 'home'
+    for logout - LOGOUT_REDIRECT_URL = 'home', this two lines are added to our [settings.py](./news_project/settings.py)
+it's only the sign up that we need to work on

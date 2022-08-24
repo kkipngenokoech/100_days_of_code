@@ -259,3 +259,6 @@ right now I can comfortably create a webpage to be served into a webpage
 3. more  information about the creation of django custom login is found in this [README.md](./DJANGO/news/README.md)
 
 **thougths:** working with a custom login in django is more inspiring since you have some little of freedom.
+
+
+
