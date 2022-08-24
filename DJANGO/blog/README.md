@@ -123,3 +123,6 @@ we need to serve our css file(static files)and so we use whitenose since django 
 add whitenoise to our list of installed above the bultin staticfiles app(Add whitenoise to the INSTALLED_APPS above the built-
 in staticfiles app and also to MIDDLEWARE on the third line. Order matters for both
 INSTALLED_APPS and MIDDLEWARE)
+
+to push to heroku (git push heroku main)
+heroku ps:scale web=1
