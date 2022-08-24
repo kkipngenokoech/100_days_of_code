@@ -11,3 +11,6 @@ creating a custom django login system requires:
 
 finally run python manage.py makemigrations users
 and python manage.py migrate
+
+# CREATE A SUPERUSER ACCOUNT
+python manage.py createsuperuser
