@@ -252,3 +252,10 @@ right now I can comfortably create a webpage to be served into a webpage
 **thoughts:** hosting at heroku has been a challange to me upto now, I hope this finallly works
 
 
+## DAY 20 August 23rd, 2022
+#### (custom login)
+1. I created a django custom [login page](./DJANGO/news/README.md)
+2. I created a superuser account
+3. more  information about the creation of django custom login is found in this [README.md](./DJANGO/news/README.md)
+
+**thougths:** working with a custom login in django is more inspiring since you have some little of freedom.
