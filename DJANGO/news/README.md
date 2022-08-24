@@ -6,4 +6,8 @@ creating a custom django login system requires:
     it extends existing AbstractUser.
     we also introduce a custom field age
 3. update [admin.py](./users/admin.py)
+    Admin is tightly coupled to default UserModel, we need to extend it to our new customusermodel
 4. create a new form for UserCreationForm and UserChangeForm
+
+finally run python manage.py makemigrations users
+and python manage.py migrate
