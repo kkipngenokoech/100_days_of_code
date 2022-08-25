@@ -26,3 +26,5 @@ Django provides us everything for logging in and loggin out
     for login - LOGIN_REDIRECT_URL = 'home'
     for logout - LOGOUT_REDIRECT_URL = 'home', this two lines are added to our [settings.py](./news_project/settings.py)
 it's only the sign up that we need to work on
+
+# URLS
