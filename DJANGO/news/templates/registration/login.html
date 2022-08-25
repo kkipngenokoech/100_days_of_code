@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>log in</title>
+    </head>
+    <body>
+        {% extends 'base.html' %}
+        {% block title %}log in{% endblock title %}
+        {% block content %}
+        <h2>log in</h2>
+        <form action="" method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">log in</button>
+        </form>
+        {% endblock content %}
+    </body>
+</html>
