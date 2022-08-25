@@ -28,3 +28,7 @@ Django provides us everything for logging in and loggin out
 it's only the sign up that we need to work on
 
 # URLS
+### (app-level urls)
+1. import our views (created/yet to be created)
+2. set route paths
+3. name each urls path
