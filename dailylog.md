@@ -260,5 +260,15 @@ right now I can comfortably create a webpage to be served into a webpage
 
 **thougths:** working with a custom login in django is more inspiring since you have some little of freedom.
 
+**link to work:** [news app](./DJANGO/news/)
 
+## DAY 21 August 24th, 2022
+#### (user signup/login/logout)
+1. yesterday I created a custom login project (news)
+2. Today I have added the ability for a user to sign up/ login /and logout
+3. with this tested and verified the app newspaper is fine upto this place
+4. the details and step by step procedure of how I did this is found in this [README](./DJANGO/news/README.md)
 
+**thoughts:** a user can signup, sign in and log out of my news app. Django automatically looks for the login template in /registration
+
+**link to work:** [signup page](./DJANGO/news/templates/signup.html)
