@@ -46,3 +46,14 @@ in testing we test three things
     1. the page exists and returns a HTTP 200 status code
     2. the page users the correct url name in the view
     3. the proper template is being used
+
+
+## BOOTSTRAP
+there are two ways of adding bootstrap to our applications
+1. downloading all the files and adding them locally to our server
+2. using CDN(Content Delivery Network)
+Bootstrap comes with the following starter templates:
+    Bootstrap.css
+    Jquery.js
+    Popper.js
+    Bootstrap.js
