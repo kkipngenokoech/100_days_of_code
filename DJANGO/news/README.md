@@ -32,3 +32,17 @@ it's only the sign up that we need to work on
 1. import our views (created/yet to be created)
 2. set route paths
 3. name each urls path
+
+# TESTS
+we need to write tests for:
+    home(urls, templates, views)
+    sign up(urls, templates, views)
+    # this other two are django inbuilt and they rely on internal views and url routes
+    log in
+    log out
+
+[tests](./pages/tests.py)
+in testing we test three things
+    1. the page exists and returns a HTTP 200 status code
+    2. the page users the correct url name in the view
+    3. the proper template is being used
