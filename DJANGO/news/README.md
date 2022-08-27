@@ -57,3 +57,11 @@ Bootstrap comes with the following starter templates:
     Jquery.js
     Popper.js
     Bootstrap.js
+
+## signup page
+in our sign up page there are some extra text that show up and we need to clean it in one of the following ways:
+    override the existing help_text
+    hide the help_text
+    restyle the help_text
+#### restyling the help_text
+we need the help_text and so we are going to restyle it.

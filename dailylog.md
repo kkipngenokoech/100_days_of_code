@@ -245,14 +245,14 @@ right now I can comfortably create a webpage to be served into a webpage
 **thoughts:** I have added functionalities to the app
 **link to work:** [views](./DJANGO/blog/blog/views.py)
 
-## DAY 19 August 22nd, 2022
+## DAY 19 August 23rd, 2022
 #### (signup and login and hosting)
 1. used the django login default has illustrated three days ago in day 16.
 2. created a signview, imported the loginview
 **thoughts:** hosting at heroku has been a challange to me upto now, I hope this finallly works
 
 
-## DAY 20 August 23rd, 2022
+## DAY 20 August 24th, 2022
 #### (custom login)
 1. I created a django custom [login page](./DJANGO/news/README.md)
 2. I created a superuser account
@@ -262,7 +262,7 @@ right now I can comfortably create a webpage to be served into a webpage
 
 **link to work:** [news app](./DJANGO/news/)
 
-## DAY 21 August 24th, 2022
+## DAY 21 August 25th, 2022
 #### (user signup/login/logout)
 1. yesterday I created a custom login project (news)
 2. Today I have added the ability for a user to sign up/ login /and logout
@@ -272,3 +272,14 @@ right now I can comfortably create a webpage to be served into a webpage
 **thoughts:** a user can signup, sign in and log out of my news app. Django automatically looks for the login template in /registration
 
 **link to work:** [signup page](./DJANGO/news/templates/signup.html)
+
+## DAY 22 August 26th, 2022
+#### (Bootstrap)
+1. we need to style our pages/templates so as to be aesthetic
+2. we are going to use bootstrap for this 
+3. we are going to import this through this with CDN(content delivery network)
+4. we need to import four things:
+
+**thoughts:** styling our templates makes them look nice and so we are going to do this using bootstrap, the major heavy lifting has already been done for us.
+
+**link to work:** [bootstrap](./DJANGO/news/templates/base.html)
