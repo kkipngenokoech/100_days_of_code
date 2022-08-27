@@ -283,3 +283,10 @@ right now I can comfortably create a webpage to be served into a webpage
 **thoughts:** styling our templates makes them look nice and so we are going to do this using bootstrap, the major heavy lifting has already been done for us.
 
 **link to work:** [bootstrap](./DJANGO/news/templates/base.html)
+
+## DAY 23 August 27th, 2022
+#### (django-crispy-forms)
+this is a third party package
+lets pipenv install django-crispy-forms
+add it to the list of installed apps ('crispy_forms')
+we should also add CRISPY_TEMPLATE_PACK = 'bootstrap4' at the bottom of our file

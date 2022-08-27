@@ -65,3 +65,8 @@ in our sign up page there are some extra text that show up and we need to clean 
     restyle the help_text
 #### restyling the help_text
 we need the help_text and so we are going to restyle it.
+
+#### using crispy in our sign up page
+1. load the crispy tags
+    {% load crispy_forms_tags %}
+2. then replace form.as_p with form| crispy
