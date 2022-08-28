@@ -290,3 +290,16 @@ this is a third party package
 lets pipenv install django-crispy-forms
 add it to the list of installed apps ('crispy_forms')
 we should also add CRISPY_TEMPLATE_PACK = 'bootstrap4' at the bottom of our file
+
+## DAY 24 August 28th, 2022
+#### (django password reset)
+1. many a times a user forgets his login password
+2. django allows us to enable the user to reset his/her own password
+3. and for this emails are sent to the user's emails
+4. we are going to implement this using emails SendGrid
+5. but first we want to test out the django Backend service which would send the email to our console instead
+6. implementation of this is found in this [README](./DJANGO/news/README.md) and the templates created for this are found in the [registration](./DJANGO/news/templates/registration/) folder.
+
+**thoughts:** django does the heavy lifting for us, all we need to do is to tell it were to send our emails, and for today we have ordered django to send it to our console using this line:
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+tomorrow I am going to reroute it so that it sends it to the users personal email instead.
