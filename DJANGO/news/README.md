@@ -70,3 +70,9 @@ we need the help_text and so we are going to restyle it.
 1. load the crispy tags
     {% load crispy_forms_tags %}
 2. then replace form.as_p with form| crispy
+
+## PASSWORD CHANGE and RESET
+we need the user to have the ability to change and reset password via email
+as django providing us the views and urls for login and logout ; it does so too with django password change and reset
+we need to customize the views though
+on customization, django provides views and urls for us so we need to just create new templates
