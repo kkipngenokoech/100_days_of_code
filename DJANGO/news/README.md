@@ -76,3 +76,8 @@ we need the user to have the ability to change and reset password via email
 as django providing us the views and urls for login and logout ; it does so too with django password change and reset
 we need to customize the views though
 on customization, django provides views and urls for us so we need to just create new templates
+#### reset
+django does the heavy lifting for us, and so all we need is to tell django how to send the emails.
+for this we are going to use the email service called SendGrid, but to test our email sending services we are going to use Django-console backend - this sends the email to our console instead
+this email reset config  is going to be updated in our settings.py project
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' 
