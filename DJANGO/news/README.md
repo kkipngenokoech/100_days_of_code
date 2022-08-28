@@ -81,3 +81,5 @@ django does the heavy lifting for us, and so all we need is to tell django how t
 for this we are going to use the email service called SendGrid, but to test our email sending services we are going to use Django-console backend - this sends the email to our console instead
 this email reset config  is going to be updated in our settings.py project
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' 
+we need to customize the page thats being served to us we need to reset our password 
+and for that we are going to create four new html templates in our registration folder
