@@ -305,3 +305,13 @@ we should also add CRISPY_TEMPLATE_PACK = 'bootstrap4' and CRISPY_ALLOWED_TEMPLA
 **thoughts:** django does the heavy lifting for us, all we need to do is to tell it were to send our emails, and for today we have ordered django to send it to our console using this line:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 tomorrow I am going to reroute it so that it sends it to the users personal email instead.
+
+##  DAY 25 August 29th, 2022
+#### (working with SendGrid)
+1. created an account in [SendGrid](https://sendgrid.com/)
+N/B : use a diffrent email with the ones you have signed up for in our applications.
+2. we are going to configure our emails via SMTP.
+3. we create an api
+4. link it to our settings.py ; first update our EMAIL BACKEND  to use SMTP
+    EMAIL_BACKEND  = 'django.core.mail.backends.smtp.EmailBackend'
+5. 
