@@ -314,4 +314,15 @@ N/B : use a diffrent email with the ones you have signed up for in our applicati
 3. we create an api
 4. link it to our settings.py ; first update our EMAIL BACKEND  to use SMTP
     EMAIL_BACKEND  = 'django.core.mail.backends.smtp.EmailBackend'
-5. 
+5. add this additional lines below our email backend:
+
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # - sends it via smtp
+    EMAIL_HOST = 'smtp.sendgrid.net'
+    EMAIL_HOST_USER = 'apikey'
+    EMAIL_HOST_PASSWORD = 'paste your sendgrid password here'
+    EMAIL_PORT = 587
+    EMAIL_USE_TLS = True
+
+**thoughts:** I need to be able to rely messages to users directly to their emails but it hasn't worked and so I need to restudy this concept of SendGrid well and do it again.
+
+**link to work:** [SendGrid](dailylog.md)
