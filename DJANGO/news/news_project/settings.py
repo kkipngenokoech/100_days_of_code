@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'pages.apps.PagesConfig',
     #3rd-party
     'crispy_forms',
+    'crispy_bootstrap5',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -133,4 +134,5 @@ LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
+CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

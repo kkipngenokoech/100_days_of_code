@@ -13,8 +13,9 @@
             <p><a href="{% url 'logout' %}">log out</a></p>
         {% else %}
             <p>You are not logged in</p>
-            <a href="{% url 'login' %}">log in</a>
-            <a href="{% url 'signup' %}">sign up</a>
+            <a class="btn btn-success" href="{% url 'login' %}">log in</a>
+             
+            <a class="btn btn-success" href="{% url 'signup' %}"> sign up</a>
         {% endif %}
         {% endblock content %}
     </body>

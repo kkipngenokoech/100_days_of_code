@@ -288,8 +288,10 @@ right now I can comfortably create a webpage to be served into a webpage
 #### (django-crispy-forms)
 this is a third party package
 lets pipenv install django-crispy-forms
-add it to the list of installed apps ('crispy_forms')
-we should also add CRISPY_TEMPLATE_PACK = 'bootstrap4' at the bottom of our file
+we als need to install crispy bootstrap5 so as allow us to use bootstrap5 in our project
+    pip install crispy-bootstrap5
+add both crispy forms and the crispy-bootstrap5 to the list of installed apps ('crispy_forms','crispy_bootstrap5')
+we should also add CRISPY_TEMPLATE_PACK = 'bootstrap4' and CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5' at the bottom of our file
 
 ## DAY 24 August 28th, 2022
 #### (django password reset)
