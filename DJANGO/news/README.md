@@ -83,3 +83,10 @@ this email reset config  is going to be updated in our settings.py project
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' 
 we need to customize the page thats being served to us we need to reset our password 
 and for that we are going to create four new html templates in our registration folder
+
+## customizing emails
+we import a couple of tags in our [custom email](./templates/registration/password_reset_email.html)
+1. i18n - this text is eligble to be converted to several languanges
+2. then we greet the user in the second line.
+3. and ask him/her to reset his/her password
+4. to update our subject line for our emails we create a [password_reset_subject file](./templates/registration/password_reset_subject.txt)
