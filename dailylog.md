@@ -326,3 +326,13 @@ N/B : use a diffrent email with the ones you have signed up for in our applicati
 **thoughts:** I need to be able to rely messages to users directly to their emails but it hasn't worked and so I need to restudy this concept of SendGrid well and do it again.
 
 **link to work:** [SendGrid](dailylog.md)
+
+## DAY 26 August 30th,2022
+#### (configuration of sendgrid passwords and customzation of emails send to users)
+1. my sendGrid is not working as it is supposed to do.
+2. I have customized the emals being sent to the users though
+3. I have to redo this last process of user authentication flow.
+
+**thoughts:** emails are not being sent to the user, there's an opaque problem in this last part of user authentication flow otherwise the other parts are okay - that's signup/login/change password.
+
+**link to work:** [custom emails](./DJANGO/news/templates/registration/password_reset_email.html)
