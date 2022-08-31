@@ -48,4 +48,26 @@ models
         from .models import Article - model imported
 ## template
 in our [views file](./views.py), we referenced to a template 'article_list.html' 
-we need to create a template in our templates folder referencing to this templates
+we need to create a template in our templates folder referencing to this template
+check out the template content on [articles page](../templates/article_list.html)
+we use bootstrap cards to style our individual articles
+listView returns an object list that's why we iterate with object_list.
+
+## editing and deleting
+we are going to use new urls, views and templates
+we are going to employ the django ability to add primary keys to each articles.
+so our first article will have a pk of 1 i.e for editing /articles/1/edit
+so lets first create the urls:
+#### urls
+let's import some more views:
+    ArticleUpdateView : to update our blog
+    ArticleDetailView : to view our blog details
+    ArticleDeleteView : to delete our blog
+then add urls path for all of the above views
+    i.e path('<int:pk>/edit/',ArticleUpdateView.as_view(),name='article_edit')
+    path('<int:pk>/delete',ArticleDeleteView.as_view(),name='article_delete')
+    path('<int:pk>/',ArticleDetailView.as_view(),name='article_detail')
+
+#### views
+we are going to write up the views for the above url patterns.
+    check on the [views file](./views.py) for its implementation.
