@@ -1,0 +1,1 @@
+this is all about the articles application.
