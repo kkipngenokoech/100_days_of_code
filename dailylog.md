@@ -336,3 +336,12 @@ N/B : use a diffrent email with the ones you have signed up for in our applicati
 **thoughts:** emails are not being sent to the user, there's an opaque problem in this last part of user authentication flow otherwise the other parts are okay - that's signup/login/change password.
 
 **link to work:** [custom emails](./DJANGO/news/templates/registration/password_reset_email.html)
+
+## DAY 27 August 31st, 2022
+#### (created a new application that will allow users add articles)
+1. created a new app [(articles)](./DJANGO/news/articles/)
+2. added the app to the list of [installed apps](./DJANGO/news/news_project/settings.py)
+3. configured a new [database model](./DJANGO/news/articles/models.py)
+4. made our database model recognizable by our [admin](./DJANGO/news/articles/admin.py)
+
+**thoughts:** our articles application would automatically be updating on the time a blog is changed updated or created, that's why we used a timezone. for more information about our articles application, check out on this [articles README](./DJANGO/news/articles/articles.md)
