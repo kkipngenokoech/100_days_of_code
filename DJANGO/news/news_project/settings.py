@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     #LOCAL
     'users.apps.UsersConfig',
     'pages.apps.PagesConfig',
+    'articles.apps.ArticlesConfig',
     #3rd-party
     'crispy_forms',
     'crispy_bootstrap5',
