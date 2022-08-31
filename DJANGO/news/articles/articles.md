@@ -17,3 +17,4 @@ after creating our models, we can now make migrations:
 
 ## ADMIN
 we need to update our [admin](admin.py), so that our app appears
+    admin.site.register(Article) - you import the model Article.
