@@ -18,3 +18,10 @@ after creating our models, we can now make migrations:
 ## ADMIN
 we need to update our [admin](admin.py), so that our app appears
     admin.site.register(Article) - you import the model Article.
+
+## URLs AND views
+we want our article app to appear under 'article/'
+    so let us add the urls to our articles in our project-level [urls file](../news_project/urls.py)
+    add this line:
+    path('articles/',include('articles.urls')) in projects-level [urls](../news_project/urls.py)
+    
