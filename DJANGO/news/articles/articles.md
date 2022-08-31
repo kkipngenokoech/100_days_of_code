@@ -2,3 +2,4 @@ this is all about the articles application.
     python manage.py startapp articles - command to create the app
 add our new application to the list of installed apps in the project level settings.py
     'articles.apps.ArticlesConfig' - add it to INSTALLED_APPS
+our articles are going to be timestamped, add your [timezone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) at the end of [settings.py](../news_project/settings.py)
