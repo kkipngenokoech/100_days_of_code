@@ -20,6 +20,7 @@ we need to update our [admin](admin.py), so that our app appears
     admin.site.register(Article) - you import the model Article.
 
 ## URLs AND views
+#### urls
 we want our article app to appear under 'article/'
 [project-level urls](../news_project/urls.py)
     so let us add the urls to our articles in our project-level [urls file](../news_project/urls.py)
@@ -37,3 +38,11 @@ we want our article app to appear under 'article/'
 URL-PATTERNS
     now we need to configure urls with the views
     path('',ArticleListView.as_view(),name='article_list) - '' means it will be displayed when 'article/' page is requested; as_view() is the main entrance-point in the request-response cycle in case of generic views. it connects our [urls](./urls.py) to our [views](./views.py); name is an optional parameter but very important one, it acts as a place holder or primary key for that matter so that if we need to reference this path we just {% url 'article_list' %}
+#### views
+we are going to use generic views. - listView
+    generic views : these are blueprints for common functions that are undertaken in our day to day interactions with websites and applications: from listing items, registering users to resetting password and any other mundane tasks we normally do.
+    for this particular app we are going to import the ListView since we need to list the articles
+        from django.views.generic import ListView
+models
+    since we are going to import articles from the database we need to import the model
+        from .models import Article - model imported
