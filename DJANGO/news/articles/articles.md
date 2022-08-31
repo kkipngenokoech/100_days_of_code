@@ -21,7 +21,19 @@ we need to update our [admin](admin.py), so that our app appears
 
 ## URLs AND views
 we want our article app to appear under 'article/'
+[project-level urls](../news_project/urls.py)
     so let us add the urls to our articles in our project-level [urls file](../news_project/urls.py)
     add this line:
     path('articles/',include('articles.urls')) in projects-level [urls](../news_project/urls.py)
-    
+[app-level urls](./urls.py)
+    we need to create a new [urls.py](./urls.py), touch urls.py
+    in our created [urls file](./urls.py), we need to import the following:
+        path - path is used to route urls to the appropriate view functions within a django application using the URL-dispatcher, this function is contained within the django.urls module
+            from django.urls import path - line to be written.
+        views - this is a class or function that takes a web-based request and return a web response.the request is normally sent to our [urls.py](./urls.py), then the urls check which path is matched to which [view](./views.py) and sends the urls to that view.
+        N/B: django has two types of views: class-based views and function-based views.
+            from .views import ArticleListView
+            ArticleListView is our yet to be created view.
+URL-PATTERNS
+    now we need to configure urls with the views
+    path('',ArticleListView.as_view(),name='article_list) - '' means it will be displayed when 'article/' page is requested; as_view() is the main entrance-point in the request-response cycle in case of generic views. it connects our [urls](./urls.py) to our [views](./views.py); name is an optional parameter but very important one, it acts as a place holder or primary key for that matter so that if we need to reference this path we just {% url 'article_list' %}
