@@ -46,3 +46,6 @@ we are going to use generic views. - listView
 models
     since we are going to import articles from the database we need to import the model
         from .models import Article - model imported
+## template
+in our [views file](./views.py), we referenced to a template 'article_list.html' 
+we need to create a template in our templates folder referencing to this templates
