@@ -345,3 +345,5 @@ N/B : use a diffrent email with the ones you have signed up for in our applicati
 4. made our database model recognizable by our [admin](./DJANGO/news/articles/admin.py)
 
 **thoughts:** our articles application would automatically be updating on the time a blog is changed updated or created, that's why we used a timezone. for more information about our articles application, check out on this [articles README](./DJANGO/news/articles/articles.md)
+
+**link to work:** [articles](./DJANGO/news/articles/)
