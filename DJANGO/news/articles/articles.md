@@ -71,3 +71,5 @@ then add urls path for all of the above views
 #### views
 we are going to write up the views for the above url patterns.
     check on the [views file](./views.py) for its implementation.
+
+#### templates for my views
