@@ -34,6 +34,11 @@ class ArticleDeleteView(LoginRequiredMixin, DeleteView):
     template_name = 'article_delete.html'
     success_url = reverse_lazy('article_list')
     login_url = 'login'
+    def dispatch(self, request, *args, **kwargs):
+        obj = self.get_object()
+        if obj.author != self.request.user:
+            raise PermissionDenied
+        return super().dispatch(request, *args, **kwargs)
 
 class ArticleCreateView(LoginRequiredMixin, CreateView):
     model = Article
