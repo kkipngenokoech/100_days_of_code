@@ -111,3 +111,11 @@ we need to first check if the author is the same person currently logged in.
 we are going to import the PermissionDenied which will enable use the dispatch() methods.
     from django.core.exceptions import PermissionDenied
     then add the dispatch method in both the editing and deleting views.
+
+## comments
+we need to enable users to be able to add comments to a blog
+we can do this in two ways:
+    1. create a page fully dedicated for the pages - and then link it to our articles
+    2. create a new model to our articles app and link it to our articles through foreign keys.
+the foreign key is normally basically the name of the model it links to.
+in our [model file](./articles/models.py)  check on the class model.
