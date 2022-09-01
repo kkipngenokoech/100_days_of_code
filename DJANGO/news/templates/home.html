@@ -8,7 +8,7 @@
         {% extends 'base.html' %}
         {% block title %}Home {% endblock title %}
         {% block content %}
-        {% if user.is_authenticated %}
+        <!-- {% if user.is_authenticated %}
             Hi {{user.username}}!
             <p><a href="{% url 'logout' %}">log out</a></p>
         {% else %}
@@ -17,6 +17,12 @@
              
             <a class="btn btn-success" href="{% url 'signup' %}"> sign up</a>
         {% endif %}
+        {% endblock content %} -->
+        <div class="jumbotron">
+            <h1 class="display-4">Wallstreet Africa</h1>
+            <p class="lead">Welcome to wallstreet Africa</p>
+            <p class="lead"><a class="btn btn-primary btn-lg" href="{% url 'article_list' %}" role="button">View all Articles</a></p>
+        </div>
         {% endblock content %}
     </body>
 </html>
