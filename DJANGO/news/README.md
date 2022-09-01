@@ -110,3 +110,4 @@ the act of updating and deleting views as by now, is restricted to logged in use
 we need to first check if the author is the same person currently logged in.
 we are going to import the PermissionDenied which will enable use the dispatch() methods.
     from django.core.exceptions import PermissionDenied
+    then add the dispatch method in both the editing and deleting views.
