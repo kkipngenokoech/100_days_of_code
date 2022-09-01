@@ -130,3 +130,4 @@ we always have to make a migration when we make changes to our model and apply t
 as we make these migrations, specify where the change has happened as in which app i.e
     python manage.py makemigrations articles
     python manage.py migrate
+Every other time you create a model you have to register it in your [Admin.py](./articles/admin.py)
