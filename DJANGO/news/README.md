@@ -102,4 +102,11 @@ in the ArticleCreateView we are going to remove the author field and set it auto
 2. ## using mixin
 LoginRequiredMixin - it restricts access only to logged-in users
 we import this method in our [view](./articles/views.py), and add it to the left of our CreateView in our ArticleCreateView so that it first checks if the LoginRequiredMixin for login authorization.
+    from django.contrib.auth.mixins import LoginRequiredMixin
 so when we want to add a new article, it redirects us to the login template
+
+3. ## update/delete view
+the act of updating and deleting views as by now, is restricted to logged in users now, but we need to restrict that further for the authors only.
+we need to first check if the author is the same person currently logged in.
+we are going to import the PermissionDenied which will enable use the dispatch() methods.
+    from django.core.exceptions import PermissionDenied

@@ -1,5 +1,6 @@
 #from turtle import update
 #from django.shortcuts import render
+from django.core.exceptions import PermissionDenied
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic import ListView, DetailView
 from django.views.generic.edit import UpdateView, DeleteView, CreateView
@@ -17,6 +18,11 @@ class ArticleUpdateView(LoginRequiredMixin, UpdateView):
     fields = ('title','body')
     template_name = 'article_edit.html'
     login_url = 'login'
+    def dispatch(self, request, *args, **kwargs):
+        obj = self.get_object()
+        if obj.author != self.request.user:
+            raise PermissionDenied
+        return super().dispatch(request, *args, **kwargs)
 
 class ArticleDetailView(LoginRequiredMixin, DetailView):
     model = Article
