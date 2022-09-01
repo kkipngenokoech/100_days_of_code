@@ -98,3 +98,8 @@ Django does the heavy lifting for us here too.
 we need the user to be set automatically - when one is creating a blog, it should be set automatically to the current logged in user.
 for this we are going to customize our CreateView - generic view.
 in the ArticleCreateView we are going to remove the author field and set it automatically via form_valid method.
+
+2. ## using mixin
+LoginRequiredMixin - it restricts access only to logged-in users
+we import this method in our [view](./articles/views.py), and add it to the left of our CreateView in our ArticleCreateView so that it first checks if the LoginRequiredMixin for login authorization.
+so when we want to add a new article, it redirects us to the login template
