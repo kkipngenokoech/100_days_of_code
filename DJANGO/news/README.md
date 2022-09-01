@@ -90,3 +90,11 @@ we import a couple of tags in our [custom email](./templates/registration/passwo
 2. then we greet the user in the second line.
 3. and ask him/her to reset his/her password
 4. to update our subject line for our emails we create a [password_reset_subject file](./templates/registration/password_reset_subject.txt)
+
+## AUTHORIZATION
+it restricts access, and limits the things a user can do in our application.
+Django does the heavy lifting for us here too.
+1. ## author 
+we need the user to be set automatically - when one is creating a blog, it should be set automatically to the current logged in user.
+for this we are going to customize our CreateView - generic view.
+in the ArticleCreateView we are going to remove the author field and set it automatically via form_valid method.
