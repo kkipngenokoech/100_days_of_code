@@ -83,4 +83,3 @@ we are going to use generic django's CreateView views
 so the cycle begins - urls
                       views
                       templates
-

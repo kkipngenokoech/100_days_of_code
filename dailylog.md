@@ -347,3 +347,15 @@ N/B : use a diffrent email with the ones you have signed up for in our applicati
 **thoughts:** our articles application would automatically be updating on the time a blog is changed updated or created, that's why we used a timezone. for more information about our articles application, check out on this [articles README](./DJANGO/news/articles/articles.md)
 
 **link to work:** [articles](./DJANGO/news/articles/)
+
+## DAY 28 September 1st, 2022
+#### (editing and deleting)
+1. on today's working, I have added the functionality of editing and deleting the blogs
+2. django framework is pretty easy - create a [url](./DJANGO/news/articles/urls.py), then create a [view](./DJANGO/news/articles/views.py) and then a [template](./DJANGO/news/templates/)
+
+**thoughts:** We have created a dedicated [articles](./DJANGO/news/articles/) app with CRUD FUNCTIONALITY
+    C - create
+    R - read
+    U - update
+    D - delete
+**link to work:** [articles](./DJANGO/news/articles/)
