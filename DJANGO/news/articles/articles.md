@@ -73,3 +73,14 @@ we are going to write up the views for the above url patterns.
     check on the [views file](./views.py) for its implementation.
 
 #### templates for my views
+for [ArticleDetailView](../templates/article_detail.html)
+for [ArticleDeleteView](../templates/article_delete.html)
+for [ArticleUpdateView](../templates/article_edit.html)
+
+## PAGE
+we need to create a template/page where the users can add their own blog articles.
+we are going to use generic django's CreateView views
+so the cycle begins - urls
+                      views
+                      templates
+
