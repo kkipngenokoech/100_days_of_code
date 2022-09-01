@@ -119,3 +119,14 @@ we can do this in two ways:
     2. create a new model to our articles app and link it to our articles through foreign keys.
 the foreign key is normally basically the name of the model it links to.
 in our [model file](./articles/models.py)  check on the class model.
+our model will have:
+    a foreign key linking to our article
+    a comment to hold our comment
+    and a author to tell us who wrote the comment
+it will also have two methods:
+    __str__ to return the comment
+    get_absolute_url - to return us to the main articles/page
+we always have to make a migration when we make changes to our model and apply the migrations.
+as we make these migrations, specify where the change has happened as in which app i.e
+    python manage.py makemigrations articles
+    python manage.py migrate
