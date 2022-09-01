@@ -8,11 +8,11 @@
         {% extends 'base.html' %}
         {% block content %}
         <h1>Edit</h1>
-        <form action="/edit" method="post">
+        <form action="" method="post">
             {% csrf_token %}
             {{ form.as_p }}
             <!-- <input type="submit" value="Save"> -->
-            <button class="btn btn-success" type="submit">update</button>
+            <button class="btn btn-info ml-2" type="submit">update</button>
         </form>
         {% endblock content %}
     </body>
