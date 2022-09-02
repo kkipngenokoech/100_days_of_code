@@ -131,3 +131,7 @@ as we make these migrations, specify where the change has happened as in which a
     python manage.py makemigrations articles
     python manage.py migrate
 Every other time you create a model you have to register it in your [Admin.py](./articles/admin.py)
+
+#### TabularInline and StackedInline
+inline views that are going to stack how our comments are going to appear in our articles page
+we are going to write these views in our [admin.py](./articles/admin.py)
