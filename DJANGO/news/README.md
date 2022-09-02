@@ -135,3 +135,11 @@ Every other time you create a model you have to register it in your [Admin.py](.
 #### TabularInline and StackedInline
 inline views that are going to stack how our comments are going to appear in our articles page
 we are going to write these views in our [admin.py](./articles/admin.py)
+
+N/B : these comments are going to be displayed alongside our articles and so all we need is to update the article_list template and article_detail.
+we are going to employ the query concept for this: we query all related templates 
+    that's for each item follow a relationship backward - we are going to introduce `related_name` that will help us get all related comments for a queried article.
+N/B : every other time you make changes to your models make and apply migrations
+
+to access comments in our templates -  we articles.comments.all
+    first check the article model, then comments which is a related name of the entire comment model; then select all comments related to that.
