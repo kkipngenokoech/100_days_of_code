@@ -18,10 +18,10 @@
                         {{ article.body }}
                         <a href="{% url 'article_edit' article.pk %}">Edit</a> | <a href="{% url 'article_delete' article.pk %}">Delete</a>
                     </div>
-                    <div class="card-footer text-center text-muted">
+                    <div  class="card-footer text-center text-muted ">
                         {% for comment in article.comments.all %}
-                            <p>
-                                <span class="font-weight-bold">{{ comment.author }} &middot;</span>
+                            <p style="align-items: left;">
+                                <span class="font-weight-bold " style="color: black;">{{ comment.author }} &middot;</span>
                                 {{ comment }}
                             </p>
                             {% endfor %}
