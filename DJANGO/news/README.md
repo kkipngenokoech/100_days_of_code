@@ -143,3 +143,13 @@ N/B : every other time you make changes to your models make and apply migrations
 
 to access comments in our templates -  we articles.comments.all
     first check the article model, then comments which is a related name of the entire comment model; then select all comments related to that.
+
+Here is where the buck stops for our newspaper project
+all that is left is for hosting our newspaper app
+    it has the CRUD FUNCTIONALITY
+        C - create
+        R - read
+        U - update
+        D - delete
+    it has user restrictions
+    

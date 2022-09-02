@@ -359,3 +359,17 @@ N/B : use a diffrent email with the ones you have signed up for in our applicati
     U - update
     D - delete
 **link to work:** [articles](./DJANGO/news/articles/)
+
+## DAY 29 September 2nd, 2022
+#### (working with comments)
+1. like every other blog user, they want a place to leave comments and so today I have added the functionality of a user to leave a comments
+2. How to do that is found on this [readme](./DJANGO/news/README.md)
+3. this is the end of my newspaper application.
+4. what it remains of me is to try and solve the problem of hosting django apps which has been hailing me for the last three or so weeks
+
+**thoughts:** Django is 99% beautiful web framework, I have  covered all
+the major features of Django: templates, views, urls, users, models, security, testing,
+and deployment. You now have the knowledge to go off and build your own modern
+websites with Django
+
+**link to work:** [Django](./DJANGO/)
