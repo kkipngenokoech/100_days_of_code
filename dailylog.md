@@ -373,3 +373,7 @@ and deployment. You now have the knowledge to go off and build your own modern
 websites with Django
 
 **link to work:** [Django](./DJANGO/)
+
+## DAY 30 September 3rd, 2022
+My django journey comes to a pause here, tomorrow I will start on react
+N/B: there's a problem when it comes to hosting my django though and I need to work on that !

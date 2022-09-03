@@ -42,3 +42,7 @@ for every created application you must add it explicitly to the list of installe
 ## day 2 - first django app views - hellomultiverse/hello
 look into the README.md for hello page for more information on day 3
 **Link to work:** [this is the blueprint](./DJANGO/hellomultiverse/hello/urls.py/)
+
+###     END OF DJANGO
+for the last 30 days I have been working with django famework and I have learnt a lot.
+I am going to update almost everything that I have learned here.
