@@ -11,3 +11,6 @@ for REACT appliactions you need to have node and NPM installed in your machine.
     to verify node version - node --version
     to verify npm version - npm --version
 ## SETTING UP A REACTJS PROJECT
+command used - `npx create-react-app hacker-stories`
+then cd into the directory `cd hacker-stories`
+then run `npm start`
