@@ -29,3 +29,7 @@ there are a number of files created inside the [hacker-stories directory](./hack
     this folder holds development files
 6. [SRC](./hacker-stories/src/)
     this contains static files which include and not limited to all our css and js files
+
+N/B: the react commands that we may need are found in the [package.json](./hacker-stories/package.json)
+the scripts are run with a prefix of npm run, with an exceptions of `start` and `test`
+you can just `npm start` and `npm test`
