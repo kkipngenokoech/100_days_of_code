@@ -377,3 +377,23 @@ websites with Django
 ## DAY 30 September 3rd, 2022
 My django journey comes to a pause here, tomorrow I will start on react
 N/B: there's a problem when it comes to hosting my django though and I need to work on that !
+
+# EOF DJANGO
+`this is the end of django and start of reactjs`
+# REACT JS
+## DAY 31 september 4th, 2022
+#### (fundamentals of react js)
+1. created a [react directory](./REACT/)
+2.  React projects require node and npm installed.
+    command to install node - `sudo apt install nodejs`
+        command to confirm node version - `node --version`
+    command to install npm(node package manager) - `sudo apt install npm`
+        command to confirm npm version - `npm --version`
+3. created a [react project](./REACT/hacker-stories/) called hacker-stories
+    command used `npx create-react-app hacker-stories`
+4. cd into the directory and run `npm run`
+    this should lead you to a webpage that shows you that your react app is working fine.
+
+**thougths:** React is a javascript framework created by facebook used for building user interfaces; mostly single-page applications.
+
+**link to work:** [react directory](./REACT/)
