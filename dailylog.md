@@ -397,3 +397,15 @@ N/B: there's a problem when it comes to hosting my django though and I need to w
 **thougths:** React is a javascript framework created by facebook used for building user interfaces; mostly single-page applications.
 
 **link to work:** [react directory](./REACT/)
+
+## DAY 32 september 5th, 2022
+#### (working with JSX)
+1. JSX stands for javascript html
+2. it is using both js and html together
+3. this is enabled by the use of curly braces
+4. Today I edited the content of [app.js](./REACT/hacker-stories/src/App.js) so that it displays content I have specifically told it to
+5. I have also gotten to work with javascript variables and objects
+
+**thoughts:** the homepage displayed when you first create a react app is found in the [app.js](./REACT/hacker-stories/src/App.js) and this is the page where your customization has to start. JSX elements are pretty useful here. JSX elements look much like html but with slight tweaks in its tags as it uses camelCase and so the way tags are displayed using html are slightly different to the way they are defined using JSX elements.
+
+**link to work:** [app.js](./REACT/hacker-stories/src/App.js)

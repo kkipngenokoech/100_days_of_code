@@ -93,3 +93,21 @@ function app(){
 ```
 check on [app.js](./hacker-stories/src/App.js)
 
+N/B : reactjs uses camel case to ovveride some of the html elements such as `class` with `className`; it just tweaks a little bit of html.
+
+#### creating javascript object in jsx
+```
+...
+const welcome = {
+  greeting : "Hey",
+  name : "Hudson"
+}
+function app(){
+  return (
+    <h1>{welcome.greeting} {welcome.name}, how are you doing</h1>
+  )
+}
+...
+```
+
+to use javascript in html you use curly braces, as indicated above.
