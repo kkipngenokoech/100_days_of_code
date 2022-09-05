@@ -80,3 +80,14 @@ export default App;
 
 ## REACT JSX - javascript XML
 JSX - mixed HTML and Javascript.
+you can define variables `const title = multiverse`
+then you call it inside your function app
+```
+...
+function app(){
+  <div>
+    <h1>hello {title}!</h1>
+  </div>
+}
+...
+```

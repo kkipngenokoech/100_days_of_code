@@ -1,10 +1,10 @@
 import React from 'react'
 
-
+const title = 'Multiverse';
 function App() {
   return (
     <div>
-      <h1>Hello, Multiverse</h1>
+      <h1>Hello, {title}</h1>
     </div>
   );
 }
