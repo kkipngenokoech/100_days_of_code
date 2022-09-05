@@ -35,7 +35,7 @@ the scripts are run with a prefix of npm run, with an exceptions of `start` and 
 you can just `npm start` and `npm test`
 
 ## MEET THE REACT COMPONENT
-[app](./hacker-stories/src/App.js)
+[app](./hacker-stories/src/App.js) : 
 we are going to start customizing this page
 we remove the code present there
 ```
@@ -77,3 +77,6 @@ function App(){
 }
 export default App;
 ```
+
+## REACT JSX - javascript XML
+JSX - mixed HTML and Javascript.
