@@ -91,3 +91,5 @@ function app(){
 }
 ...
 ```
+check on [app.js](./hacker-stories/src/App.js)
+
