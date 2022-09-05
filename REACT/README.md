@@ -5,6 +5,7 @@ this are some of the react features I am going to learn:
     client-side searching
     server-side searching
     sorting
+React is all about building components.
 
 # FUNDAMENTALS OF REACT JS
 for REACT appliactions you need to have node and NPM installed in your machine.
