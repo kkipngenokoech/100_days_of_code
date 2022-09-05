@@ -33,3 +33,47 @@ there are a number of files created inside the [hacker-stories directory](./hack
 N/B: the react commands that we may need are found in the [package.json](./hacker-stories/package.json)
 the scripts are run with a prefix of npm run, with an exceptions of `start` and `test`
 you can just `npm start` and `npm test`
+
+## MEET THE REACT COMPONENT
+[app](./hacker-stories/src/App.js)
+we are going to start customizing this page
+we remove the code present there
+```
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+```
+and replace with a more customized one
+```
+import React from 'react'
+function App(){
+  return (
+    <div>
+      <h1>Hello, world</h1>
+    </div>
+  )
+}
+export default App;
+```
