@@ -150,3 +150,23 @@ for it to be displayed on our webpage we need to map it using a function
       }
 ...
 ```
+
+so far we have been doing everything inside the react component app.
+but we can introduce another component to specifically handle our lists.
+```
+function List (){
+  return list.map((item) => {
+      return (
+        <div key={item.object_id}>
+          <span><a href='item.url'>{item.title}</a></span>
+          <br></br>
+          <span>{item.author} </span>
+          <span>{item.number_of_comments} </span>
+          <span>{item.points}</span>
+          </div>
+          );
+          });
+}
+```
+then you can now use the listdisplay component inside the app component
+  `<List/>`
