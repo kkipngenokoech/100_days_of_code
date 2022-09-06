@@ -112,3 +112,27 @@ function app(){
 ```
 
 to use javascript in html you use curly braces, as indicated above.
+
+# LISTS IN JAVASCRIPT
+let's define the variable list outside the react component
+```
+...
+const list = [
+  {
+    title : 'portfolio',
+    url : 'https://kipngenokoech.netlify.app/',
+    author : 'kipngenokoech',
+    number_of_comments : 4,
+    points : 10,
+    object_id : 0,
+  },
+  {
+    title : 'blog',
+    url : 'https://medium.com/@kkipngenokoech',
+    author : 'kipngenokoech',
+    number_of_comments : 2,
+    points : 5,
+    object_id : 1,
+  }
+...
+```
