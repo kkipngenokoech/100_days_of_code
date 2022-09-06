@@ -87,3 +87,40 @@ arrays are mutable.
     `const eightXvalues = Array(8).fill('X')`
  3. concatenating using concat - concat two arrays for example
     `const concatedArray = firstArray.concat(secondArray)`
+ 4. get the length array of an element.
+    `arr.length`
+ 5. getting an index of an element in an array
+    `arr.indexOf(element in an array)` - it firsts checks if the array element exists, if it doesn't it returns -1 else returns the index
+ 6. getting last index of an element in an array
+    `arr.lastIndexOf('element in an array')` - gives the position of the last item in the array , else returns -1.
+ 7. check if an element is in an array here thus returns true or false.
+    `arr.includes(element in an array)`
+ 8. to check if the data type is an array:
+    `Array.isArray(name of the array to be checked)`
+ 9. converting array to string:
+    `arr.toString()`
+ 10. joining array elements:
+    `arr.join()`
+ 11. slice array elements
+    `arr.slice(start,ending_position)` - it doesn't include the ending position
+ 12. splice method 
+    `arr.splice(starting position, number of times to be removed, number of items to be added)`
+ 13. adding items to an array using push
+    `arr.push(element)` - it adds items to the end of the array.
+ 14. removing elements using pop
+    `arr.pop()` - it takes no parameters and removes elements at the end of the array.
+ 15. remove elements using shift
+    `arr.shift()` - removes elements from the beginning of an array -  takes no parameters
+ 16. add an element to an array at the beginning
+    `arr.unshift(element)`
+ 17. reversing array order
+    `arr.reverse()` - reverses the order of the array 
+ 18. sorting elements in an array.
+    `arr.sort()` - takes no parameters.
+ 19. Array of arrays.
+ ```
+ const arrOfArr = [
+    [1,2,3,4,5],
+    [6,7,8,9,10]
+ ]
+ ```
