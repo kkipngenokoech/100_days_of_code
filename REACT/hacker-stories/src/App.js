@@ -1,6 +1,6 @@
 import React from 'react'
 
-const title = 'Multiverse';
+const title = 'My Hacker stories';
 const welcome = {
   greetings : "Hi",
   name : "hudson"
@@ -26,11 +26,22 @@ const list = [
 function App() {
   return (
     <div>
-      <h1>Welcome, {title}</h1>
+      <h1>Welcome to {title}</h1>
       <p>{welcome.greetings} {welcome.name} this is your world</p>
       <label htmlFor='search'>search :  </label>  
       
       <input id='search' type='text' placeholder='Search' />
+      <hr/>
+      {/* we are going to render our lists here */}
+      {
+        list.map((item) => {
+          return (
+            <div key={item.object_id}>
+              {item.title}
+            </div>
+            );
+            })
+      }
     </div>
   );
 }

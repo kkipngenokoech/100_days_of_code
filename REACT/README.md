@@ -96,7 +96,7 @@ check on [app.js](./hacker-stories/src/App.js)
 
 N/B : reactjs uses camel case to ovveride some of the html elements such as `class` with `className`; it just tweaks a little bit of html.
 
-#### creating javascript object in jsx
+#### creating javascript object in jsx - you use curly braces
 ```
 ...
 const welcome = {
@@ -113,7 +113,7 @@ function app(){
 
 to use javascript in html you use curly braces, as indicated above.
 
-# LISTS IN JAVASCRIPT
+# LISTS IN JAVASCRIPT - you use square braces
 let's define the variable list outside the react component
 ```
 ...
@@ -134,5 +134,19 @@ const list = [
     points : 5,
     object_id : 1,
   }
+...
+```
+for it to be displayed on our webpage we need to map it using a function
+```
+...
+      {
+        list.map((item) => {
+          return (
+            <div key={item.object_id}>
+              {item.title}
+            </div>
+            );
+            })
+      }
 ...
 ```
