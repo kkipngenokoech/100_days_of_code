@@ -409,3 +409,15 @@ N/B: there's a problem when it comes to hosting my django though and I need to w
 **thoughts:** the homepage displayed when you first create a react app is found in the [app.js](./REACT/hacker-stories/src/App.js) and this is the page where your customization has to start. JSX elements are pretty useful here. JSX elements look much like html but with slight tweaks in its tags as it uses camelCase and so the way tags are displayed using html are slightly different to the way they are defined using JSX elements.
 
 **link to work:** [app.js](./REACT/hacker-stories/src/App.js)
+
+## DAY 33 september 6th, 2022
+#### (creating your own react components and working with lists
+1. I created a variable holding lists, just the common way you can in javascript.
+    `const list = []`
+2. I created a [react component](./REACT/hacker-stories/src/App.js) line 53. this component is going to help me break down functionalities of my app component.
+3. to import one react component into another:
+    `<Nameofthereactcomponent/>`
+
+**thoughts:** you should not overload your react app component, breaking it down into smaller and more solid components can come in handy. larger applications have what we term as component hierarchies /trees where it has only one entry point -  that's root component.
+
+**link to work:** [app.js](./REACT/hacker-stories/src/App.js)
