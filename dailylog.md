@@ -421,3 +421,14 @@ N/B: there's a problem when it comes to hosting my django though and I need to w
 **thoughts:** you should not overload your react app component, breaking it down into smaller and more solid components can come in handy. larger applications have what we term as component hierarchies /trees where it has only one entry point -  that's root component.
 
 **link to work:** [app.js](./REACT/hacker-stories/src/App.js)
+
+## DAY 34 September, 2022
+### (ReactDOM)
+this acts as the bridge between html and our jsx files
+it takes two arguments:
+    1. the html item/the react component to be rendered.
+    2. where it shall be rendered.
+
+**thoughts:** DOM is Document Object Model - is a tree like structure that contain all the elements and it's properties of a website as its node. ReactDOM purpose is to display the specified HTML CODE inside the specified HTML element.
+
+**link to work:** [index.js](./REACT/hacker-stories/src/index.js)
