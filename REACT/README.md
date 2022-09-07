@@ -78,6 +78,8 @@ function App(){
 }
 export default App;
 ```
+here app() function and the List () defined are react components
+once we have defined a react component we can use it anywhere in our jsx as an html element. - this instatiating the react component 
 
 ## REACT JSX - javascript XML
 JSX - mixed HTML and Javascript.
@@ -169,4 +171,23 @@ function List (){
 }
 ```
 then you can now use the listdisplay component inside the app component
-  `<List/>`
+  `<List/>` - once we have defined our react component, we can use it anywhere in our jsx as an html  element.
+
+## JAVASCRIPT CLASSES
+#### code below defines our developer class.
+```
+class Developer {
+  constructor(firstname, lastname){
+    this.firstname = firstname;
+    this.lastname = lastname;
+  }
+  getName(){
+    return this.firstname + ' '+this.lastname
+  }
+}
+```
+each class has a constructor that take arguments and assign them to  a class instance.
+a class can also have functions - class methods.
+#### instantiating javascript classes
+`const hudson = Developer("Billy","Hudson")`
+`console.log(hudson.getName())` - accessing the methods inside a class
