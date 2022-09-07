@@ -124,3 +124,14 @@ arrays are mutable.
     [6,7,8,9,10]
  ]
  ```
+ # JAVASCRIPT FUNCTION DECLARATIONS
+ ```
+ function goodMorning (){
+   }
+ ```
+ using array functions
+ ```
+ const goodMorning = () =>{
+   
+ }
+ ```
