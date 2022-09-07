@@ -191,3 +191,18 @@ a class can also have functions - class methods.
 #### instantiating javascript classes
 `const hudson = Developer("Billy","Hudson")`
 `console.log(hudson.getName())` - accessing the methods inside a class
+
+# REACT DOM
+this is the app component instantiation.
+for this we are going to concentrate on the [index.js](./hacker-stories/src/index.js) file.
+
+ReactDOM.render() - this function uses an html node to replace it with jsx code. this integrates react into html.
+`ReactDOM()` - expects two arguments:
+    the first argument is to render JSX, it creates an instance of your app component.
+    the second argument expects where it is going to render your html code. as per below code it expects an element with id [root.](./hacker-stories/public/index.html)
+```
+ReactDOM.render(
+  <h1>Hello, multiverse</h1> or <app/>(the react app),
+  document.getElementById('root')
+)
+```
