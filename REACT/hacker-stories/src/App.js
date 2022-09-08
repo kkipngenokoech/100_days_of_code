@@ -5,7 +5,9 @@ const welcome = {
   greetings : "Hi",
   name : "hudson"
 }
-const list = [
+
+function App() {
+  const list = [
   {
     title : 'portfolio',
     url : 'https://kipngenokoech.netlify.app/',
@@ -23,7 +25,6 @@ const list = [
     object_id : 1,
   }
 ];
-function App() {
   const handle_change = event => {
     console.log(event.target.value)
   }

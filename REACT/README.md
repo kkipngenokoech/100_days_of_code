@@ -207,5 +207,9 @@ ReactDOM.render(
 )
 ```
 
-## HANDLER FUNCTIONS
+## HANDLER FUNCTIONS - react events
+when passing a function to JSX file, we use the name of the function only and not the name with the brackets as we usually do :
+  `handle_change` and not `handle_change()`.
 
+## REACT PROPS
+react pops enables us to use react component variables in other react components from the different files.
