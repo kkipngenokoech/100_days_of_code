@@ -432,3 +432,13 @@ it takes two arguments:
 **thoughts:** DOM is Document Object Model - is a tree like structure that contain all the elements and it's properties of a website as its node. ReactDOM purpose is to display the specified HTML CODE inside the specified HTML element.
 
 **link to work:** [index.js](./REACT/hacker-stories/src/index.js)
+
+## DAY 35 september, 2022
+## (React props)
+global variables are globally available and can cause pollution
+it is technically viable to be defined into the components and use props to be available to its child's components
+you have to use props for it child to access the variables defined in the parent component.
+
+**thoughts:**  Props are arguments passed into React components. Props are passed to components via HTML attributes. props stands for properties.
+
+**link to work:** [props](./REACT/hacker-stories/src/App.js)

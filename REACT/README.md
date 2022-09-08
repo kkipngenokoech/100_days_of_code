@@ -213,3 +213,13 @@ when passing a function to JSX file, we use the name of the function only and no
 
 ## REACT PROPS
 react pops enables us to use react component variables in other react components from the different files.
+we can pass parent variables to child using props.
+in the child components - pass the props as the arguements
+```
+...
+const List = props => {
+  return (props.list.map(....))
+}
+...
+```
+React props help reduce the pollution caused by universal/Global variables
