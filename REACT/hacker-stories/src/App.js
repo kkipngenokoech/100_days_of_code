@@ -6,8 +6,8 @@ const welcome = {
   name : "hudson"
 }
 
-function App() {
-  const list = [
+const App = () => {
+  const stories = [
   {
     title : 'portfolio',
     url : 'https://kipngenokoech.netlify.app/',
@@ -50,14 +50,14 @@ function App() {
             );
             })
       } */}
-      <List />
+      <List list={stories}/>
     </div>
   );
 }
-function List() {
+const List = props => {
   return (
     <ul>
-      {list.map(function (item) {
+      {props.list.map(function (item) {
         return (
           <li key={item.objectID}>
             <span>
