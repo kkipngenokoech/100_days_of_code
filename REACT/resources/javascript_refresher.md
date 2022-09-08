@@ -132,6 +132,82 @@ arrays are mutable.
  using array functions
  ```
  const goodMorning = () =>{
-   
+
  }
  ```
+
+ # FOR of
+ used to iterate over the arrays or list
+ ```
+ const numbers = [12,34,55,78,45]
+ for (const number of numbers)
+ {
+   console.log(number)
+ }
+ ```
+
+ # FOR each
+ used to iterate over with index. i takes a callback function which takes three arguments - item, index and the array itself.
+ ```
+ cost numbers = [12,45,76,45,2,45,67]
+ numbers.forEach((number,index) => {
+   console.log(number,index)
+ }
+ )
+ ```
+
+ # FOR in
+ used with object literals to get keys of all the objects.
+ ```
+ ...
+ for (const key in nameofobject)
+ {
+   console.log(key, nameofobject[key])
+ }
+ ...
+ ```
+ # loops 
+1. Regular for loop can be used anywhere when the number of iteration is known.
+2. While loop when the number of iteration is not know
+3. Do while loop and while loop are almost the same but do while loop run at least once even when the condition is false
+4. for of is used only for array
+5. forEach is used for array
+6. for in is used for object
+
+# JAVASCRIPT OBJECTS
+everything can be an object - objects have properties and  properties have values.
+properties can be of any type - from numbers to lists.
+
+the template of defining a js object:
+```
+const car = {
+   name : "Volvo"
+   date : "2016"
+}
+```
+#### accessing an object property
+`console.log(car.name)` or you can use square brackets  and you quote the properties`console.log(car['name'])`
+#### creating object methods
+we cannot use arrow functions as object methods since the `this` keyword would refer to the scope within the arrow function and the scope of the object method.
+```
+const vehicle = {
+   name : "BMW",
+   date : "2018",
+   carinfo : function (){
+      return `${this.name} is a model for ${this.date}`
+   },
+}
+```
+An object is a mutable  data structure and we can modify the content of an object after it gets created.
+to add a new property to the object you:
+   `vehicle.miles = 3456`
+if it is a new method you want to add:
+```
+vehicle.returnfullinfo = function (){
+   return `${this.name} is a model for ${this.date} and has ${this.miles} miles`
+}
+```
+
+#### built in object methods.
+1. object.assign
+to copy an object without modifying the original object.

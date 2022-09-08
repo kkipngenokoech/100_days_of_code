@@ -24,13 +24,16 @@ const list = [
   }
 ];
 function App() {
+  const handle_change = event => {
+    console.log(event.target.value)
+  }
   return (
     <div>
       <h1>Welcome to {title}</h1>
       <p>{welcome.greetings} {welcome.name} this is your world</p>
       <label htmlFor='search'>search :  </label>  
       
-      <input id='search' type='text' placeholder='Search' />
+      <input id='search' type='text' placeholder='Search' onChange={handle_change}/>
       <hr/>
       {/* we are going to render our lists here */}
       {/* {

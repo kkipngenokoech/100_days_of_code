@@ -206,3 +206,6 @@ ReactDOM.render(
   document.getElementById('root')
 )
 ```
+
+## HANDLER FUNCTIONS
+
