@@ -225,6 +225,7 @@ const List = props => {
 React props help reduce the pollution caused by universal/Global variables
 
 ## REACT STATE
+state -  this is a particular condition that something or someone is at a particular time.
 this is used to make applications interactive.
 #### react's useState hook 
 a react hook allows you to "hook into" various react features.
@@ -232,3 +233,41 @@ it returns arrays two values.
   the first value - a variable with a state.
   the second value -  a variable with a handler - that's a function to change the current state.
   you can store a function in a variable `const c = () => console.log("hello multiverse")`
+
+  ## components
+  in react, application is made up of a collection of react components.
+  components are reusable ; to create components you use functions or class
+    function -- functional components/ stateless/ dumb/ presentational
+    class -- class-based components/stateful components/smart components/container components
+components in react are javascript functions and classes that returns jsx elements
+all component names must start with a capital and they follow the camelCase naming system.
+
+### javascript functions
+it can either be a regular function or an arrow function.
+##### arrow functions
+```
+const getUser = (firstName, secondName, country, title, skills) => {
+  return `${firstName} ${secondName}, a ${title} developer based in ${country}. He knows ${skills.join(' ')}`
+}
+```
+## JAVASCRIPT CLASS
+```
+class parent {
+  constructor(firstname, lastname, country, title){
+    this.firstname =firstname
+    this.lastname = lastname
+    this.country = country
+    this.title = title
+  }
+  getUser () {
+    return ``
+  }
+}
+```
+
+## react component
+```
+const react_comp = () => {
+  return a jsx file
+}
+```

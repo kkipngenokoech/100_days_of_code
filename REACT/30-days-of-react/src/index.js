@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import kipUser from './images/bugbunny.jpg'
 
+// all the following are jsx elements
 const jsx_element = <h1>I am a JSX element</h1>
 const root_element = document.getElementById('root')
 const title = <h2>this is me learning 30 days of react</h2>
@@ -41,3 +42,24 @@ const app = (
 )
 
 ReactDOM.render(app,root_element) 
+// react components go here
+const Header = () => {
+  return header
+}
+const Main = () => {
+  return main
+}
+const Footer = () => {
+  return footer
+}
+
+// rendering the react elements
+const App = () => {
+  return (
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+  )
+}
