@@ -48,3 +48,7 @@ const app = (
     </div>
 )
 ```
+
+to inject dynamic data to jsx we use square brackets
+# NODE
+this is a javascript runtime environment that allow javascript to run on the server.

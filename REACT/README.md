@@ -223,3 +223,12 @@ const List = props => {
 ...
 ```
 React props help reduce the pollution caused by universal/Global variables
+
+## REACT STATE
+this is used to make applications interactive.
+#### react's useState hook 
+a react hook allows you to "hook into" various react features.
+it returns arrays two values.
+  the first value - a variable with a state.
+  the second value -  a variable with a handler - that's a function to change the current state.
+  you can store a function in a variable `const c = () => console.log("hello multiverse")`
