@@ -442,3 +442,17 @@ you have to use props for it child to access the variables defined in the parent
 **thoughts:**  Props are arguments passed into React components. Props are passed to components via HTML attributes. props stands for properties.
 
 **link to work:** [props](./REACT/hacker-stories/src/App.js)
+
+## DAY 36 september 9th, 2022
+#### (playing around with react components)
+1. I started a new react project
+2. this was for the sole purpose of having playing around with react components
+3. I created 4 [react components](./REACT/30-days-of-react/src/index.js)
+4. placed all this react components in one larger [react component](./REACT/30-days-of-react/src/index.js)
+5. I then exported or rendered this one large react component
+6. I also imported an image into our index.html page.
+7. created a component for it and rendered it into our index.html
+
+**thoughts:** for a component having more than one jsx element to be complete, you must have a wrapper html element that encloses them all into one html element like <div> or <header> or <main> or any other.
+
+**link to work:** [30-days-of-reactjs](./REACT/30-days-of-react/)
