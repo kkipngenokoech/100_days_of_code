@@ -15,6 +15,8 @@ const header = (
   <header>
     <h1>suits</h1>
     <p>law Based tv series</p>
+    {title}
+    {jsx_element}
   </header>
 )
 const main = (
@@ -30,18 +32,18 @@ const footer = (
   </footer>
 )
 
-const app = (
-  <div>
-      {header}
-      {title}
-      {jsx_element}
-      {/* {user} */}
-      {main}
-      {footer}
-  </div>
-)
+// const app = (
+//   <div>
+//       {header}
+//       {title}
+//       {jsx_element}
+//       {/* {user} */}
+//       {main}
+//       {footer}
+//   </div>
+// )
 
-ReactDOM.render(app,root_element) 
+// ReactDOM.render(app,root_element) 
 // react components go here
 const Header = () => {
   return header
@@ -63,3 +65,4 @@ const App = () => {
     </div>
   )
 }
+ReactDOM.render(<App/>, root_element)
