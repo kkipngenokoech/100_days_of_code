@@ -81,3 +81,5 @@ package.json- List of packages the applications uses
 README.md - Markdown file to write documentation
 
 yarn.lock or package-lock.json - a means to lock the version of the package
+## reduced react boilerplate:
+in our [index.js](../30-days-of-react/src/index.js), import react and and ReactDOM packages, to render JSX on the DOM
