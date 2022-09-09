@@ -83,3 +83,28 @@ README.md - Markdown file to write documentation
 yarn.lock or package-lock.json - a means to lock the version of the package
 ## reduced react boilerplate:
 in our [index.js](../30-days-of-react/src/index.js), import react and and ReactDOM packages, to render JSX on the DOM
+
+## CSS STYLING IN REACT.
+#### inline css
+```
+...
+const headerStyles = {
+    backgroundColor : "Black",
+    fontFamily : 'san siro'
+}
+const header = (
+    <header style = {headerStyles}>
+    header jsx files
+    </header>
+)
+...
+```
+#### internal styling
+we put all the css elements in our index.html file.
+how to call it into our react elements?
+ `div className = 'header-wrapper'`
+you introduce a new div section in the header/footer/main to wrap up the files you want to apply the styling 
+### importing media in react
+this include pictures videos, images and audio.
+you create an image folder in the src folder and save images in.
+then for the images you have to import them into your src file.
