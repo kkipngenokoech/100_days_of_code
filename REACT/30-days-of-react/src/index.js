@@ -54,6 +54,17 @@ const Main = () => {
 const Footer = () => {
   return footer
 }
+// const buttonStyles = {
+//         padding: '10px 20px',
+//         background: 'rgb(0, 255, 0',
+//         border: 'none',
+//         borderRadius: 5,
+//       }
+// const button = () => {
+//   <div>
+//     <button style={buttonStyles}>action</button>
+//   </div>
+// }
 
 // rendering the react elements
 const App = () => {
@@ -61,6 +72,7 @@ const App = () => {
     <div>
       <Header />
       <Main />
+      {/* <button/> */}
       <Footer />
     </div>
   )
