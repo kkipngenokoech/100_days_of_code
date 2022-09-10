@@ -80,6 +80,11 @@ const Footer = (props) => {
 
 // rendering the react elements
 const App = () => {
+  // creating a prop object
+  const data = {
+    welcome : "Hi, welome to multiverse",
+    
+  }
   const copywright = 'copywright: kkipngenokoech'
   return (
     <div>
