@@ -19,13 +19,13 @@ const header = (
     {jsx_element}
   </header>
 )
-const main = (
-  <main>
-      <p>its  main character is Harvey specter</p>
-      <p>location: Newyork city </p>
-      {user}
-  </main>
-)
+// const main = (
+//   <main>
+//       <p></p>
+//       <p>location: Newyork city </p>
+//       {user}
+//   </main>
+// )
 const footer = (
   <footer>
       <p>copywright: kkipngenokoech</p>
@@ -48,8 +48,16 @@ const footer = (
 const Header = () => {
   return header
 }
-const Main = () => {
-  return main
+const Main = (props) => {
+  return (
+    <main>
+        <div>
+          <p>{props.first_paragraph}</p>
+          <p>{props.second_paragraph}</p>
+          {user}
+        </div>
+    </main>
+  )
 }
 const Footer = () => {
   return footer
@@ -71,7 +79,10 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Main />
+      <Main
+      first_paragraph = 'its  main character is Harvey specter'
+      second_paragraph = 'Newyork city'
+       />
       {/* <button/> */}
       <Footer />
     </div>

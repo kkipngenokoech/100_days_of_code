@@ -108,3 +108,21 @@ you introduce a new div section in the header/footer/main to wrap up the files y
 this include pictures videos, images and audio.
 you create an image folder in the src folder and save images in.
 then for the images you have to import them into your src file.
+
+## react props
+to create props you call the component you want to pass the properties and the elements
+```
+const Header = (props) => {
+    <header>
+        <h1>{props.welcome}</h1>
+    </header>
+}
+const App = () => {
+    <div>
+        <header
+        welcome = "...."
+        title = "....."
+        />
+    </div>
+}
+```
