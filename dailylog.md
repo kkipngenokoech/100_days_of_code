@@ -456,3 +456,12 @@ you have to use props for it child to access the variables defined in the parent
 **thoughts:** for a component having more than one jsx element to be complete, you must have a wrapper html element that encloses them all into one html element like <div> or <header> or <main> or any other.
 
 **link to work:** [30-days-of-reactjs](./REACT/30-days-of-react/)
+
+## DAY 37 september 10th 2022
+#### (working with props)
+today I started working with react props - properties indepth
+props helps us to pass data into childs
+
+**thoughts:** Instead of injecting data we can also pass the data as props. React props are similar to parameters in functions.
+
+**link to work:** [props](./REACT/30-days-of-react/src/index.js)
