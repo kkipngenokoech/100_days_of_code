@@ -26,11 +26,11 @@ const header = (
 //       {user}
 //   </main>
 // )
-const footer = (
-  <footer>
-      <p>copywright: kkipngenokoech</p>
-  </footer>
-)
+// const footer = (
+//   <footer>
+//       <p>copywright: kkipngenokoech</p>
+//   </footer>
+// )
 
 // const app = (
 //   <div>
@@ -59,8 +59,12 @@ const Main = (props) => {
     </main>
   )
 }
-const Footer = () => {
-  return footer
+const Footer = (props) => {
+  return (
+    <footer>
+      <p>{props.Copywright}</p>
+    </footer>
+  )
 }
 // const buttonStyles = {
 //         padding: '10px 20px',
@@ -76,6 +80,7 @@ const Footer = () => {
 
 // rendering the react elements
 const App = () => {
+  const copywright = 'copywright: kkipngenokoech'
   return (
     <div>
       <Header />
@@ -84,7 +89,9 @@ const App = () => {
       second_paragraph = 'Newyork city'
        />
       {/* <button/> */}
-      <Footer />
+      <Footer
+        Copywright = {copywright}
+      />
     </div>
   )
 }
