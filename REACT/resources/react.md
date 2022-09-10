@@ -126,3 +126,13 @@ const App = () => {
     </div>
 }
 ```
+working with array pops.
+when you want to pass an array into a component as a prop:
+we are going to employ the use of map functions here!
+
+```
+const arraycomp = (props) => {
+    const skillList = props.skills.map((skill => <l1>{skill}</l1>)
+    return <ul>{skilllist}</ul>
+}
+```
