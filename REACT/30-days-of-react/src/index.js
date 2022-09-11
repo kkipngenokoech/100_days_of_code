@@ -48,6 +48,29 @@ const header = (
 const Header = () => {
   return header
 }
+const showDate= (time) => {
+  const months = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'july',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December'
+  ]
+  const month = months[time.getMonth()].slice(0, 3)
+  const year = time.getFullYear()
+  const date = time.getDate()
+  return `${month} ${date} ${year}`
+}
+const Button = (props) => {
+  <button onClick={props.onClick}>{props.text}</button>
+}
 const Main = (props) => {
   return (
     <main>
@@ -85,6 +108,12 @@ const App = () => {
     welcome : "Hi, welome to multiverse",
     
   }
+  const handleTime =() => {
+    alert(showDate(new Date()))
+  }
+  const greetPeople = () => {
+    alert("welcome to 30-days-of-react")
+  }
   const copywright = 'copywright: kkipngenokoech'
   return (
     <div>
@@ -94,6 +123,8 @@ const App = () => {
       second_paragraph = 'Newyork city'
        />
       {/* <button/> */}
+      <Button text = 'show time' onClick = {handleTime}/>
+      <Button text = 'greet People' onClick = {greetPeople}/>
       <Footer
         Copywright = {copywright}
       />
