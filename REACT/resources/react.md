@@ -136,3 +136,37 @@ const arraycomp = (props) => {
     return <ul>{skilllist}</ul>
 }
 ```
+
+## DESTRUCTURING REACT PROPS.
+
+## MAPPING ARRAYS
+```
+const app = () => {
+    <div>
+        <div>
+            <h1>Numbers list</h1>
+            {[1,2,3,4,5]}
+        </div>
+    </div>
+}
+```
+the above code lists all the items in one line, to seperate them you:
+```
+...
+const Numbers = ({numbers}) => {
+    const list_passed = numbers.map((number) => <l1>{number}</l1>)
+    return list_passed
+}
+const app = () => {
+    const numbers = [1,2,3,4,5,6,10]
+    return (
+        <div>
+            <div>
+                <h1>Number's lists</h1>
+                <ul><Numbers numbers={numbers}/><ul>
+            </div>
+        </div>
+    )
+}
+...
+```

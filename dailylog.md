@@ -465,3 +465,9 @@ props helps us to pass data into childs
 **thoughts:** Instead of injecting data we can also pass the data as props. React props are similar to parameters in functions.
 
 **link to work:** [props](./REACT/30-days-of-react/src/index.js)
+
+## DAY 38 september 11th, 2022
+#### (working with maps)
+I didn't do much today honestly, but I introduced myself to mapping arrays in react
+**thoughts:** In React, we use map to modify an array to list of JSX by adding a certain HTML elements to each element of an array.
+**link to work:** [mapping](./REACT/30-days-of-react/)
