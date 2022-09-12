@@ -177,3 +177,12 @@ a state can be set using the set state - setSate()
 ##### defining state
 To define a state, you have to first declare a default set of values for defining the component's initial state. To do this, add a class constructor which assigns an initial state using this.state. The 'this.state' property can be rendered inside render() method.
 
+setState() schedules an update to a component’s state object. When state changes, the component responds by re-rendering.
+
+states act like variables declared within a function!
+`this.state` holds the value of what's currently rendered in the screen.
+###### more explanations
+a state is an object that stores the values of properties to belonging to a component that could change over a period of time.
+a state object is initialized in the constructor - it can store multiple properties
+`this.setState()` - is used to change the value of the state object.
+`setState()` - performs a shallow merge between the new and previous state 
