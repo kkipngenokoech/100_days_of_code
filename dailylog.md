@@ -471,3 +471,14 @@ props helps us to pass data into childs
 I didn't do much today honestly, but I introduced myself to mapping arrays in react
 **thoughts:** In React, we use map to modify an array to list of JSX by adding a certain HTML elements to each element of an array.
 **link to work:** [mapping](./REACT/30-days-of-react/)
+
+## DAY 39 september 12 2022
+#### (working with states)
+1. created a whole new app to help me deal with react states
+2. I am going to use this app to learn about react states.
+
+**thoughts:** 
+Image result for react states
+What Is 'State' in ReactJS? The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders
+
+**link to work:** [state](./REACT/state/)
