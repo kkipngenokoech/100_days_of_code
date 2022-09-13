@@ -482,3 +482,12 @@ Image result for react states
 What Is 'State' in ReactJS? The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders
 
 **link to work:** [state](./REACT/state/)
+
+## DAY 40 september 2022
+#### (working with state)
+I am still working on the react state component
+today i have rendered a stateless view to help me understand why we need to use states in react
+
+**thoughts:** if you want to know the road ahead, ask those who are coming back!
+
+**link to work:** [stateless component](./REACT/state/src/components/Product/)
