@@ -11,7 +11,8 @@ export default class Product extends Component {
                 <div>
                     Total : 0
                 </div>
-                <div className='product'></div>
+                <div className='product'><span role="img" aria-label = "ice-cream">🍦</span></div>
+                <button>Add</button> <button>Remove</button>
             </div>
         )
     }
