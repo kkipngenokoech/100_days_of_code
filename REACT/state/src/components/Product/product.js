@@ -56,14 +56,17 @@ export default class Product extends Component {
                 <div>
                     Total : {this.getTotal()}
                 </div>
-                <div className='product'>
+                <div>
                     {products.map(product => (
                     <div key={product.name}>
-                    <span role="img" aria-label = {product.name}>{product.emoji}</span>
+                        <div className="product">
+                            <span role="img" aria-label = {product.name}>{product.emoji}</span>
+                        </div>
+                        <button onClick={this.add}>Add</button> <button onClick={this.remove}>Remove</button>
                     </div>
+                    
                     ))}
                 </div>
-                <button onClick={this.add}>Add</button> <button onClick={this.remove}>Remove</button>
             </div>
         )
     }
