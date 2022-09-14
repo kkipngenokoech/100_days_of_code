@@ -491,3 +491,11 @@ today i have rendered a stateless view to help me understand why we need to use 
 **thoughts:** if you want to know the road ahead, ask those who are coming back!
 
 **link to work:** [stateless component](./REACT/state/src/components/Product/)
+
+## DAY 41 september 2022
+#### (finishing up on state)
+Today my stateful react app is up and running. I have changed my stateless app from using object values to functions.
+
+**thoughts:** Inside the anonymous function that you pass to setState(), make sure you reference the argument—state—and not the component’s state—this.state. Otherwise, you still run a risk of getting an out-of-date state object. The state in your function will be otherwise identical.
+
+**link to work:** [state](./REACT/state/)
