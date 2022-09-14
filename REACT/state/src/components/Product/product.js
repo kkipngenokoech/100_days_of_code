@@ -13,11 +13,19 @@ export default class Product extends Component {
     getTotal = () => {
         return this.state.total.toLocaleString(undefined,this.currencyOptions)
     }
+    // in the function below we used the arrow function so that we ensure that this functionality is achieved prolly.
     add = () => {
         this.setState(
             {
                 cart : ["ice cream"],
                 total : 5
+            }
+        )
+    }
+    remove = () => {
+        this.setState(
+            {
+                cart : []
             }
         )
     }
@@ -31,7 +39,7 @@ export default class Product extends Component {
                     Total : {this.getTotal()}
                 </div>
                 <div className='product'><span role="img" aria-label = "ice-cream">🍦</span></div>
-                <button onClick={this.add}>Add</button> <button>Remove</button>
+                <button onClick={this.add}>Add</button> <button onClick={this.remove}>Remove</button>
             </div>
         )
     }
