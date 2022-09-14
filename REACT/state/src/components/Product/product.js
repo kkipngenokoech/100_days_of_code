@@ -1,6 +1,24 @@
 import React, {Component} from 'react'
 import './product.css'
 
+const products = [
+  {
+    emoji: '🍦',
+    name: 'ice cream',
+    price: 5
+  },
+  {
+    emoji: '🍩',
+    name: 'donuts',
+    price: 2.5,
+  },
+  {
+    emoji: '🍉',
+    name: 'watermelon',
+    price: 4
+  }
+];
+
 export default class Product extends Component {
     state = {
         cart : [],
@@ -38,7 +56,13 @@ export default class Product extends Component {
                 <div>
                     Total : {this.getTotal()}
                 </div>
-                <div className='product'><span role="img" aria-label = "ice-cream">🍦</span></div>
+                <div className='product'>
+                    {products.map(product => (
+                    <div key={product.name}>
+                    <span role="img" aria-label = {product.name}>{product.emoji}</span>
+                    </div>
+                    ))}
+                </div>
                 <button onClick={this.add}>Add</button> <button onClick={this.remove}>Remove</button>
             </div>
         )
