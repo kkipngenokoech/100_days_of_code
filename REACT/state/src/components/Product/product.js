@@ -62,7 +62,7 @@ export default class Product extends Component {
                         <div className="product">
                             <span role="img" aria-label = {product.name}>{product.emoji}</span>
                         </div>
-                        <button onClick={this.add}>Add</button> <button onClick={this.remove}>Remove</button>
+                        <button onClick={() => this.add(product)}>Add</button> <button onClick={this.remove}>Remove</button>
                     </div>
                     
                     ))}
