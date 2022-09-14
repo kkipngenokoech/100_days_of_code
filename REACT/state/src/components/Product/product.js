@@ -32,12 +32,12 @@ export default class Product extends Component {
         return this.state.total.toLocaleString(undefined,this.currencyOptions)
     }
     // in the function below we used the arrow function so that we ensure that this functionality is achieved prolly.
-    add = () => {
-        this.setState(
+    add = (product) => {
+        this.setState(state => (
             {
-                cart : ["ice cream"],
-                total : 5
-            }
+                cart : [...state.cart,product.name],
+                total : state.total + product.price
+            })
         )
     }
     remove = () => {
