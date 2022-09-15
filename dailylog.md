@@ -499,3 +499,15 @@ Today my stateful react app is up and running. I have changed my stateless app f
 **thoughts:** Inside the anonymous function that you pass to setState(), make sure you reference the argument—state—and not the component’s state—this.state. Otherwise, you still run a risk of getting an out-of-date state object. The state in your function will be otherwise identical.
 
 **link to work:** [state](./REACT/state/)
+
+## DAY 41, september 15th 2022
+#### (working with react class-based components)
+React class based components are the bread and butter of most modern web apps built in ReactJS. These components are simple classes (made up of multiple functions that add functionality to the application). All class based components are child classes for the Component class of ReactJS.
+
+today I rendered my first class based component via having an app dedicated for the class-based components.
+
+**thoughts:** Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML via a render() function.
+
+Components come in two types, Class components and Function components
+
+**link to work:** [class-based-views](n)
