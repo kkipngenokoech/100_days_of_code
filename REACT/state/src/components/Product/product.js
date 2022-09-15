@@ -29,21 +29,26 @@ export default class Product extends Component {
         maximumFractionDigits : 2,
     }
     getTotal = () => {
-        return this.state.total.toLocaleString(undefined,this.currencyOptions)
+        const total = this.state.cart.reduce((totalCost, item) => totalCost + item.price, 0)
+        return total.toLocaleString(undefined,this.currencyOptions)
     }
     // in the function below we used the arrow function so that we ensure that this functionality is achieved prolly.
     add = (product) => {
         this.setState(state => (
             {
-                cart : [...state.cart,product.name],
-                total : state.total + product.price
+                cart : [...state.cart,product]
             })
         )
     }
     remove = (product) => {
         this.setState(state => {
             const cart = [...state.cart]
-            cart.splice(cart.indexOf(product.name))
+            const productIndex = cart.findIndex(p => p.name === product.name)
+            if (productIndex < 0)
+            {
+                return;
+            }
+            cart.splice(productIndex, 1)
             return (
                 {
                     cart,
