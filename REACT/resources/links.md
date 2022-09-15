@@ -1,0 +1,2 @@
+learning about react hooks and states - [digital ocean](https://www.digitalocean.com/community/tutorials/how-to-manage-state-on-react-class-components#introduction)
+simplelearn documentation on states - [states](https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-state)
