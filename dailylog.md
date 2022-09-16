@@ -511,3 +511,11 @@ today I rendered my first class based component via having an app dedicated for 
 Components come in two types, Class components and Function components
 
 **link to work:** [class-based-views](../100_days_of_code/REACT/class-based-app/)
+
+## DAY 42 september 16, 2022
+#### (working with class-based components)
+Today I understood and created a [component](./REACT/class-based-app/src/components/component_1.js) based on class-based individually
+I exported the app and imported it into my app.js file and rendered it
+
+**thoughts:** Class based component is made using JavaScript class and it inherits from react Component.
+**link to work:** [class-based react app](../100_days_of_code/REACT/class-based-app/src/components/)
