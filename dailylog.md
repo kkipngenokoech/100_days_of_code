@@ -510,4 +510,4 @@ today I rendered my first class based component via having an app dedicated for 
 
 Components come in two types, Class components and Function components
 
-**link to work:** [class-based-views](n)
+**link to work:** [class-based-views](../100_days_of_code/REACT/class-based-app/)
