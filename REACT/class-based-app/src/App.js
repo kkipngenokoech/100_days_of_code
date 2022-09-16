@@ -1,4 +1,5 @@
 import React from 'react'
+import MyComponent from './components/component_1'
 
 class Team extends React.Component {
   constructor (props) {
@@ -12,6 +13,7 @@ class Team extends React.Component {
         {
           this.state.change?(<h1>welcome to the Women's Team</h1>):(<h1>welcome to the Men's Team</h1>)
         }
+        <MyComponent />
       </div>
     )
   }
