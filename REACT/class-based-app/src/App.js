@@ -13,7 +13,7 @@ class Team extends React.Component {
         {
           this.state.change?(<h1>welcome to the Women's Team</h1>):(<h1>welcome to the Men's Team</h1>)
         }
-        <MyComponent />
+        <MyComponent myprop = "this is a prop"/>
       </div>
     )
   }
