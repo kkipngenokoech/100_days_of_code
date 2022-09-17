@@ -519,3 +519,14 @@ I exported the app and imported it into my app.js file and rendered it
 
 **thoughts:** Class based component is made using JavaScript class and it inherits from react Component.
 **link to work:** [class-based react app](../100_days_of_code/REACT/class-based-app/src/components/)
+
+## DAY 43 september 17th, 2022
+#### (conditional rendering in react)
+I created a new project to help me understand conditional rendering in React.js'
+here is where you render a specific jsx element based on the condition of your state.
+it just works the same way as in javascript.
+you use the if.... else statements .
+
+**thoughts:** to use conditional rendering in react you can use : if...else, &&, ternary opearator
+
+**link to work:** [conditional rendering](./REACT/conditional-rendering-boilerplate/)
