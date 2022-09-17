@@ -1,25 +1,56 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+//class based component
+class Header extends React.Component {
+  render () {
+    const {
+      welcome, title, subtitle, author: {FirstName, LastName}, date
+    } = this.props.data
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <header>
+      <div className='header-wrapper'>
+        <h1>{welcome}</h1>
+        <h2>{title}</h2>
+        <h3>{subtitle}</h3>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {FirstName} {LastName}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        <small>{date}</small>
+        <p>select a country for your next holiday</p>
+      </div>
+    </header>
+  )
+  }
+}
+class App extends React.Component {
+  state = {
+    logged_in : false
+  }
+  render () {
+    const metadata = {
+      welcome : "Multiverse",
+      title : "getting started with the multiverse ",
+      subtitle : "the multiverse theory",
+      author : {FirstName : "kipngeno", LastName : "koech"},
+      date : 'sep 17, 2022'
+
+    }
+// conditional rendering based on if ....else
+    let status
+    if (this.state.logged_in)
+    {
+      status = <h3>Welcome to Multiverse</h3>
+    }
+    else {
+      status = <h3>Please log in</h3>
+    }
+    return (
+      <div className='app'>
+        <Header data = {metadata} />
+        {status}
+      </div>
+    )
+  }
 }
 
 export default App;
