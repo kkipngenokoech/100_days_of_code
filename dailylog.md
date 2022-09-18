@@ -530,3 +530,12 @@ you use the if.... else statements .
 **thoughts:** to use conditional rendering in react you can use : if...else, &&, ternary opearator
 
 **link to work:** [conditional rendering](./REACT/conditional-rendering-boilerplate/)
+
+## DAY 44 september 18th, 2022
+#### (working with forms)
+one will need the user to sign in, submit some information, or even sign up
+I started working with forms today. and i have created a new project for the forms [forms](./REACT/forms/)
+
+**thoughts:** forms are pretty required in every other application since they are some data that has to be submitted so we just need the forms 
+
+**link to work:** [form](./REACT/forms/)

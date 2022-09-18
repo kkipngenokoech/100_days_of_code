@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import InputField from './components/inputfield';
+import MultipleInput from './components/multipleinputfield';
 
 function App() {
   return (
@@ -10,6 +10,9 @@ function App() {
         <header>
           <InputField />
         </header>
+        <main>
+          <MultipleInput />
+        </main>
       </div>
     </div>
   )
