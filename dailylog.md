@@ -539,3 +539,8 @@ I started working with forms today. and i have created a new project for the for
 **thoughts:** forms are pretty required in every other application since they are some data that has to be submitted so we just need the forms 
 
 **link to work:** [form](./REACT/forms/)
+
+## DAY 45:
+#### (still working with forms)
+today I worked with a form that requires one to import different inputs from the user
+**link to work:** [Diffrent inputs](./REACT/forms/src/components/diffrentinputs.js)
