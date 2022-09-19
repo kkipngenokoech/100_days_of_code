@@ -540,7 +540,7 @@ I started working with forms today. and i have created a new project for the for
 
 **link to work:** [form](./REACT/forms/)
 
-## DAY 45:
+## DAY 45 september 19th, 2022
 #### (still working with forms)
 today I worked with a form that requires one to import different inputs from the user
 **link to work:** [Diffrent inputs](./REACT/forms/src/components/diffrentinputs.js)
