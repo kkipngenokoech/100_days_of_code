@@ -38,7 +38,7 @@ class MultipleInput extends React.Component {
                             <label htmlFor='Title'>Title:</label>
                             <input type = 'text' name = 'Title' placeholder = 'Title' value={Title} onChange = {this.handleChange}></input>
                         </div>
-
+                        <button class = 'btn btn-success'>Submit</button>
                     </form>
                 </div>
             )
