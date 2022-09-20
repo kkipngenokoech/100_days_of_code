@@ -500,7 +500,7 @@ Today my stateful react app is up and running. I have changed my stateless app f
 
 **link to work:** [state](./REACT/state/)
 
-## DAY 41, september 15th 2022
+## DAY 42, september 15th 2022
 #### (working with react class-based components)
 React class based components are the bread and butter of most modern web apps built in ReactJS. These components are simple classes (made up of multiple functions that add functionality to the application). All class based components are child classes for the Component class of ReactJS.
 
@@ -512,7 +512,7 @@ Components come in two types, Class components and Function components
 
 **link to work:** [class-based-views](../100_days_of_code/REACT/class-based-app/)
 
-## DAY 42 september 16, 2022
+## DAY 43 september 16, 2022
 #### (working with class-based components)
 Today I understood and created a [component](./REACT/class-based-app/src/components/component_1.js) based on class-based individually
 I exported the app and imported it into my app.js file and rendered it
@@ -520,7 +520,7 @@ I exported the app and imported it into my app.js file and rendered it
 **thoughts:** Class based component is made using JavaScript class and it inherits from react Component.
 **link to work:** [class-based react app](../100_days_of_code/REACT/class-based-app/src/components/)
 
-## DAY 43 september 17th, 2022
+## DAY 44 september 17th, 2022
 #### (conditional rendering in react)
 I created a new project to help me understand conditional rendering in React.js'
 here is where you render a specific jsx element based on the condition of your state.
@@ -531,7 +531,7 @@ you use the if.... else statements .
 
 **link to work:** [conditional rendering](./REACT/conditional-rendering-boilerplate/)
 
-## DAY 44 september 18th, 2022
+## DAY 45 september 18th, 2022
 #### (working with forms)
 one will need the user to sign in, submit some information, or even sign up
 I started working with forms today. and i have created a new project for the forms [forms](./REACT/forms/)
@@ -540,12 +540,12 @@ I started working with forms today. and i have created a new project for the for
 
 **link to work:** [form](./REACT/forms/)
 
-## DAY 45 september 19th, 2022
+## DAY 46 september 19th, 2022
 #### (still working with forms)
 today I worked with a form that requires one to import different inputs from the user
 **link to work:** [Diffrent inputs](./REACT/forms/src/components/diffrentinputs.js)
 
-## DAY 46, september 20th 2022
+## DAY 47, september 20th 2022
 #### (zero-code day)
 today I was learning about how I should structure my react folders so as to achieve a neat way of doing things.
 
