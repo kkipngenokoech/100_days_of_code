@@ -544,3 +544,13 @@ I started working with forms today. and i have created a new project for the for
 #### (still working with forms)
 today I worked with a form that requires one to import different inputs from the user
 **link to work:** [Diffrent inputs](./REACT/forms/src/components/diffrentinputs.js)
+
+## DAY 46, september 20th 2022
+#### (zero-code day)
+today I was learning about how I should structure my react folders so as to achieve a neat way of doing things.
+
+from having a folder for components, images fonts and logos, and even for our css style files
+
+**thoughts:** React doesn’t have opinions on how you put files into folders.
+
+**link to work:** [react folder structure](./REACT/react-folder-structure/)
