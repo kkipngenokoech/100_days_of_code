@@ -98,8 +98,78 @@ class DifferentInput extends React.Component {
                 <form onSubmit={this.handleSubmit}>
                     <div className='row'>
                         <div className='form-group'>
-                            <label htmlFor="FirstName">First Name</label>
+                            <label htmlFor="FirstName">First Name:</label>
                             <input type='text' name = 'FirstName' value={FirstName} onChange = {this.handleChange} placeholder = 'First Name'></input>
+                        </div>
+                        <div className='form-group'>
+                            <label htmlFor="LastName">Last Name:</label>
+                            <input type ='text' name = 'LastName' placeholder = 'Last Name' value={LastName} onChange = {this.handleChange}></input>
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="Email">Email</label>
+                            <input type ='email' name = 'email' placeholder="Email" value={email} onChange = {this.handleChange}></input>
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="telephone">telephone</label>
+                            <input type='tel' name ='telephone' placeholder = 'telephone' value = {telephone} onChange = {this.handleChange}></input>
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor = "DateOfBirth">DateOfBirth: </label>
+                            <input type ='date' name = 'DateOfBirth' placeholder = 'Date Of Birth' value = {DateOfBirth} onChange = {this.handleChange}></input>
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="FavoriteColor">FavoriteColor: </label>
+                            <input type ='color' name = 'FavoriteColor' placeholder = 'Favorite Color' value={FavoriteColor} onChange = {this.handleChange}></input>
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="Weight">Weight</label>
+                            <input type ='number' id="weight" name = 'weight' placeholder = 'weight' value={Weight} onChange = {this.handleChange}></input>
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="country">country</label>
+                            <select name="country" onChange={this.handleChange} id = 'country'>
+                                {SelectOptions}
+                            </select>
+                        </div>
+                        <div className= "form-group">
+                            <p>Gender</p>
+                            <div>
+                                <input type='radio' id = 'female' name = 'gender' value = 'female' onChange = {this.handleChange} checked = {Gender === 'female'}/>
+                                <label htmlFor = 'female'>Female</label>
+                            </div>
+                            <div>
+                                <input id ="male" type = 'radio' name = 'gender' value = 'male' onChange={this.handleChange} checked = {Gender === 'male'} />
+                                <label htmlFor = 'male'>Male</label>
+                            </div>
+                            <div>
+                                <input id = 'other' type= 'radio' name = 'gender' value = 'other' onChange = {this.handleChange} checked = {Gender === 'other'}/>
+                                <label htmlFor='other'>Other</label>
+                            </div>
+                        </div>
+                        <div>
+                            <p>select your skills</p>
+                            <div>
+                                <input type='checkbox' id = 'html' name = 'html' onChange = {this.handleChange}/>
+                                <label htmlFor = 'html'>HTML</label>
+                            </div>
+                            <div>
+                                <input type = 'checkbox' id = "css" name = 'css' onChange = {this.handleChange}/>
+                                <label htmlFor = 'css'>CSS</label>
+                            </div>
+                            <div>
+                                <input type ='checkbox' id = 'javascript' name = 'javascript' onChange = {this.handleChange}/>
+                                <label htmlFor =   'javascript'>javascript</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label htmlFor='bio'>Bio</label> <br />
+                            <textarea id = 'bio' name = 'bio' value={Bio} onChange={this.handleChange} cols='120' rows='10' placeholder='Write about yourself ...'/>
+                        </div>
+                        <div>
+                            <input type='file' name='file' onChange={this.handleChange} />
+                        </div>
+                        <div>
+                          <button>Submit</button>
                         </div>
                     </div>
                 </form>
