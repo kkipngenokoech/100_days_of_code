@@ -554,3 +554,20 @@ from having a folder for components, images fonts and logos, and even for our cs
 **thoughts:** React doesn’t have opinions on how you put files into folders.
 
 **link to work:** [react folder structure](./REACT/react-folder-structure/)
+
+## DAY 48, september 21st 2022
+#### (start of a new react project)
+I want to build a complete react project
+ [A shopping list:](https://contactmentor.com/best-react-projects-for-beginners-easy/)
+    users should be able to sign in/up
+    users should be able to add products
+    users should be able to see the total add up and decriment
+this shopping list is going to employ the following react elements:
+    React Hooks
+    Components
+    props
+    useState
+    handling html input in react
+**thoughts:** I am excited for this project and I am going to host it
+
+**link to work:** [shopping list](./REACT/shopping-list/)
