@@ -571,3 +571,11 @@ this shopping list is going to employ the following react elements:
 **thoughts:** I am excited for this project and I am going to host it
 
 **link to work:** [shopping list](./REACT/shopping-list/)
+
+## DAY 49 september 22nd, 2022
+#### (working with my App.js file)
+my App.js file has an updated code regarding the adding of items to the list
+
+**thoughts:** for more information about the code inside [App.js](./REACT/shopping-list/src/components/App.js), reference this [Blueprint](./REACT/shopping-list/blueprint.md)
+
+**link to work:** [shopping list](./REACT/shopping-list/)
