@@ -579,3 +579,16 @@ my App.js file has an updated code regarding the adding of items to the list
 **thoughts:** for more information about the code inside [App.js](./REACT/shopping-list/src/components/App.js), reference this [Blueprint](./REACT/shopping-list/blueprint.md)
 
 **link to work:** [shopping list](./REACT/shopping-list/)
+
+## DAY 50 september 23rd, 2022
+#### (site hosting)
+today i have hosted my react project on Netlify
+i got to learn how to host a github subdirectory on Netlify
+on the build directory:
+    base - should have the path to the subdirectory `REACT/shopping-list`
+    then on the build command use `npm run build`
+    then on the publish directory - 'the path then end with build `REACT/shopping-list/build`
+
+**thoughts:** hosting on netlify is really easy, it took me a million times to figure out how to host a sub-directory in heroku
+
+**link to work:** [grocery-shop](https://kip-grocery-list.netlify.app/)

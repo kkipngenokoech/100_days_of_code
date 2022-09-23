@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import '../styles/App.css'
 import {v4 as uuidv4} from 'uuid'
+import item from '../components/items'
+
 function App (){
   const [item, setItem] = useState("");
   const [list, setList] = useState([]);
@@ -25,9 +27,16 @@ function App (){
     <div className='App'>
       <h1>Grocecy list</h1>
       <form onSubmit={handleSubmit}>
-        <input type='text' value = {item} onChange = {handleChange}></input>
-        <button type='submit'>ADD</button>
+        <input className='input' type='text' value = {item} placeholder = 'enter the items' onChange = {handleChange}></input>
+        {/* {edit ? (
+          <button className = 'btn' type = 'submit'>Edit item</button>
+        ) : (
+          <button className = 'btn' type = 'submit'>Add item</button>
+        ) */}
+      {/* } */}
+        
       </form>
+      {/* <p> hello</p> */}
     </div>
   )
 }
