@@ -14,4 +14,4 @@ what's different with the first code is:
     `fmt.scanln(&username)` - assigns user input to the username.
                            - this line tells to computer to wait for the keyboard ending with a newline.
     `fmt.printf("Hi, %s!, I am go", username)` -displaying string 
-    `username = strings.TrimSpace(username)` - used to trim the white spaces caused by enter keystroke. N/B - mine worked perfectly though
+    `username = strings.TrimSpace(username)` - used to trim the white spaces caused by enter keystroke. N/B - mine worked perfectly though - for you to use the TrimSpace you need to import `strings` package alongside fmt.

@@ -592,3 +592,13 @@ on the build directory:
 **thoughts:** hosting on netlify is really easy, it took me a million times to figure out how to host a sub-directory in heroku
 
 **link to work:** [grocery-shop](https://kip-grocery-list.netlify.app/)
+
+## DAY 51, september 24th 2022
+#### (started learning the go language)
+ Go language was developed by google - it's a backend language
+
+ in today's projects - I wrote an hello world program that takes the user input processes the result and displays the output.
+
+ **thoughts:** Go lang is built on top of C
+
+ **link to work:** [GO-LANG](./GO-LANG/)
