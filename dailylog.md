@@ -602,3 +602,16 @@ on the build directory:
  **thoughts:** Go lang is built on top of C
 
  **link to work:** [GO-LANG](./GO-LANG/)
+
+ ## DAY 52, september 25th 2022
+ #### (understanding gopath and goroot and datatypes in go language)
+ GOPATH, also called the workspace directory, is the directory where the Go code belongs. It is implemented by and documented in the go/build package and is used to resolve import statements.
+ GOROOT is for compiler and tools that come from go installation and is used to find the standard libraries. It should always be set to the installation directory.
+
+ **thoughts:** Go tools expect a certain layout of the source code. GOROOT and GOPATH are environment variables that define this layout.
+
+GOROOT is a variable that defines where your Go SDK is located. You do not need to change this variable, unless you plan to use different Go versions.
+
+GOPATH is a variable that defines the root of your workspace. By default, the workspace directory is a directory that is named go within your user home directory (~/go for Linux and MacOS, %USERPROFILE%/go for Windows).
+
+**link to work:** [GOPATH & GOROOT](./GO-LANG/README.md)
