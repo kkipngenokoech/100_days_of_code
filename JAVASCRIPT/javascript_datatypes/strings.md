@@ -1,0 +1,1 @@
+a collection of one or more characters between two single quotes or double quotes or backticks.
