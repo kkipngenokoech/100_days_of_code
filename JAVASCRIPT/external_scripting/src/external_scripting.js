@@ -1,0 +1,1 @@
+console.log("hello Multiversers, this is external javascript")
