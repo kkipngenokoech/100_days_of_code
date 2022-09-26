@@ -615,3 +615,21 @@ GOROOT is a variable that defines where your Go SDK is located. You do not need 
 GOPATH is a variable that defines the root of your workspace. By default, the workspace directory is a directory that is named go within your user home directory (~/go for Linux and MacOS, %USERPROFILE%/go for Windows).
 
 **link to work:** [GOPATH & GOROOT](./GO-LANG/README.md)
+
+## DAY 53, september 26th 2022
+#### (javascript datatypes)
+today I have learnt the javascript data types:
+ the primitive data types include:
+    [undefined](./JAVASCRIPT/javascript_datatypes/undefined.md)
+    [strings](./JAVASCRIPT/javascript_datatypes/strings.md)
+    [null](./JAVASCRIPT/javascript_datatypes/null.md)
+    [numbers](./JAVASCRIPT/javascript_datatypes/numbers.md)
+    [boolean](./JAVASCRIPT/javascript_datatypes/boolean.md)
+I also got to learn about :
+    [inline scripting](./JAVASCRIPT/inline_scripting/)
+    [internal scripting](./JAVASCRIPT/internal_scripting/)
+    [external scripting](./JAVASCRIPT/external_scripting/)
+
+**thoughts:** javascript is preferred to be imported/written on the body than the head of an html.
+
+**link to work:** [javascript](./JAVASCRIPT/)

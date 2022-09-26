@@ -19,3 +19,8 @@ running a go program - `go run nameofyourfile.go` - this command will compile th
 2. floating-point numbers
     used to represent real numbers, this are those numbers that cannot be expressed in an int version
     this includes all rational and irrational numbers
+    `float32, float64`
+3. complex numbers
+    this are in-built function creates complex number from its imaginary and real part an in-built imaginary and real function to extract those parts.
+    `complex64, complex128`
+    `complex64` - complex numbers which contains float32 as a real and imaginary component.
