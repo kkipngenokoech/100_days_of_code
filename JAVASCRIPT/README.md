@@ -1,5 +1,5 @@
 javascript is added to a web page in four different ways:
-    inline script
-    internal script
+    [inline script](./inline_scripting/index.html)
+    [internal script](./internal_scripting/)
     external script
     multiple external scripts
