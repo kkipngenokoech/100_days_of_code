@@ -633,3 +633,14 @@ I also got to learn about :
 **thoughts:** javascript is preferred to be imported/written on the body than the head of an html.
 
 **link to work:** [javascript](./JAVASCRIPT/)
+
+## DAY 54, september 27th, 2022
+#### (non-primitive data types and math object)
+today I reminded myself about js non-primitive datatypes:this include:
+    [arrays](./JAVASCRIPT/javascript_datatypes/arrays.md)
+    [objects](./JAVASCRIPT/javascript_datatypes/objects.md)
+I also reminded myself about the [math object](./JAVASCRIPT/javascript_datatypes/numbers.md) in JS, this object helps us in manipulating strings.
+
+**thoughts:** primitive data types are immutable whereas non-primitive data types are mutable, they can be changed.
+
+**link to work:** [non-primitive data types](./JAVASCRIPT/javascript_datatypes/README.md)
