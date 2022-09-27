@@ -20,3 +20,6 @@ javascript math object can help you manipulate numbers:
    `math.log()` - Returns the natural logarithm with base E of x, Math.log(x)
    `Math.LN2`- Returns the natural logarithm of 2 
    `math.sin(), math.cos(),` - trigonometry.
+
+## Random number generator
+`Math.random()`
