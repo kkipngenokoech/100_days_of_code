@@ -12,7 +12,7 @@ non-primitive data types are modifiable and mutable.
 they include :
     1. [objects](./objects.md)
     2. [arrays](./arrays.md)
-you cannot compare two non-primitive data types, even if they have the same properties and vales, they are not strictly equal.
+you cannot compare two non-primitive data types, even if they have the same properties and vales, they are not strictly equal. non-primitive datatypes are compared by reference and not by value.
 ##### N/B : rule of thumb - do not compare arrays, functions, or objects.
 
 for one to check for datatypes, you use typeof operator:
