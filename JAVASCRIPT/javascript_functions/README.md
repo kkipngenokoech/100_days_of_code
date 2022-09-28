@@ -34,3 +34,10 @@ const sumargs = (...args) => {
     console.log(args)
 }
 ```
+## anonymous functions
+these are functions without names.
+```
+const anonymous = function(){
+
+}
+```
