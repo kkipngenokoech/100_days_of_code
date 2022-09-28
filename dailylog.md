@@ -644,3 +644,16 @@ I also reminded myself about the [math object](./JAVASCRIPT/javascript_datatypes
 **thoughts:** primitive data types are immutable whereas non-primitive data types are mutable, they can be changed.
 
 **link to work:** [non-primitive data types](./JAVASCRIPT/javascript_datatypes/README.md)
+
+## DAY 55, september 28th, 2022
+#### (javascript functions)
+today I started learning javascript functions
+there are different ways of creating functions:
+    Declaration function
+    Expression function
+    Anonymous function
+    Arrow function
+**thoughts:** functions can be created to take unlimited number of parameters/ arguments from the user
+functions can also have a return value or not
+
+**link to work:** [functions](./JAVASCRIPT/javascript_functions/)
