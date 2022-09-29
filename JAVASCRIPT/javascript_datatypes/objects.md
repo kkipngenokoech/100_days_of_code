@@ -30,7 +30,10 @@ const LawsOfPhysics = {
     Kirchoff's_Second_Law : "the sum of all voltages around a closed loop in any circuit must be equal to zero.",
     kichorffs_first_law : "at a junction in an electrical circuit, the sum of currents flowing into the junction is equal to the sum of currents flowing out of the junction.",
     Planck_constant : "6.62607015 × 10-34 m2 kg / s",
-    Gravity : 9.8
+    Gravity : 9.8,
+    kirchoff's_laws : function () {
+        return `${this.kirchoff's_second_law} and  ${this.kirchoff's_first_law} are kirchoff's laws`
+    }
 
 }
 ```
@@ -40,3 +43,29 @@ there are two ways to do so:
         `LawsOfPhysics.Newton's_law_of_motion`
  2. using square brackets and quotes
         `LawsOfPhysics["Gravity"]`
+
+## objects methods
+in the created object above:
+ kirchoff's_laws is an object method.
+ we cannot use arrow functions here since this keyword refers to the scope within the function and not within the object.
+ this keyword refers to the object in the normal functions.
+1. Object.assign()
+    to copy an object without modifying the original copy.
+    `const copyteam = Object.assign({}, team)`
+2. Object.keys()
+    to get the keys or properties of an object as an array.
+    `const.keys = Object.keys(copyteam)`
+3. object.value()
+    to get values of an object as an array.
+    `const values = Object.values(copyteam)`
+4. object.entries()
+    to get both the key and value pairs of an object
+    `const entries = Object.entries(copyteam)`
+5. hasOwnProperty()
+    to check if a specific key or property exists in an object.
+    `copyteam.hasOwnProperty("team_name")`
+ ## setting new keys for an object
+ an object i mutable - it is a non-primitive datatype.
+ we can modify content in it after it has been created.
+ you can create or modify the properties.
+
