@@ -657,3 +657,14 @@ there are different ways of creating functions:
 functions can also have a return value or not
 
 **link to work:** [functions](./JAVASCRIPT/javascript_functions/)
+
+## DAY 56, september 29th, 2022
+#### (object)
+today i started working with [js objects](./JAVASCRIPT/javascript_datatypes/objects.md)
+everything in javascript is an object
+objects has key value pairs
+objects are mutable
+
+**thoughts:** when creating user defined functions in objects, use normal functions instead of arrow functions since this keyword in arrow functions limits it usability to within the function only and not the object itself as should be.
+
+**link to work:** [object](./JAVASCRIPT/javascript_datatypes/objects.md)
