@@ -41,3 +41,12 @@ const anonymous = function(){
 
 }
 ```
+
+## expression functions
+these are anonymous functions which we assign to a variable, so you can always return a value from the anonymous function when we call the variable
+```
+let square = function (n){
+    return n*n;
+}
+square(4)
+```
