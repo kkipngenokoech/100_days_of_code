@@ -64,3 +64,10 @@ const square = (length) => {
 
 }
 ```
+## functions with default parameters
+if we don't pass a parameter, then it will use the default parameter.
+```
+function (parameter = value){
+    //code.
+}
+```
