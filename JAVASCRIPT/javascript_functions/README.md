@@ -55,5 +55,12 @@ these are anonymous functions that needs not to be called to return a value. you
 ```
 (function (n){
     return n*n
-})(20);  
+})(20);   
+```
+## arrow functions
+here arrow functions use the arrows instead of the keyword function, to declare a function.
+```
+const square = (length) => {
+
+}
 ```
