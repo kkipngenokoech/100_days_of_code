@@ -50,3 +50,10 @@ let square = function (n){
 }
 square(4)
 ```
+## self-invoking functions
+these are anonymous functions that needs not to be called to return a value. you enclose the entire function with brackets ()
+```
+(function (n){
+    return n*n
+})(20);  
+```
