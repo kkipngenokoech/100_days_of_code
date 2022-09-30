@@ -14,7 +14,8 @@ we can access and change the content of document by its methods.
 3. [`getElementById()`](./src/get_element_by_id.js):
     - returns the element given by the ID
     - here we need to define the Id of the input field for example.
-4. `getElementsByName()` - returns all the element having the given name
+4. [`getElementsByName()` ](./src/get_element_by_name.js)
+    - returns all the element having the given name
 5. `getElementsByTagName()` - returns all the elements having the given name value.
 6. `getElementsByClassName()` - returns all the elements having the given class name.
 
