@@ -14,3 +14,5 @@ it represents a window in a browser. An object of window is created automaticall
     displays the alert box containing messages with ok button.
 2. [confirm()](./src/confirm.js)
     displays the confirm dialog box, containing message with ok and cancel button
+3. [prompt()](./src/prompt.js)
+    displays a dialog for user to enter an input.
