@@ -668,3 +668,20 @@ objects are mutable
 **thoughts:** when creating user defined functions in objects, use normal functions instead of arrow functions since this keyword in arrow functions limits it usability to within the function only and not the object itself as should be.
 
 **link to work:** [object](./JAVASCRIPT/javascript_datatypes/objects.md)
+
+## DAY 57, september 30th, 2022
+#### (javascript BOM - browser object model)
+the BOM (Browser Object Model) allows javascript to talk to the browser.
+The window object is supported by all browsers. It represents the browser's window.
+
+All global JavaScript objects, functions, and variables automatically become members of the window object.
+
+Global variables are properties of the window object.
+
+Global functions are methods of the window object.
+
+Even the document object (of the HTML DOM) is a property of the window object.
+
+**thoughts:**  The BOM allows JavaScript to “interact with” the browser. The object of window represents a browser window and all its corresponding features. A window object is created automatically by the browser itself
+
+**link to work:** [BOM](./JAVASCRIPT/javascript_BOM/)
