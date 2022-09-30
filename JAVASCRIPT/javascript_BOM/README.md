@@ -10,6 +10,7 @@ windows has the following childs:
 ## window object
 it represents a window in a browser. An object of window is created automatically by the browser.
 #### windows object methods
-1. alert()
+1. [alert()](./src/alert.js)
     displays the alert box containing messages with ok button.
-    
+2. [confirm()](./src/confirm.js)
+    displays the confirm dialog box, containing message with ok and cancel button
