@@ -20,3 +20,17 @@ it represents a window in a browser. An object of window is created automaticall
     opens a new window.
 5. [timeout()](./src/timeout.js)
     performs an action after specified time(milliseconds) like calling a function, evaluating an expression or e.t.c
+
+#### javascript windows object.
+it represents an array of urls visited by the user.
+by using this object you can load previous, forward or any other particular page.
+history has only one property.
+1. length - returns the length of the history urls.
+
+history object has three methods:
+1. forward() - load the next page
+    `history.forward()`
+2. back() - loads the previous page
+    `history.back()`
+3. go() - loads a given page number
+    `history.go()`
