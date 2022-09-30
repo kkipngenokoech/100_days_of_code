@@ -6,9 +6,18 @@
     </head>
     <body>
         <form name="formtrial" action="">
-            Enter Name: <input type="text" name="username" placeholder="user name">
-            <input type="button" name="displayname" value="display name" onclick="print_name()">
+            <table>
+                <tr>
+                    <td>Enter Name:</td> <td><input type = "text" name = "username" placeholder = "user name"></td>
+                    <td><input type = "button" name = "displayname" value = "display name" onclick = "print_name()"></td>
+                </tr>
+                <tr>
+                    <td>Enter Number:</td> <td><input type = "text" name = "cube" id = "cube_me" placeholder="enter number to be cubed"></td>
+                    <td><input type = "button" name = "cube me" id="cube_me" value="cube me" onclick = "get_element_by_id()"></td>
+                </tr>
+            </table>
         </form>
-        <script src="../src/accesselement.js"></script>
+        <script src = "../src/accesselement.js"></script>
+        <script src = "../src/get_element_by_id.js"></script>
     </body>
 </html>

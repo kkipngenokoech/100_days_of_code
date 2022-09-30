@@ -11,7 +11,10 @@ document is an object of the window and so: `window.document`
 we can access and change the content of document by its methods.
 1. `write("string")` - writes the given string on the document.
 2. `writeln("string")` - writes the given string on the document with a newline character at the end.
-3. `getElementById()` - returns the element given by the ID
+3. [`getElementById()`](./src/get_element_by_id.js):
+    - returns the element given by the ID
+    - here we need to define the Id of the input field for example.
 4. `getElementsByName()` - returns all the element having the given name
 5. `getElementsByTagName()` - returns all the elements having the given name value.
 6. `getElementsByClassName()` - returns all the elements having the given class name.
+
