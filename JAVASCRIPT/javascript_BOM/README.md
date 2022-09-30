@@ -56,3 +56,14 @@ this object can be accessed by window.navigator
 #### javascript methods
 1. javaEnabled() - check if java is enabled
 2. taintEnabled() - check if taint is enabled
+
+## JAVASCRIPT Screen object.
+it holds the information of the browser screen. 
+it can be used to display screen width, height, colorDepth, pixelDepth.
+#### properties of [javascript screen object](./src/screen.js)
+1. width : returns the width of the screen
+2. height : returns the height of the screen
+3. availWidth : returns the available width
+4. availHeight : returns the available height
+5. colorDepth : returns the color depth
+6. pixelDepth : returns the pixel depth
