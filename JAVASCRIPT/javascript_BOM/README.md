@@ -18,3 +18,6 @@ it represents a window in a browser. An object of window is created automaticall
     displays a dialog for user to enter an input.
 4. [open()](./src/open.js)
     opens a new window.
+5. [timeout()](./src/timeout.js)
+    performs an action after specified time like calling a function, evaluating an expression or e.t.c
+    

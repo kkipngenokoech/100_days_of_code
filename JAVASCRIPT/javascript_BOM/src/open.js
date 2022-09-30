@@ -7,5 +7,6 @@ function open_window(){
     else
     {
         alert("thank you for visiting me!")
+        window.close()
     }
 }
