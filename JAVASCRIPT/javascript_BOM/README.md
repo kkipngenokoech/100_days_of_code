@@ -21,7 +21,7 @@ it represents a window in a browser. An object of window is created automaticall
 5. [timeout()](./src/timeout.js)
     performs an action after specified time(milliseconds) like calling a function, evaluating an expression or e.t.c
 
-#### javascript windows object.
+#### javascript history object.
 it represents an array of urls visited by the user.
 by using this object you can load previous, forward or any other particular page.
 history has only one property.
@@ -34,3 +34,25 @@ history object has three methods:
     `history.back()`
 3. go() - loads a given page number
     `history.go()`
+
+#### [javascript navigator object.](./src/navigator.js)
+it is used for browser detection
+this includes: the appName, AppCodeName, UserAgent
+this object can be accessed by window.navigator
+#### javascript navigator object properties
+1. appName : returns the name
+2. appVersion : returns the version 
+3. appCodeName : returns the code name
+4. cookieEnabled : returns true if cookies are enabled else false
+5. userAgent : returns the user agent
+6. language : returns the language (supported in Netscape and firefox only)
+7. userLanguage : returns the user language (supported by IE only)
+8. plugins : returns plugins(supported in Netscape  and firefox only)
+9. systemLanguage : returns the system language. (supported by IE only)
+10. mimeTypes : returns the array of mime types. (supported in Netscape  and firefox only)
+11. platform : returns the platform (win32..)
+12. online : returns true if browser is online else false.
+
+#### javascript methods
+1. javaEnabled() - check if java is enabled
+2. taintEnabled() - check if taint is enabled
