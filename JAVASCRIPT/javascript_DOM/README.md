@@ -20,6 +20,7 @@ we can access and change the content of document by its methods.
     - returns all the element having the given name
 5. [`getElementsByTagName()` ](./src/get_element_by_tag.js)
     - returns all the elements having the given name value.
-    
+
 6. `getElementsByClassName()` - returns all the elements having the given class name.
 
+The [innerHTML](./src/innerHTML.js)  can be used to write the dynamic html on the html document.
