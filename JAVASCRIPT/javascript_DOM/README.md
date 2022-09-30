@@ -24,3 +24,7 @@ we can access and change the content of document by its methods.
 6. `getElementsByClassName()` - returns all the elements having the given class name.
 
 The [innerHTML](./src/innerHTML.js)  can be used to write the dynamic html on the html document.
+
+The [innerText](./src/innerText.js) - this property can be used to write the dynamic text on the HTML document. Here text would not be interpreted  as html text but normal text.
+
+It is used mostly in the web pages to generate the dynamic content such as writing the validation message, password strength etc.

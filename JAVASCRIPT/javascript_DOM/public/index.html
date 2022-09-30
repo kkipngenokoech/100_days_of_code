@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>DOM</title>
     </head>
-    <body>
+    <br>
         <p>welcome to my javascript DOM tutorial</p>
         <form name="formtrial" action="">
             <table>
@@ -26,10 +26,17 @@
         </form>
         <br>
         <button onclick="get_elements_by_tag()">count tables</button>
+        <br></br>
+        <form action="" name = "inner_text">
+            <input type="password" name="userPass" onkeyup="inner_Text()">
+            <br>
+            strength:<span id="my_location">no strength</span>
+        </form>
         <script src = "../src/accesselement.js"></script>
         <script src = "../src/get_element_by_id.js"></script>
         <script src="../src/get_element_by_name.js"></script>
         <script src="../src/get_element_by_tag.js"></script>
         <script src="../src/innerHTML.js"></script>
+        <script src="../src/innerText.js"></script>
     </body>
 </html>
