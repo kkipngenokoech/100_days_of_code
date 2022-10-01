@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>javascript validation</title>
+    </head>
+    <body>
+        <form action="http://www.javatpoint.com/javascriptpages/valid.jsp" name="validate_form" method="post" onsubmit="return form_validate()">
+            <table>
+                <tr>
+                    <td><label for="Username" >Username:</label></td>
+                    <td><input type="text" name="username" placeholder="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="user_password">Password:</label></td>
+                    <td><input type="password" name="user_password" placeholder="password"></td>
+                </tr>
+            </table>
+            <input type="submit" name="submit" id="submit_button" value="SUBMIT">
+        </form>
+        <script src="../src/form_validation.js"></script>
+    </body>
+</html>
