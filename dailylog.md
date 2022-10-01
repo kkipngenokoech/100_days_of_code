@@ -685,3 +685,20 @@ Even the document object (of the HTML DOM) is a property of the window object.
 **thoughts:**  The BOM allows JavaScript to “interact with” the browser. The object of window represents a browser window and all its corresponding features. A window object is created automatically by the browser itself
 
 **link to work:** [BOM](./JAVASCRIPT/javascript_BOM/)
+
+## DAY 58, October 1st 2022
+#### (working with javascript form validation)
+Data validation is the process of ensuring that user input is clean, correct, and useful.
+
+Typical validation tasks are:
+
+has the user filled in all required fields?
+has the user entered a valid date?
+has the user entered text in a numeric field?
+Most often, the purpose of data validation is to ensure correct user input.
+
+HTML form validation can be done by JavaScript.
+
+**thoughts:** JavaScript provides facility to validate the form on the client-side so data processing will be faster than server-side validation. Most of the web developers prefer JavaScript form validation.
+
+**link to work:** [javascript form validation](./JAVASCRIPT/javascript_validation/)
