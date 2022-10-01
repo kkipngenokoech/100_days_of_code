@@ -1,10 +1,16 @@
 const form_validate = () => {
     let user_name = document.validate_form.username.value
+    let age_validate = document.getElementById('age').value
     let user_password = document.getElementById('user_password').value
     let reenter_password = document.getElementById('reenter_password').value
     if (user_name == null || user_name == "")
     {
         alert(`username cannot be blank`)
+        return false
+    }
+    else if (isNaN(age_validate))
+    {
+        document.getElementById('numloc').innerText = 'enter numeric value only'
         return false
     }
     else if (user_password.length < 6)
