@@ -41,4 +41,8 @@ an error object has two properties:
     - `try() statement` - here, the code which needs possible testing for errors is kept in this block. In case the error occurs, it passes the catch block for taking suitable actions and handles the error.
     - `catch() statement` -  this block handles the error of the code, by executing the set of code within the block.This block executes only when any error-prone code needs to be handled in the try block. Otherwise, the catch block is skipped.
 
-3. try...catch...finally statements
+3. [try...catch...finally statements](./src/finally.js)
+    - Finally is an optional block of statements which is executed after the execution of try and catch statements. 
+    - Finally block does not hold for the exception to be thrown. 
+    - Any exception is thrown or not, finally block code, if present, will definitely execute. 
+    - It does not care for the output too.
