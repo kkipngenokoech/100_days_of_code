@@ -18,7 +18,7 @@ const form_validate = () => {
     }
     else if(at_position < 1 || dot_position < at_position + 2 || dot_position + 2 >= email_validate.length)
     {
-        alert(`please enter a valid email address: @ at ${at_position} and a dot at ${dot_position}`)
+        alert(`please enter a valid email address`)
         return false
     }
     else if (user_password.length < 6)
