@@ -31,8 +31,12 @@ an error object has two properties:
 7. URIError - An instance is created for the error that occurs when invalid parameters are passed in encodeURI() or decodeURI().
 
 ## EXCEPTION HANDLING STATEMENTS
-1. throw statements
-2. try...catch statements
+1. [throw statements](./src/throw.js)
+    - Throw statements are used for throwing user-defined errors.
+    - User can define and throw their own custom errors. When throw statement is executed, the statements present after it will not execute. 
+    - The control will directly pass to the catch block.
+
+2. [try...catch statements](./src/try_catch.js)
     - it initially tests the code for all possible, errors it may contain, then it implements actions taken to tackle those errors.
     - `try() statement` - here, the code which needs possible testing for errors is kept in this block. In case the error occurs, it passes the catch block for taking suitable actions and handles the error.
     - `catch() statement` -  this block handles the error of the code, by executing the set of code within the block.This block executes only when any error-prone code needs to be handled in the try block. Otherwise, the catch block is skipped.
