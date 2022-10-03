@@ -702,3 +702,26 @@ HTML form validation can be done by JavaScript.
 **thoughts:** JavaScript provides facility to validate the form on the client-side so data processing will be faster than server-side validation. Most of the web developers prefer JavaScript form validation.
 
 **link to work:** [javascript form validation](./JAVASCRIPT/javascript_validation/)
+
+## DAY 59, october 2rd 2022
+#### (DOM)
+HTML document is structured as a JavaScript Object. Every HTML element has a different properties which can help to manipulate it. It is possible to get, create, append or remove HTML elements using JavaScript. 
+
+Selecting HTML element using JavaScript is similar to selecting using CSS. To select an HTML element, we use tag name, id, class name or other attributes.
+
+you can get elements by:
+ 1. [Id](./JAVASCRIPT/javascript_DOM/src/get_element_by_id.js) - getElementsById() targets a single HTML element. We pass the id without # as an argument.
+ 2. [TagName](./JAVASCRIPT/javascript_DOM/src/get_element_by_tag.js) - getElementsByTagName():takes a tag name as a string parameter and this method returns an HTMLCollection object. An HTMLCollection is an array like object of HTML elements.
+ 3. [ClassName](./JAVASCRIPT/javascript_DOM/src/get_element_by_name.js) - getElementsByClassName() method returns an HTMLCollection object. An HTMLCollection is an array like list of HTML elements. 
+
+**thoughts:** HTML objects are considered js objects.
+
+**link to work:** [DOM](./JAVASCRIPT/javascript_DOM/)
+
+## DAY 60, october 3rd, 2022
+#### (js exception handling)
+exception is when we try catching errors then we execute a specific set of code.
+
+**thoughts:** for more information checkout on this [README](./JAVASCRIPT/javascript_handling/exception_handling.md)
+
+**link to work:**[exception handling](./JAVASCRIPT/javascript_handling/)
