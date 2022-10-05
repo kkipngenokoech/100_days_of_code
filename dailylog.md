@@ -725,3 +725,11 @@ exception is when we try catching errors then we execute a specific set of code.
 **thoughts:** for more information checkout on this [README](./JAVASCRIPT/javascript_handling/exception_handling.md)
 
 **link to work:**[exception handling](./JAVASCRIPT/javascript_handling/)
+
+## DAY 61, october 5th, 2022
+#### (RUBY)
+today I start my thirty days of ruby
+
+I have installed the apps, dependecies and the extensions needed for me to start learning ruby tomorrow
+
+**link to work:** [ruby](./RUBY/)
