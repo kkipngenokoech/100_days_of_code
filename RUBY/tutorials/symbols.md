@@ -5,3 +5,6 @@ to create a symbol, simply put a semi-colon at the beginning of some text:
     `:first_symbol`
 ## symbols vrs strings:
 symbols have one memory location whereas strings have different memory location. i.e `'string'.object_id != 'string.object_id ` whereas `:string.object_id == :string.object_id`
+
+
+symbols are immutable.
