@@ -733,3 +733,14 @@ today I start my thirty days of ruby
 I have installed the apps, dependecies and the extensions needed for me to start learning ruby tomorrow
 
 **link to work:** [ruby](./RUBY/)
+
+## DAY 62, october 6th, 2022
+####  (ruby datatypes)
+today, day 2 of learning ruby, I have gone through the basics of ruby data types:
+this includes:
+  [strings](./RUBY/tutorials/strings.md), [symbols](./RUBY/tutorials/symbols.md), [numbers](./RUBY/tutorials/numbers.md) and [booleans](./RUBY/tutorials/Booleans.md)
+ruby has a very smart way of manipulating its data types which include changing from one data type to another. more information about this datatypes are found in this [README](./RUBY/tutorials/rubydatatypes.md)
+
+**thoughts:** every piece of code in ruby, has to return something, and those pieces of code that has no return value returns a `nil`
+
+**link to work:** [ruby datatypes](./RUBY/tutorials/)

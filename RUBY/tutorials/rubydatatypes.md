@@ -5,3 +5,4 @@ there are four basic data types:
     [strings](./strings.md)
     [symbols](./symbols.md)
     [Booleans](./Booleans.md)
+Nil in Ruby represents nothing. everything in ruby has a return value. when a piece of ruby code doesn't return anything, it returns `nil`.
