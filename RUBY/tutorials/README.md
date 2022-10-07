@@ -5,7 +5,7 @@ Ruby ignores white space characters and tabs.
 Ruby interprets semicolons and newline characters as the ending of a statement. However, if Ruby encounters operators, such as +, −, or backslash at the end of a line, they indicate the continuation of a statement.
 
 ##  ruby identifiers
-this include variables, constants and methods.  
+this include [variables](./variables.md), constants and methods.  
 they are case sensitive
 ruby identifiers may include alphanumeric characters, and the underscore characters.
 
@@ -75,7 +75,7 @@ defining class in ruby? it always start with the keyword `class`
 you terminate a class in ruby by using the keyword `end`
 All data members are in between the keyword class and end
 
-## VARIABLES IN RUBY
+## [VARIABLES IN RUBY](./variables.md)
 1. local variables:
     these are variables that are defined in a method
 2. instance variables:
