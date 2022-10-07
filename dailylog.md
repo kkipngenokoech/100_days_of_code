@@ -744,3 +744,15 @@ ruby has a very smart way of manipulating its data types which include changing 
 **thoughts:** every piece of code in ruby, has to return something, and those pieces of code that has no return value returns a `nil`
 
 **link to work:** [ruby datatypes](./RUBY/tutorials/)
+
+## DAY 63, october 7th, 2022
+#### (working with ruby variables)
+there are four types of ruby variables:
+ 1. local
+ 2. global
+ 3. instance
+ 4. class
+
+ **thoughts:** each of the variables above scope to their specific scopes only.
+
+ **link to work:** [variables](./RUBY/tutorials/variables.md)
