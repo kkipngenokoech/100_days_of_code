@@ -32,3 +32,6 @@ the ruby break statement is used to terminate a loop.
 It is mostly used in while loop where value is printed till the condition is true, then break statement terminates the loop.
 
 The break statement is called from inside the loop.
+
+## [next loop](./ruby_codes/next.rb)
+it is used to skip the next iteration once the statement is executed no further iterations are made.
