@@ -35,3 +35,12 @@ The break statement is called from inside the loop.
 
 ## [next loop](./ruby_codes/next.rb)
 it is used to skip the next iteration once the statement is executed no further iterations are made.
+
+## [redo statement](./ruby_codes/redo.rb)
+it is used to repeat the current iterations of the loop
+The redo statement is executed without evaluating the loop's condition.
+
+## [retry statement](.)
+Ruby retry statement is used to repeat the whole loop iteration from the start.
+
+The retry statement is used inside a loop.
