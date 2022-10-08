@@ -11,3 +11,6 @@ ternary operators - this is a way of shorthanding ruby  if else statements.s
 in ruby we use case instead of switch
 The case statement matches one statement with multiple conditions just like a switch statement in other languages.
 
+## [for loops](./ruby_codes/forloop.rb)
+it iterates over a specific set of numbers.
+it executes once for each element in execution
