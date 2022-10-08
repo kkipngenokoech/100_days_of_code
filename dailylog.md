@@ -756,3 +756,14 @@ there are four types of ruby variables:
  **thoughts:** each of the variables above scope to their specific scopes only.
 
  **link to work:** [variables](./RUBY/tutorials/variables.md)
+
+ ## DAY 64, october 8th, 2022
+ #### (working with inputs and outputs in ruby)
+ to output data in ruby you use `print` or `puts`
+ input is any data that is read by the program, either from a keyboard, file or other programs. Output is data that is produced by the program. The output may go to the screen, to a file or to another program.
+ to input in ruby you use `gets`
+
+ **thoughts:** The print and puts methods produce textual output on the console. The difference between the two is that the latter adds a new line character.
+
+ **link to work:** [ruby inputs and outputs](./RUBY/tutorials/inputoutput.md)
+)
