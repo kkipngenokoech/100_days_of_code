@@ -21,3 +21,4 @@ it executes while a certain condition is still true.
 once the condition becomes false, it stops executing.
 
 ## [do-while loop](./ruby_codes/dowhile.rb)
+this will execute at least once since the conditions are written after the executing part
