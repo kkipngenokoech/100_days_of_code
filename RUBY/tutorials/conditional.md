@@ -26,3 +26,9 @@ this will execute at least once since the conditions are written after the execu
 ## [until loop](./ruby_codes/until.rb)
 it runs until the given condition evaluates to true. it exits the loop when condition becomes true.
 it is the opposite of the while loop since it only exits the loop when it becomes false(that is the while loop)
+
+## [break loop](./ruby_codes/break.rb)
+the ruby break statement is used to terminate a loop.
+It is mostly used in while loop where value is printed till the condition is true, then break statement terminates the loop.
+
+The break statement is called from inside the loop.
