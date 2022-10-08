@@ -14,3 +14,10 @@ The case statement matches one statement with multiple conditions just like a sw
 ## [for loops](./ruby_codes/forloop.rb)
 it iterates over a specific set of numbers.
 it executes once for each element in execution
+
+## [while loop](./ruby_codes/while.rb)
+this is used when a number of iterations is not fixed.
+it executes while a certain condition is still true.
+once the condition becomes false, it stops executing.
+
+## [do-while loop](./ruby_codes/dowhile.rb)
