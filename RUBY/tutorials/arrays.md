@@ -10,6 +10,8 @@ just like other programming languages, you use index(zero-based indexing)
 calling an invalid position returns nil
 Ruby also recognizes the use of negative indices, which returns elements starting from the end of an array.
 
+to access a particular element you can use the method `at`: `myArray.at(4)`
+
 ## ruby first and last methods
 `myArray.first(3)`- returns the first three elements of myArray
 `myArray.last(4)` - returns the last three elements of myArray.
