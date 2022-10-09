@@ -767,3 +767,13 @@ there are four types of ruby variables:
 
  **link to work:** [ruby inputs and outputs](./RUBY/tutorials/inputoutput.md)
 )
+
+## DAY 65, october 9th, 2022
+#### (ruby arrays)
+Ruby arrays are ordered collections of objects. They can hold objects like integer, number, hash, string, symbol or any other array.
+
+Its indexing starts with 0. The negative index starts with -1 from the end of the array. For example, -1 indicates last element of the array and 0 indicates first element of the array.
+
+**thoughts:** to get all methods associated with arrays you `myArray.methods`
+
+**link to work:** [Ruby Arrays](./RUBY/tutorials/arrays.md)
