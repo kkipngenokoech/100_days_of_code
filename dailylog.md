@@ -777,3 +777,14 @@ Its indexing starts with 0. The negative index starts with -1 from the end of th
 **thoughts:** to get all methods associated with arrays you `myArray.methods`
 
 **link to work:** [Ruby Arrays](./RUBY/tutorials/arrays.md)
+
+## DAY 66, OCTOBER 10TH, 2022
+#### (ruby methods)
+ruby has [inbuilt and userdefined methods](./RUBY/tutorials/methods.md)
+to build your own methods in ruby you use `def` keyword
+ruby offers explicit and implicit return capabilities.
+ruby methods can take parameters, or even have default parameters.
+
+**thoughts:** Methods name should always start with a lowercase letter. Otherwise, it may be misunderstood as a constant.
+
+**link to work:** [ruby methods](./RUBY/tutorials/ruby_codes/methods.rb)
