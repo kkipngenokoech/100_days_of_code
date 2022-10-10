@@ -28,3 +28,13 @@ CHELSEA_PLAYERS = {
 CHELSEA_PLAYERS.each {|key, value| puts "country:" + value + " Name: " + key}
 CHELSEA_PLAYERS.each {|pair| puts "player data: #{pair}"}
 ```
+
+## THE EACH_WITH_INDEX METHOD
+the difference between this and the #each method is that it yields two block variables instead of one.
+
+ The first variable’s value is the element itself, while the second variable’s value is the index of that element within the array. This allows you to do things that are a bit more complex.
+
+```
+CITIES = ["Bangok", "Adis Ababa", "Brussels", "Helshinki"]
+CITIES.each_with_index {|city, index| puts city if index.even?}
+```
