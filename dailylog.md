@@ -788,3 +788,12 @@ ruby methods can take parameters, or even have default parameters.
 **thoughts:** Methods name should always start with a lowercase letter. Otherwise, it may be misunderstood as a constant.
 
 **link to work:** [ruby methods](./RUBY/tutorials/ruby_codes/methods.rb)
+
+## DAY 67, october 11TH, 2022
+#### (OOP)
+today I have started learning OOP in ruby
+it is pretty much the same OOP concepts in the other programming languages
+
+**thoughts:** I am going to learn deeper the OOP concepts at the code academy.
+
+**link to work:** [OOP](./RUBY/tutorials/OOP.md)
