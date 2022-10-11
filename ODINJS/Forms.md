@@ -81,3 +81,24 @@ We will often want to ensure specific fields have been filled in before submitti
 To make a field required, we simply add the required attribute to it
 
 To ensure a good user experience and to meet accessibility guidelines, we should always indicate which fields are required. This will often be done by adding an asterisk(*) to the required field label
+
+## TEXT LENGTH VERIFICATION
+Sometimes we will want users to enter a minimum or a maximum amount of text into a field. Real-world examples of using these validations would be the old 140 character limit that Twitter used to have in its status field or having minimum and maximum length constraints on a username field.
+ #### minimum length validation
+ To add the minimum length validation, we give the form control a minlength attribute with an integer value that represents the minimum amount of characters we want to allow in the form control `minlength = "4"`
+
+ #### maximum length validation
+ To add a maximum length validation, we give the form control a maxlength attribute with an integer value which represents the maximum amount of characters we want to allow in the form control
+
+## NUMBER RANGE VALIDATION
+#### min validation
+To add a minimum value validation, we give the form control a min attribute with an integer value which represents the minimum number we want the form control to accept
+
+#### max validation
+To add a maximum value validation, we give the form control a max attribute with an integer value which represents the maximum number we want the form control to accept
+
+## PATTERN VALIDATION
+To ensure we get the correct information from users, we will often want to ensure data matches a particular pattern. Real-world applications would be checking if a credit card number or a zipcode is in the correct format.
+
+To add a pattern validation, we give the form control a pattern attribute with a regular expression as the value. 
+
