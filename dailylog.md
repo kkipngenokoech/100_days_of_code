@@ -797,3 +797,13 @@ it is pretty much the same OOP concepts in the other programming languages
 **thoughts:** I am going to learn deeper the OOP concepts at the code academy.
 
 **link to work:** [OOP](./RUBY/tutorials/OOP.md)
+
+## DAY 68, OCTOBER 12TH, 2022
+#### (INDEPTH RUBY OOP)
+today I have learnt of the ruby constructor methods, instance methods and objects
+
+when a class wants to inherit from a superclass, you use `<`
+
+**thoughts:** ruby being an OOP means it can be embedded in an HTML
+
+**link to work:** [RUBY CLASS](./RUBY/tutorials/ruby_codes/rubyclass.rb)
