@@ -807,3 +807,16 @@ when a class wants to inherit from a superclass, you use `<`
 **thoughts:** ruby being an OOP means it can be embedded in an HTML
 
 **link to work:** [RUBY CLASS](./RUBY/tutorials/ruby_codes/rubyclass.rb)
+
+## DAY 69, october 13th, 2022
+#### (caesar cipher)
+today I have started my first project on ruby the [caesar cipher](./RUBY/Ruby_Projects/caesar_cipher/caesar_cipher.rb)
+ what I have done today under this project has taught me:
+     hands on splitting of string to array - `split and to_a`
+     finding the character integer ordinal - `character.ord`
+     and finally shifting the integer ordinal using a key
+     and also I have learnt to use methods since I am using a method for this,
+
+**thoughts:** to run ruby on your terminal you just have to type `irb` or to run a ruby script you `ruby the name of your script`
+
+**link to work:** [ceasar cipher](./RUBY/Ruby_Projects/caesar_cipher/)
