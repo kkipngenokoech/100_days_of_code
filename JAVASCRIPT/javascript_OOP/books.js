@@ -21,3 +21,6 @@ class BookStore {
 
 let FirstBook = new BookStore("Atomic Habits", "James Clear", 260)
 FirstBook.print_details()
+
+BookStore.prototype.Genre = "philosopy"
+// console.log(BookStore.prototype)
