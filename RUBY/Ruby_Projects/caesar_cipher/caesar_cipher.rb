@@ -12,22 +12,33 @@ def CaesarCipher(yourString, yourKey = 4)
    capitalAlpha = ('A'..'Z').to_a
    lastOrdSmall = smallAlpha[-1].ord
    firstOrdSmall = smallAlpha[0].ord
+   lastOrdCapital = capitalAlpha[-1].ord
+   firstOrdCapital = capitalAlpha[0].ord
+   #print lastOrdCapital - firstOrdCapital
   # print firstOrdSmall - used for debugging
    # print capitalAlpha - used for debugging
 
    for index in 0..yourString.length - 1
-        if yourString[index] in smallAlpha
+        if  smallAlpha.include? yourString[index]#yourString[index] in smallAlpha
             yourStringORD[index] = yourString[index].ord + yourKey
             # puts yourStringORD[index]
            # puts smallAlpha[-1]
             if yourStringORD[index] > lastOrdSmall
                # puts yourStringORD[index]
                 yourStringORD[index] -= (lastOrdSmall - firstOrdSmall)
-                #puts yourStringORD[index] -used for debbugging
+                #puts yourStringORD[index] #-used for debbugging
             end
 
-        elsif yourString[index] in capitalAlpha
-            print "No"
+        elsif capitalAlpha.include? yourString[index]#yourString[index] in capitalAlpha
+           # print yourStringORD[index]
+            yourStringORD[index] = yourString[index].ord + yourKey
+            #print yourStringORD[index]
+            if yourStringORD[index] > lastOrdCapital
+                yourStringORD[index] -= (lastOrdCapital - firstOrdCapital)
+                #puts yourStringORD[index]
+            end
+        else
+            puts "unregonized string"
         end
     end
     for index in 0..yourStringORD.length - 1
@@ -37,3 +48,4 @@ def CaesarCipher(yourString, yourKey = 4)
 end
 
 puts CaesarCipher("xyz")
+puts CaesarCipher("XYZ")
