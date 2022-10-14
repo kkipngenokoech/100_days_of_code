@@ -20,4 +20,4 @@ you store the ordinals in an array in which you are going to alter the number us
 
 ## encrypting
 now we want to encrypt your ordinals into a word.
-
+ so first we need to have an array of the characters A - Z and a - z

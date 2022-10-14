@@ -8,7 +8,9 @@ def CaesarCipher(yourString, yourKey = 4)
     end
    # print yourStringORD -used for debbugging
    encrypted = ""
-
+   smallAlpha = ('a'..'z').to_a
+   capitalAlpha = ('A'..'Z').to_a
+   # print capitalAlpha - used for debugging
 end
 
 CaesarCipher("kip")
