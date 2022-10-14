@@ -23,13 +23,17 @@ def CaesarCipher(yourString, yourKey = 4)
             if yourStringORD[index] > lastOrdSmall
                # puts yourStringORD[index]
                 yourStringORD[index] -= (lastOrdSmall - firstOrdSmall)
-                puts yourStringORD[index]
+                #puts yourStringORD[index] -used for debbugging
             end
 
         elsif yourString[index] in capitalAlpha
             print "No"
         end
     end
+    for index in 0..yourStringORD.length - 1
+        encrypted += yourStringORD[index].chr
+    end
+    return encrypted
 end
 
-CaesarCipher("kipz")
+puts CaesarCipher("xyz")
