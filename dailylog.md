@@ -820,3 +820,12 @@ today I have started my first project on ruby the [caesar cipher](./RUBY/Ruby_Pr
 **thoughts:** to run ruby on your terminal you just have to type `irb` or to run a ruby script you `ruby the name of your script`
 
 **link to work:** [ceasar cipher](./RUBY/Ruby_Projects/caesar_cipher/)
+
+## DAY 70, october 14th, 2022
+#### (caesar_cipher)
+building up on  the caesar_cipher game i started yesterday.
+today my program can encrypt your text well if all your inputs are in small letters.
+
+**thoughts:** if you want to get the ascii code of a character, you `.ord`, and when you have an integer and you want to get its character assuming that your integer is an ascii code you `123.chr`
+
+**link to work:** [caesar_cipher](./RUBY/Ruby_Projects/caesar_cipher/)
