@@ -829,3 +829,14 @@ today my program can encrypt your text well if all your inputs are in small lett
 **thoughts:** if you want to get the ascii code of a character, you `.ord`, and when you have an integer and you want to get its character assuming that your integer is an ascii code you `123.chr`
 
 **link to work:** [caesar_cipher](./RUBY/Ruby_Projects/caesar_cipher/)
+
+## DAY 71, october 15th, 2022
+#### (substrings)
+another ruby project
+you pass a string and an array of words
+the method iterates over the array and checks if the word atleast exists in the string
+it returns an hash of the word and the number of times it appears in the string
+
+**thoughts:** if you want to check if a particular hash key exists in the hash you use the `has_key?` method.
+
+**link to work:** [substrings](./RUBY/Ruby_Projects/Sub_strings/)
