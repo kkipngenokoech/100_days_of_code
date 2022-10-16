@@ -20,3 +20,12 @@ const team = (playerName, playerPosition, playerNationality) => {
 }
 const Chelsea = team("Amando Broja", "striker", "Albania")
 console.log(Chelsea)
+
+// using the constructor pattern
+const Person = function(name, age) {
+    this.sayHello = () => console.log('hello!');
+    this.name = name;
+    this.age = age;
+  };
+  
+  const jeff = new Person('jeff', 27);
