@@ -840,3 +840,13 @@ it returns an hash of the word and the number of times it appears in the string
 **thoughts:** if you want to check if a particular hash key exists in the hash you use the `has_key?` method.
 
 **link to work:** [substrings](./RUBY/Ruby_Projects/Sub_strings/)
+
+## DAY 72, october 16th 2022
+#### (stockPicker)
+you pass an array of stocks, the method looks for the day with least stock cost and high stock cost
+
+it then finds the index of the elements and returns them as days.
+
+**thoughts:** to find the maximum value in an array you `.max` same to the least value `.min`. To find its index position you use `.find_index(element)`
+
+**link to work:** [stockPicker](./RUBY/Ruby_Projects/stock_picker/)
