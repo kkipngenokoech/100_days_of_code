@@ -10,3 +10,13 @@ function player(name, age, team) {
 let cp10 = new player("Christian pulisic", 23, "Chelsea")
 console.log(cp10.displayDetails)
 // console.log(cp10.age) - used for debugging
+
+// USING FACTORY FUNCTIONS
+const team = (playerName, playerPosition, playerNationality) => {
+    const sayHello = () => {
+        console.log('Hello..')
+    }
+    return {playerName, playerPosition, playerNationality}
+}
+const Chelsea = team("Amando Broja", "striker", "Albania")
+console.log(Chelsea)
