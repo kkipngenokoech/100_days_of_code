@@ -26,3 +26,7 @@ it has the following column headers
 We need to convert this headers into an array
 this columns are seperated by commas `,`  so whenever we see a comma one has to split.
 `columns = line.split(",")`
+
+### next if 
+`next if line == " ,RegDate,first_Name,last_Name,Email_Address,HomePhone,Street,City,State,Zipcode\n"`
+it checks if the line is similar to the header , if it is true you escape.
