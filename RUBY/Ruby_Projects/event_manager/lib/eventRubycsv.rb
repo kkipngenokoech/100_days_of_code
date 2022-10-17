@@ -18,6 +18,7 @@ def cleanZipcodes (zipcode)
     else
         zipcode
     end
+    #  zipcode.to_s.rjust(5, '0')[0..4] -  a shorter version of the above code.
 end
 
 puts "eventManager initialized....."
