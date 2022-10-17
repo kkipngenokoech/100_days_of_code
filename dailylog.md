@@ -850,3 +850,14 @@ it then finds the index of the elements and returns them as days.
 **thoughts:** to find the maximum value in an array you `.max` same to the least value `.min`. To find its index position you use `.find_index(element)`
 
 **link to work:** [stockPicker](./RUBY/Ruby_Projects/stock_picker/)
+
+## DAY 73, october 17th 2022
+#### (file serialization)
+often times we need to import data into our programs and manipulate that data
+ruby has a special way of importing and manipulating them
+
+we use the `File` library provided to us by Ruby.
+
+**thoughts:** with the `File ` library we can read lines import content , modify content, delete content and basically much file manipulation
+
+**link to work:** [File Serialization](./RUBY/Ruby_Projects/event_manager/lib/event_manager.rb)
