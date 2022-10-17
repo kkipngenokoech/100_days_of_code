@@ -30,3 +30,14 @@ this columns are seperated by commas `,`  so whenever we see a comma one has to 
 ### next if 
 `next if line == " ,RegDate,first_Name,last_Name,Email_Address,HomePhone,Street,City,State,Zipcode\n"`
 it checks if the line is similar to the header , if it is true you escape.
+
+## PARSING WITH CSV
+`require 'csv'`
+this allows us to import ruby's CSV library.
+here to import/load data then we:
+`CSV.open()`
+
+#### accessing columns by their names:
+CSV files with headers have an additional option which allows you to access the column values by their headers
+
+we need to convert this headers into symbols `header_converters: :symbol`
