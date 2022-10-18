@@ -1,5 +1,9 @@
 #!usr/bin/ruby
 require "csv"
+require 'google/apis/civicinfo_v2'
+
+civic_info = Google::Apis::CivicinfoV2::CivicInfoService.new
+civic_info.key = 'AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw'
 
 def cleanZipcodes (zipcode)
     zipcode.to_s
@@ -36,8 +40,19 @@ eventContents.each do |row|
     #     zipcode = zipcode[0..4]
     # end
     zipcode = cleanZipcodes(zipcode)
+    begin
+        legislators = civic_info.representative_info_by_address(
+            address: zipcode,
+            levels: 'country',
+            roles: ['legislatorUpperBody', 'legislatorLowerBody']
+        )
+        legislators = legislators.officials
+        
+    rescue
+        'You can find your representatives by visiting www.commoncause.org/take-action/find-elected-officials'
+    end
 
-    puts "#{name}, #{state}, #{zipcode}"
+    puts "#{name}, #{state}, #{zipcode}, #{legislators}"
 end
 
 # accessing zip codes

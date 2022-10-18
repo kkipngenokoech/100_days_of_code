@@ -51,3 +51,5 @@ end
 ## Git , github and Heroku
 `bundle lock --add-platform x86_64-linux --add-platform ruby`
 
+## migrate database on heroku
+`heroku run rails db:migrate`
