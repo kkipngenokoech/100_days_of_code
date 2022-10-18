@@ -861,3 +861,12 @@ we use the `File` library provided to us by Ruby.
 **thoughts:** with the `File ` library we can read lines import content , modify content, delete content and basically much file manipulation
 
 **link to work:** [File Serialization](./RUBY/Ruby_Projects/event_manager/lib/event_manager.rb)
+
+
+## Day 74, october 18th 2022
+#### (web refresher)
+today I started learning about ruby on rails and thus I needed to remind myself of the HTTPs
+
+**thoughts:** https version 2.0 allows for multiplexing - many requests sent at once reducing the time required to load a page
+
+**link to work:** [Web Refresher](./RUBYONRAILS/webrefrsesher.md)
