@@ -41,3 +41,17 @@ For git reset never reset commits that have been pushed to remote repositories.
 
 
 `git rebase -i HEAD~2` - HEAD means our current commit, 2 means we can edit the last two commits.
+
+## USING BRANCHES
+to make new branches `git branch <branch name>`
+to checkout to a branch `git checkout <branch name>`
+to make a new branch and switch into it `git checkout -b <branch name>`
+to see all the current branches you have `git branch`
+
+git merge - pull whatever you were doing in other branches into the main/the branch you are currently are branch - `git merge <branch name>`
+deleting a branch? `git branch -d <branch name>` if the branch has already been merged with main else use flag `-D`.
+
+
+setting the default branch for all your repos `git config --global init.defaultBranch main`
+
+when you create a new branch you need to push it to your github remote repo `git push origin <name of the repo>`
