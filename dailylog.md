@@ -870,3 +870,13 @@ today I started learning about ruby on rails and thus I needed to remind myself 
 **thoughts:** https version 2.0 allows for multiplexing - many requests sent at once reducing the time required to load a page
 
 **link to work:** [Web Refresher](./RUBYONRAILS/webrefrsesher.md)
+
+## DAY 75, october 19th, 2022
+#### (routing, rest and authorization, MVC)
+when we send a request for a resource:
+it passes throught the Model -> view -> controller
+controller receives instructions from the router, checks for data from the model then sends the data to the view(HTML template) which will then be sent back to the user.
+
+**thoughts:**  routes: It's a way to redirect incoming requests to controllers and actions.
+
+**link to work:** [routing](RUBYONRAILS/routing.md)
