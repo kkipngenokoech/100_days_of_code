@@ -14,3 +14,18 @@ initializing rails app
 `rails server` - Now that you have created a Rails application, you can start it up and see if it works!
 
 link to access first_rails_app - [first_rails_app](http://localhost:3000/cars)
+
+
+## ACTIVE RECORDS
+table maps to classes
+rows maps to objects
+columns maps to object attributes.
+
+Rails Active Records provide an interface and binding between the tables in a relational datbase and ruby program code that manipulates the database records.
+
+Ruby methods are automatically generated from the fieldnames of database tables
+
+Each Active Record object has a CRUD(create, read, update, delete) functionality methods for database access.
+
+#### creating Active Records Files(Model)
+`rails script/generate mode <name of the model>` - this is ran on top-level application directory.
