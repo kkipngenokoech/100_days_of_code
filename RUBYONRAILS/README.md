@@ -1,5 +1,6 @@
 ## RUBY ON RAILS
 Everything about Ruby on rails.
+ruby on rails is ruby's 7 gems working harmoniously together (Active Record is the gem that takes care of all the database stuff)
 ## NEW RAIL APP
 `rails new first_rails_app`
 initializing rails app

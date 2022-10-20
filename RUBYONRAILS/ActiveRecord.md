@@ -14,3 +14,7 @@ Active Record naming convention - CoC - convention on configuration, On followin
 Database table should be named in the plural form and in lowercase of your model classes. i.e `Database tables = students` if `Database Model = Student`
 
 With the help of this convention, Rails will automatically find the corresponding table to your model class without any configuration code
+
+Active Record is, to put it inelegantly, the gem that takes care of all the database stuff. It’s known as an “ORM”.
+
+ORM stands for Object-Relational-Mapping. It basically means that Active Record takes data which is stored in a database table using rows and columns, which needs to be modified or retrieved by writing SQL statements (if you’re using a SQL database), and it lets you interact with that data as though it was a normal Ruby object.
