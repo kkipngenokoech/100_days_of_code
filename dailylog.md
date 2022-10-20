@@ -880,3 +880,12 @@ controller receives instructions from the router, checks for data from the model
 **thoughts:**  routes: It's a way to redirect incoming requests to controllers and actions.
 
 **link to work:** [routing](RUBYONRAILS/routing.md)
+
+## DAY 76, october 20th, 2022
+#### (ActiveRecords)
+ActiveRecord is the `M` in the MVC
+ActiveRecord is the ORM that allows one to access the databases
+
+**thoughts:** with Active Records, you don't need to write sql codes to access your database since you can do so using ruby code.
+
+**link to work:** [ActiveRecords](./RUBYONRAILS/ActiveRecord.md)
