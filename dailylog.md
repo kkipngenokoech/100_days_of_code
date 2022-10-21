@@ -843,6 +843,7 @@ it returns an hash of the word and the number of times it appears in the string
 
 ## DAY 72, october 16th 2022
 #### (stockPicker)
+
 you pass an array of stocks, the method looks for the day with least stock cost and high stock cost
 
 it then finds the index of the elements and returns them as days.
@@ -852,19 +853,23 @@ it then finds the index of the elements and returns them as days.
 **link to work:** [stockPicker](./RUBY/Ruby_Projects/stock_picker/)
 
 ## DAY 73, october 17th 2022
-#### (file serialization)
+
+### (file serialization)
+
 often times we need to import data into our programs and manipulate that data
 ruby has a special way of importing and manipulating them
 
 we use the `File` library provided to us by Ruby.
 
-**thoughts:** with the `File ` library we can read lines import content , modify content, delete content and basically much file manipulation
+**thoughts:** with the `File` library we can read lines import content , modify content, delete content and basically much file manipulation
 
 **link to work:** [File Serialization](./RUBY/Ruby_Projects/event_manager/lib/event_manager.rb)
 
 
 ## Day 74, october 18th 2022
-#### (web refresher)
+
+### (web refresher)
+
 today I started learning about ruby on rails and thus I needed to remind myself of the HTTPs
 
 **thoughts:** https version 2.0 allows for multiplexing - many requests sent at once reducing the time required to load a page
@@ -872,7 +877,9 @@ today I started learning about ruby on rails and thus I needed to remind myself 
 **link to work:** [Web Refresher](./RUBYONRAILS/webrefrsesher.md)
 
 ## DAY 75, october 19th, 2022
-#### (routing, rest and authorization, MVC)
+
+### (routing, rest and authorization, MVC)
+
 when we send a request for a resource:
 it passes throught the Model -> view -> controller
 controller receives instructions from the router, checks for data from the model then sends the data to the view(HTML template) which will then be sent back to the user.
@@ -882,10 +889,24 @@ controller receives instructions from the router, checks for data from the model
 **link to work:** [routing](RUBYONRAILS/routing.md)
 
 ## DAY 76, october 20th, 2022
-#### (ActiveRecords)
+
+### (ActiveRecords)
+
 ActiveRecord is the `M` in the MVC
 ActiveRecord is the ORM that allows one to access the databases
 
 **thoughts:** with Active Records, you don't need to write sql codes to access your database since you can do so using ruby code.
 
 **link to work:** [ActiveRecords](./RUBYONRAILS/ActiveRecord.md)
+
+## DAY 77, october 21st 2022
+
+### (ActiveRecord naming convention)
+
+name your classes in singular with the first name `Book`
+ruby on rails will autogenerate the name of your database table `books`
+in small letters and plural. Ruby does a lot of heavy lifting if you follow its naming conventions.
+
+**thoughts:** ruby actually gives you the plural of your class name, if it is `Mouse` you are using as a class name you will get a database table called `Mice`.
+
+**link to work:** [ActiveRecord](./RUBYONRAILS/ActiveRecord.md)

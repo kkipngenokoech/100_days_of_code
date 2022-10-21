@@ -28,5 +28,7 @@ Ruby methods are automatically generated from the fieldnames of database tables
 
 Each Active Record object has a CRUD(create, read, update, delete) functionality methods for database access.
 
-#### creating Active Records Files(Model)
+
+### creating Active Records Files(Model)
+
 `rails script/generate mode <name of the model>` - this is ran on top-level application directory.

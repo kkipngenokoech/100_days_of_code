@@ -1,5 +1,11 @@
+# links for resources
 
-# Active Record
+[ruby active Records documentation](https://guides.rubyonrails.org/active_record_basics.html#schema-conventions)
+[Odin Project documentation](https://www.theodinproject.com/lessons/ruby-on-rails-active-record-basics)
+[tutorials point](https://www.tutorialspoint.com/ruby-on-rails/rails-active-records.htm)
+[medium](https://medium.com/oceanize-geeks/the-active-record-and-data-mappers-of-orm-pattern-eefb8262b7bb#:~:text=Active%20Record%3A%20The%20Web's%20Favorite,to%20the%20table%20upon%20save.)
+
+## Active Record
 
 Active records normally does the mappings for you.
 
@@ -68,3 +74,21 @@ there are three levels of validation one can apply :
 2. `belongs_to relationship`- belongs to one and only one
 3. `has_and_belongs_to_many` - many to many relationship
 so the User `has_many: posts`.
+
+## ACTIVE RECORDS
+
+What does active records helps you to do?
+
+1. Represent models and their data
+2. Represent associations between this models.
+3. Represent inheritance hierarchies through related Models.
+4. Validate models before they get persisted to the database.
+5. Perform database operations in an object-oriented fashion.
+
+## RUBY ACTIVE RECORD NAMING CONVENTION
+
+Rails will pluralize your class names to find the respective database table.
+i.e for a class `Book` your database should have a database table called `Books`.
+if you are having classes with more than one class name, ruby classes should use `CamelCase` - `BookClub`, while table name use `snake_case` - `book_clubs`.
+
+ruby actually finds the plural of words, if you have a class known as `Mouse` or `Person` for example, its database table name that will be generate is `mice` and `people` respectively.
