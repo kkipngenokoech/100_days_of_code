@@ -910,3 +910,15 @@ in small letters and plural. Ruby does a lot of heavy lifting if you follow its 
 **thoughts:** ruby actually gives you the plural of your class name, if it is `Mouse` you are using as a class name you will get a database table called `Mice`.
 
 **link to work:** [ActiveRecord](./RUBYONRAILS/ActiveRecord.md)
+
+## DAY 78, october 22nd 2022
+
+### (controllers)
+
+this is the C in your MVC
+it's your controller
+to create a new controller you `rails generate controller <name of your contorller>`
+
+**thoughts:** ensure that your controller name is capitalized and singular, this will easen things for you.
+
+**link to work:** [controllers](./RUBYONRAILS/MVCframework.md)

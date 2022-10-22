@@ -1,4 +1,5 @@
-## ROUTING
+# ROUTING
+
 router is the doorman of your application.
 when an HTTP request arrives, from the user's browser, it needs to know which controller action(method) should run.
 
@@ -6,12 +7,19 @@ the router looks for the HTTP verb - (GET, POST, PUT, PULL, DELETE.) and the URL
 
 if it can't find a route that matches the request, your application will throw an error.
 
-
 The other handy thing that goes on when a request enters your application is that Rails grabs all the parameters that came with it and makes them available for you in a special hash called params that you can later use in your controller. That’s good for things like form submissions so that you later can use that form data to create or modify objects.
 
 to find all the routes available in your application you run `rails route` on your terminal.
 
+All web frameworks perform basically the same tasks:
+
+1. Receive an HTTP request
+2. Based on the request's path and HTTP method, it figures out what code to execute.
+3. Generate HTML, CSS, Javascript, images and any other relevant assets.
+4. return an HTTP response to the client.
+
 ## ROOT
+
 ` root to: "kittens#index"  #kittens controller, index action (method)` - this is to route to your root url.
 
 ## RESTful Routes

@@ -92,3 +92,7 @@ i.e for a class `Book` your database should have a database table called `Books`
 if you are having classes with more than one class name, ruby classes should use `CamelCase` - `BookClub`, while table name use `snake_case` - `book_clubs`.
 
 ruby actually finds the plural of words, if you have a class known as `Mouse` or `Person` for example, its database table name that will be generate is `mice` and `people` respectively.
+
+## CREATING MODELS
+
+`rails generate model <name of your model>`
