@@ -922,3 +922,15 @@ to create a new controller you `rails generate controller <name of your contorll
 **thoughts:** ensure that your controller name is capitalized and singular, this will easen things for you.
 
 **link to work:** [controllers](./RUBYONRAILS/MVCframework.md)
+
+## DAY 79, october 23rd, 2022
+
+### (art_app)
+
+today I started a new rubyonrails application, [art App](./RUBYONRAILS/projects/art_app/)
+
+everything from implementation of the application to models to seeding is found in this [README](./RUBYONRAILS/projects/art_app/README.md)
+
+**thoughts:** seeding allows us to fund our database with data used for testing our models.
+
+**link to work:** [ART APP](./RUBYONRAILS/projects/art_app/)
