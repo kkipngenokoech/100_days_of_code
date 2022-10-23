@@ -48,3 +48,30 @@ this project will have three models:
    3. Able to see a single painting and see all its details
    4. Able to create a new painting with an association to an artist and gallery
    5. Able to delete a painting when it gets sold.
+
+### creating  models
+
+the below commands generate folders and files which include - controllers, models views and directories.
+
+`rails g resource` - this is a generator.
+
+artist - `rails -g resource artist name age:integer experience_level:integer`
+
+since the paintings model will be our joiner model we included the belongs_to association with both artist and gallery.
+
+### setting up relationships between models
+
+[artist.rb](./app/models/artist.rb)     |
+[gallery.rb](./app/models/gallery.rb)   |
+[painting.rb](./app/models/painting.rb)
+
+an artist has many paintings and paintings are dependent on artists so when we delete an artist, it should also destroy the dependents as well.
+
+same case to gallery, a gallery can have has many paintings as possible, but paintings depends on the gallery and so when we delete a gallery, the paintings should be destroyed as well.
+
+### database migrations
+
+when we generate resources we need to make a database migration
+`rails db:migrate`
+
+to check a database migration status - `rails db:migrate:status`. it should always be up!
