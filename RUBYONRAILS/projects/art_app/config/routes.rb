@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :paintings
+  resources :paintings, only: [:index, :show, :new, :create, :destoy]
   resources :galleries
   resources :artists
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

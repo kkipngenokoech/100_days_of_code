@@ -75,3 +75,17 @@ when we generate resources we need to make a database migration
 `rails db:migrate`
 
 to check a database migration status - `rails db:migrate:status`. it should always be up!
+
+### seeding models
+
+in our [db](./db/) there's a [seed.rb](./db/seeds.rb)
+
+This file is triggered by the `rails db:seed` command or `rails db:reset` and rails db:setup` commands.
+
+this file helps us seed the database.
+
+N/B: ensure you add the gem faker in your spec development and test section
+
+## [routes.rb](./config/routes.rb)
+
+resource generator creates our routes for us. we need to only add exceptions we need.
