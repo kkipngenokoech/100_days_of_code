@@ -934,3 +934,13 @@ everything from implementation of the application to models to seeding is found 
 **thoughts:** seeding allows us to fund our database with data used for testing our models.
 
 **link to work:** [ART APP](./RUBYONRAILS/projects/art_app/)
+
+## DAY 80, october 24th, 2022
+
+### (views)
+
+today I was working on the views for my artists in my art app
+
+**thoughts:** when you create a  [new method](RUBYONRAILS/projects/art_app/app/controllers/) in your controllers ensure you create a [.erb view](RUBYONRAILS/projects/art_app/app/views/artists/) too so as not to get lost.
+
+**link to work:** [artist](RUBYONRAILS/projects/art_app/app/controllers/artists_controller.rb)
