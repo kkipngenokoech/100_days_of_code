@@ -89,3 +89,15 @@ N/B: ensure you add the gem faker in your spec development and test section
 ## [routes.rb](./config/routes.rb)
 
 resource generator creates our routes for us. we need to only add exceptions we need.
+
+## route methods
+
+1. [artist_controller.rb](./app/controllers/artists_controller.rb)
+    * here we are going to create the methods.
+    * ensure you create [`.erbs`](app/views/artists/) for each method you create. in their views directory.
+    * this includes:
+        * [index.erb](app/views/artists/index.erb)
+        * [edit.erb](app/views/artists/edit.erb)
+        * [new.erb](app/views/artists/new.erb)
+        * [show.erb](app/views/artists/show.erb)
+2. [gallery_controller.rb](./app/controllers/galleries_controller.rb)

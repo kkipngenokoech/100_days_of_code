@@ -1,0 +1,6 @@
+<h2>Here are our top 10 artists in kenya</h2>
+<ul>
+    <% @artists.each do |artist| %>
+    <li><%= link_to artist.name, artist  %></li><br>
+    <% end %>
+</ul>

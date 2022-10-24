@@ -1,0 +1,17 @@
+<h2>Create a new Artist Here</h2>
+
+<ul>
+    <%= form_for @artist do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name, :required => true %> <br>
+
+    <%= f.label :age %>
+    <%= f.number_field :age, :required => true %> <br>
+
+    <%= f.label :experience_level %>
+    <%= f.select :experience_level,(1..10)%> <br>
+
+    <%= f.submit "create new artist" %>
+
+    <% end %>
+</ul>
