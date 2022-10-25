@@ -35,3 +35,11 @@ ensure that your web development server is installed globally `sudo npm install 
 to generate a controller and view - `rails generate controller Joke show`
 the joke means  - joke controller.
 the show means - joke controller should be able to generate a random joke only.
+
+## [routes](config/routes.rb)
+
+it determines which view to be rendered.
+
+edit that file to `get 'joke', to 'joke#show'`
+
+as in get `<route>` to `<controller name>`#`action name`
