@@ -944,3 +944,13 @@ today I was working on the views for my artists in my art app
 **thoughts:** when you create a  [new method](RUBYONRAILS/projects/art_app/app/controllers/) in your controllers ensure you create a [.erb view](RUBYONRAILS/projects/art_app/app/views/artists/) too so as not to get lost.
 
 **link to work:** [artist](RUBYONRAILS/projects/art_app/app/controllers/artists_controller.rb)
+
+## DAY 81, october 25th, 2022
+
+### (joker app)
+
+I have created an app that uses a joker api to get random jokes and display them.
+
+**thoughts:** when you include js in your rubyonrails project ensure that you run a js webpack server.
+
+**link to work:** [jokerApp](RUBYONRAILS/projects/jokesApp/)
