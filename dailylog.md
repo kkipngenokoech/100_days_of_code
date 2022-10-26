@@ -954,3 +954,15 @@ I have created an app that uses a joker api to get random jokes and display them
 **thoughts:** when you include js in your rubyonrails project ensure that you run a js webpack server.
 
 **link to work:** [jokerApp](RUBYONRAILS/projects/jokesApp/)
+
+## DAY 82, october 26th, 2022
+
+### (postgres)
+
+today I have started learning about databases so that I can use them in my rails applications
+
+I am learning postgres sql
+
+**thoughts:**  classes in ruby are capitalized and in singular and so the corresponding databases are plural and lowercase
+
+**link to work:** [DATABASES](RUBYONRAILS/Databases/)

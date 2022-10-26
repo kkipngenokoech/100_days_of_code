@@ -20,7 +20,7 @@ it has three properties:
     - members
     - genre
 
-N/B: classes in ruby are capitalized and in singular and so the corresponding databases are plural and lowercase.
+N/B:e classes in ruby are capitalized and in singular and so the corresponding databases are plural and lowercase.
 
 an object in ruby stands for a row in databases.
 
