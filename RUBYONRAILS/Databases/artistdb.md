@@ -29,3 +29,5 @@ in SQL we need to use single quotes when wrapping data, double quotes doesn't wo
 to query data from our database - `"select * from contacts`
 
 to quit postgres `\q`.
+
+the next [tutorial](ruby-postgres.md) shows us how to link the postgres database and ruby programs

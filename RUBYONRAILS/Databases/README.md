@@ -32,7 +32,7 @@ To start the service you `sudo systemctl start postgresql.service`
 
 to login to your postgres account you `sudo -u postgres psql` - this enables you to bypass the instruction authentication and authorizaation.
 
-to create our own database -  `CREATE DATABASE ArtistBase`
+to create our own database -  `CREATE DATABASE ArtistBase;`
 
 to list databases in our postgres we have to : `\l`
 
