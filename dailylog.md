@@ -966,3 +966,15 @@ I am learning postgres sql
 **thoughts:**  classes in ruby are capitalized and in singular and so the corresponding databases are plural and lowercase
 
 **link to work:** [DATABASES](RUBYONRAILS/Databases/)
+
+## DAY 83, october 27th, 2022
+
+### (postgres in IRB)
+
+today I have started integrating postgres database with ruby irb
+
+to execute sql databases in irb you use `.exec` method on the database you want to access.
+
+**thoughts:** when you access data in irb it returns it in astring format but hashes, so we need to convert it into a ruby object.
+
+**link to work:** [postgres with ruby](./RUBYONRAILS/Databases/ruby-postgres.md)
