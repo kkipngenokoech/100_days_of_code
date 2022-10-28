@@ -978,3 +978,23 @@ to execute sql databases in irb you use `.exec` method on the database you want 
 **thoughts:** when you access data in irb it returns it in astring format but hashes, so we need to convert it into a ruby object.
 
 **link to work:** [postgres with ruby](./RUBYONRAILS/Databases/ruby-postgres.md)
+
+
+## DAY 84, october 28th, 2022
+
+### (rails routing)
+
+today I learnt something new about routes in rails
+
+several routes can lead to the same url but different methods.
+
+there are 7 restful routes 
+![restful routes](./RUBYONRAILS/assets/restful-routes.jpeg)
+
+this restful routes can be used in one url under one controller.
+
+to enable all this restful routes, in your `routes.rb` you `resources :nameofyourcontroller`
+
+**thoughts:** restful routes sync with methods inside the controller and not to urls, they may all link to one url.
+
+**link to work:** [routes and controllers](./RUBYONRAILS/railsroutes.md)
