@@ -20,9 +20,10 @@ All web frameworks perform basically the same tasks:
 
 ## ROOT
 
-` root to: "kittens#index"  #kittens controller, index action (method)` - this is to route to your root url.
+`root to: "kittens#index"  #kittens controller, index action (method)` - this is to route to your root url.
 
 ## RESTful Routes
+
 REST - Representational state transfer,  there are  only 7 different types of things that you usually want to do to an individual resource via the web
 
 1. Index - Get all the posts - index the posts - `index`
@@ -33,15 +34,35 @@ REST - Representational state transfer,  there are  only 7 different types of th
 6. Put - patch the data you just filled out for editing the post back to the server so it can actually perform the update. - `update`
 7. Delete - delete one specific post by sending a delete request to the server. - `destroy`
 
+writing these routes in a ruby file?
+
+```ruby
+get "/posts", to: "posts#index" # returns all posts
+get "/posts/:id", to: "posts#show" # returns one single specific post
+get "/posts/:id/edit", to: "posts#edit" # edits a specific post
+delete "/posts/:id", to: "posts#destroy" #delete a specific post
+get "/posts/new", to: "posts#new" #route to creating new posts
+post "/posts", to: "posts#create" #route to posting a created post
+put "/posts/:id", to: "posts#update" # submitting a post.
+```
+
+several of those routes are submitting to the same url, they just use different HTTP verbs. that means they are send to different controller actions.
+
+## non-restful routes
+
+to make your own path: `get '/somepath', to: 'somecontroller#someaction'`
 
 ## MVC
+
 Model -> view -> controller
 When you build a new Rails project, you get that giant mass of folders and files created. Though it seems like there is an overwhelming number of files inside your app directory, they are highly organized and specifically meant to separate the Model, View, and Controller.
 
 The point of MVC is that the functions of a web application can be broken down into more or less distinct parts. Each part gets its own Ruby class. That’s great for you the developer because, when you want to tweak a specific part of the code base or fix a bug, you know exactly which file to modify and where it is.
 
 ## THE PART THROUGH MVC
+
 when a request from a browser comes into an application :
+
 1. The router figures out which controller to send it to.
 2. That controller asks the model for data and any other question it has.
 3. Then the controller passes off whatever data it needs to the views. - these are just HTML templates that are waiting for those variables.
@@ -53,6 +74,7 @@ MODEL -> VIEW -> CONTROLLER
 this is just an interface.Not all APIs are web-based.
 
 ## COOKIES
+
 cookies are basically a way for websites to remember who you are from one request to another.
 
 Remember – every HTTP request is totally independent of each other. Meaning that when you go to the Home page of a website and then click on a link to their About page, the web server treats you as a completely new user.
@@ -60,6 +82,7 @@ Remember – every HTTP request is totally independent of each other. Meaning th
 Cookies are little bits of data that your browser sends to the website every time you make a request to it. From the perspective of the web server, it lets the server identify you as the same person who made any of a series of previous requests. It preserves the state of your session.
 
 ## SESSIONS
+
 Cookies are important because they enable you to have a single continuous “session” while you’re interacting with a website. It means you only have to log in once instead of for every single request
 
 Your browser includes all the cookies that a particular website has set along with its normal request and the server uses those strings to figure out which user you are and whether you are logged in, what your settings are (like if you’ve set up viewing preferences) and things like that. It’s also why, when you clear cookies from your browser history, everything seems to get wiped out and go back to the default.
@@ -67,9 +90,12 @@ Your browser includes all the cookies that a particular website has set along wi
 It’s also how some ads seem to follow you from one website to another – another name for them is “tracking cookies”.
 
 ## AUTHENTICATION
+
 used to determine who the user is!
 
 ## AUTHORIZATION
+
 this helps you determine what the authenticated user can do in your site.
 
 The most common case of this is actually the distinction between a random not-logged-in user and one who is logged in. Another common case of this is the difference between regular users of a website and the admin users who have special privileges.
+
