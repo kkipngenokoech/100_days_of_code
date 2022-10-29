@@ -998,3 +998,13 @@ to enable all this restful routes, in your `routes.rb` you `resources :nameofyou
 **thoughts:** restful routes sync with methods inside the controller and not to urls, they may all link to one url.
 
 **link to work:** [routes and controllers](./RUBYONRAILS/railsroutes.md)
+
+## DAY 85, october 29th, 2022
+
+### (rails views)
+
+I am learning the theory part of views and you don't necessarily need to include the html boiler plates since that is taken care of in the `application.html.erb`
+
+**thoughts:** `yield` method is used to inject views into the application.html.erb
+
+**link to work:** [views](RUBYONRAILS/view.md)
