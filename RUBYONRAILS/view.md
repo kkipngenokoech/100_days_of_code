@@ -65,3 +65,4 @@ here you use the `:locals` key. `<%= render partial: "shared/your_partial", :loc
 Note that you should use the :locals option if you’re calling the render method with a :partial key.
 
 alt : `<%= render "shared/your_partial", :user => user %>`
+
