@@ -1008,3 +1008,17 @@ I am learning the theory part of views and you don't necessarily need to include
 **thoughts:** `yield` method is used to inject views into the application.html.erb
 
 **link to work:** [views](RUBYONRAILS/view.md)
+
+## DAY 86, october 30th 2022
+
+### (Hello Multiverse)
+
+in the most basic way, your application has no controllers no views no models except the application.html.erb.
+
+you write actions/routes in your controllers.
+
+if you want any of your actions to be a default index page, you can redirect it in your routes.rb thats by `root "controller_name#method_name"`.
+
+**thoughts:** you can redirect any of your controller methods as a main/index page.
+
+**link to work:** [Hello Multiverse](./RUBYONRAILS/projects/hello_multiverse/)
