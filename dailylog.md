@@ -1025,7 +1025,7 @@ if you want any of your actions to be a default index page, you can redirect it 
 
 ## DAY 87, october  31th , 2022
 
-### (sample APp)
+### (sample App)
 
 today I have created a new application sample App
 
