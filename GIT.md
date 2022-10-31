@@ -51,7 +51,14 @@ to see all the current branches you have `git branch`
 git merge - pull whatever you were doing in other branches into the main/the branch you are currently are branch - `git merge <branch name>`
 deleting a branch? `git branch -d <branch name>` if the branch has already been merged with main else use flag `-D`.
 
-
 setting the default branch for all your repos `git config --global init.defaultBranch main`
 
 when you create a new branch you need to push it to your github remote repo `git push origin <name of the repo>`
+
+## git log
+
+gives you a history of your previous commit
+
+## git checkout -f
+
+returns to the previously commited stage if you had made some changes but you hadn't committed them then.
