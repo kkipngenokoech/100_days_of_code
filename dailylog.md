@@ -1022,3 +1022,17 @@ if you want any of your actions to be a default index page, you can redirect it 
 **thoughts:** you can redirect any of your controller methods as a main/index page.
 
 **link to work:** [Hello Multiverse](./RUBYONRAILS/projects/hello_multiverse/)
+
+## DAY 87, october  31th , 2022
+
+### (sample APp)
+
+today I have created a new application sample App
+
+i have generated controller StaticPages with two custom made actions and wrote tests for this two actions.
+
+I have also edited the views so as to render HTML text.
+
+**thoughts:** you can render static html in your views if your application is still on the baby tracks.
+
+**link to work:** [sample App](./RUBYONRAILS/projects/sample_app/)

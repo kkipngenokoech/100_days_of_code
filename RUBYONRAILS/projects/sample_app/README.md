@@ -35,4 +35,3 @@ when you generate a controller with CamelCase it will be created using the snake
 ruby uses CamelCase for class name.
 
 to destroy a controller : `rails destroy controller_name its_actions`
-
