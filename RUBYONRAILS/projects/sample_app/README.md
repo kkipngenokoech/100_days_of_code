@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## static page controller
+
+our static page is going to have three actions - home, help and about
+
+we are going to generate the home and help page alongside the controller:
+`rails generate controller StaticPages home help`.
