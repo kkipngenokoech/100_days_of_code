@@ -1,5 +1,6 @@
 class StaticPagesController < ApplicationController
   def home
+   # render html: "Hello Multiversers"
   end
 
   def help

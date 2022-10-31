@@ -29,3 +29,10 @@ our static page is going to have three actions - home, help and about
 
 we are going to generate the home and help page alongside the controller:
 `rails generate controller StaticPages home help`.
+
+when you generate a controller with CamelCase it will be created using the snake_case naming convention.
+
+ruby uses CamelCase for class name.
+
+to destroy a controller : `rails destroy controller_name its_actions`
+
