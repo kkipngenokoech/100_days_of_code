@@ -35,3 +35,9 @@ when you generate a controller with CamelCase it will be created using the snake
 ruby uses CamelCase for class name.
 
 to destroy a controller : `rails destroy controller_name its_actions`
+
+provide method in ruby creates a new variable.
+
+`<%%>` doesn't return anything to the console.
+
+`<%=%>` returns ruby code to the console.

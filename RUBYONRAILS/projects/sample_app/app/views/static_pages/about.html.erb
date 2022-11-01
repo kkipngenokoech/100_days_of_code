@@ -1,7 +1,8 @@
+<% provide(:title,"About")%>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>About | rails sample app</title>
+        <title><%= yield(:title) %> | rails sample app</title>
     </head>
     <body>
         <h2>About page</h2>
