@@ -1036,3 +1036,23 @@ I have also edited the views so as to render HTML text.
 **thoughts:** you can render static html in your views if your application is still on the baby tracks.
 
 **link to work:** [sample App](./RUBYONRAILS/projects/sample_app/)
+
+## DAY 88, November 1st, 2022
+
+### (static pages)
+
+I have created a new application from scratch `rails new ...`
+
+installed the neccessary gems `bundle gems`
+
+defined roots
+
+and worked with static html, played around with the title
+
+I also did failing and TDD tests.
+
+**thoughts:** Automated testing allows us to write test suites that drive the develop-
+ment of new features, allow for conﬁdent refactoring, and catch regres-
+sions.
+
+**link to work:** [sampl app](./RUBYONRAILS/projects/sample_app/app/views/)
