@@ -1055,4 +1055,4 @@ I also did failing and TDD tests.
 ment of new features, allow for conﬁdent refactoring, and catch regres-
 sions.
 
-**link to work:** [sampl app](./RUBYONRAILS/projects/sample_app/app/views/)
+**link to work:** [sample app](./RUBYONRAILS/projects/sample_app/app/views/)
