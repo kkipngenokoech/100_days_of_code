@@ -7,6 +7,10 @@
 
 ## Active Record
 
+Active records is the interface that rails gives you between your database and your application.
+
+it lets you structure your data models.
+
 Active records normally does the mappings for you.
 
 while dealing with Active records: you now start coming into contact with classes, objects and attributes.
@@ -30,6 +34,8 @@ With the help of this convention, Rails will automatically find the correspondin
 Active Record is, to put it inelegantly, the gem that takes care of all the database stuff. It’s known as an “ORM”.
 
 ORM stands for Object-Relational-Mapping. It basically means that Active Record takes data which is stored in a database table using rows and columns, which needs to be modified or retrieved by writing SQL statements (if you’re using a SQL database), and it lets you interact with that data as though it was a normal Ruby object.
+
+Active records will do the hard work of connecting you to your database.
 
 ## RAILS MODELS
 
