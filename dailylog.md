@@ -1056,3 +1056,18 @@ ment of new features, allow for conﬁdent refactoring, and catch regres-
 sions.
 
 **link to work:** [sample app](./RUBYONRAILS/projects/sample_app/app/views/)
+
+
+## DAY 89, november 2nd 2022
+
+### (ruby forms)
+
+working with ruby forms.
+
+when you pass your form data it is taken in as params
+
+you use name attribute for forms.
+
+**thoughts:** ruby on rails needs to authenticate your form and so there's an authenicity input that needs to be included in your form.
+
+**link to work:** [FORMS](./RUBYONRAILS/rubyforms.md)
