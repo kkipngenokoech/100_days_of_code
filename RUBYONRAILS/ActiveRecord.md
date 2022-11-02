@@ -56,7 +56,7 @@ to create a model `rails generate model <yourModelName>`
 
 ## MIGRATIONS
 
-to create a database migraation file `rails generate migration <NameOfYourMigration>`
+to create a database migration file `rails generate migration <NameOfYourMigration>`
 
 A migration is basically a script that tells Rails how you want to set up or change a database.
 
