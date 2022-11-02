@@ -102,3 +102,8 @@ ruby actually finds the plural of words, if you have a class known as `Mouse` or
 ## CREATING MODELS
 
 `rails generate model <name of your model>`
+
+## MODELS RELATION
+
+two models can be relating with each other, i.e one post can have many comments and one comment belongs to a post.
+: `post has_many comments`.
