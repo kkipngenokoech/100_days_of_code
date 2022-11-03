@@ -1071,3 +1071,17 @@ you use name attribute for forms.
 **thoughts:** ruby on rails needs to authenticate your form and so there's an authenicity input that needs to be included in your form.
 
 **link to work:** [FORMS](./RUBYONRAILS/rubyforms.md)
+
+## DAY 90, november 3rd 2022
+
+### (bootstrap)
+
+today I have started working on just a little styling of my website
+
+N/B: I am after web programming and not design
+
+I used bootstrap gem for ths particular project!
+
+**thoughts:** every other time you update your gem file you have to restart your server
+
+**link to work:** [Bootstrap](./RUBYONRAILS/projects/sample_app/Bootstrap.md)
