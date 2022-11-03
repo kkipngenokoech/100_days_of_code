@@ -32,3 +32,5 @@ Each Active Record object has a CRUD(create, read, update, delete) functionality
 ### creating Active Records Files(Model)
 
 `rails script/generate mode <name of the model>` - this is ran on top-level application directory.
+
+N/B: ruby doesn't interpolate single-quote strings.
