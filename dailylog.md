@@ -1085,3 +1085,15 @@ I used bootstrap gem for ths particular project!
 **thoughts:** every other time you update your gem file you have to restart your server
 
 **link to work:** [Bootstrap](./RUBYONRAILS/projects/sample_app/Bootstrap.md)
+
+## DAY 91, november 4th 2022
+
+### (BOTS)
+
+autonomous program on the internet or another network that can interact with systems or users.
+
+today I started working with bots, I did a telegram bot to get me started which just echos what you say to it
+
+**thoughts:** you need an APi so that it can allow you communicate with your server.
+
+**link to work:** [Bots](./BOTS/kingjulien/)
