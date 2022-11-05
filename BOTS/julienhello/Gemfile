@@ -1,0 +1,2 @@
+source "https://rubygems.org"
+gem 'telegram_bot' #This tells Bundler to grab the Ruby interface to the Telegram API from rubygems.org.
