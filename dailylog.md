@@ -1097,3 +1097,17 @@ today I started working with bots, I did a telegram bot to get me started which 
 **thoughts:** you need an APi so that it can allow you communicate with your server.
 
 **link to work:** [Bots](./BOTS/kingjulien/)
+
+## DAY 92, november 5th 2022
+
+### (julienHello)
+
+today I did another simple bot, today using ruby language.
+
+it has two commands `/start/` and `/greet`
+
+it simply says hello back to you in different languages.
+
+**thoughts:** writing bots with ruby is pretty much easy!
+
+**link to work:** [julienHello](./BOTS/julienhello/)
