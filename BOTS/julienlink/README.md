@@ -40,3 +40,4 @@ this is the function that provides help functionalities to a user.
 
 ## HANDLING COMMANDS
 
+we have updated the code to help us handle the commands and link them with methods.

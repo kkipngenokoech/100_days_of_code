@@ -1111,3 +1111,15 @@ it simply says hello back to you in different languages.
 **thoughts:** writing bots with ruby is pretty much easy!
 
 **link to work:** [julienHello](./BOTS/julienhello/)
+
+## DAY 93 november 6th 2022
+
+### (julienlink)
+
+today I have created a new bot, that is supposed to return links
+
+I have learnt about messange handler and command handlers in telegram module.
+
+**thoughts:** using message handlers and command handlers makes working with telegram bots easy.
+
+**link to work:** [julienlink](BOTS/julienlink/bot.py)
