@@ -1123,3 +1123,13 @@ I have learnt about messange handler and command handlers in telegram module.
 **thoughts:** using message handlers and command handlers makes working with telegram bots easy.
 
 **link to work:** [julienlink](BOTS/julienlink/bot.py)
+
+## DAY 94 november 7th, 2022
+
+### (julienReply)
+
+under this specific bot, I have learnt to put the message into my console, analyse the various fields it comes with and select the users username then reply to his/her message.
+
+**thoughts:** whatever is returned by the API to you is pretty much the same across all languages: the id, username, date, and even first name.
+
+**link to work:** [JulienReply](BOTS/julienreply/julien.rb)
