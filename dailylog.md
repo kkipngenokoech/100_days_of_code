@@ -1139,3 +1139,13 @@ under this specific bot, I have learnt to put the message into my console, analy
 **thoughts:** whatever is returned by the API to you is pretty much the same across all languages: the id, username, date, and even first name.
 
 **link to work:** [JulienReply](BOTS/julienreply/julien.rb)
+
+## DAY 95 november 8th, 2022
+
+### (julientokyo)
+
+I am trying to write my telegram bot in rust, but since it is my first encounter with rust, I am in absolute shambles
+
+**thoughts:** I need to do more work on this rust thing
+
+**link to work:** [Telegram Bot with rust](./BOTS/julienrust/)
