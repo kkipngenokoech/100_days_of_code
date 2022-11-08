@@ -1,0 +1,15 @@
+[package]
+name = "julienrust"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "julientokyo"
+path = "src/julientokyo.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+telegram-bot = "0.8"
+tokio-core = "0.1.17"
+futures = "0.1.23"

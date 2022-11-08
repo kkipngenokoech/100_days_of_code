@@ -799,7 +799,9 @@ it is pretty much the same OOP concepts in the other programming languages
 **link to work:** [OOP](./RUBY/tutorials/OOP.md)
 
 ## DAY 68, OCTOBER 12TH, 2022
-#### (INDEPTH RUBY OOP)
+
+### (INDEPTH RUBY OOP)
+
 today I have learnt of the ruby constructor methods, instance methods and objects
 
 when a class wants to inherit from a superclass, you use `<`
@@ -809,7 +811,9 @@ when a class wants to inherit from a superclass, you use `<`
 **link to work:** [RUBY CLASS](./RUBY/tutorials/ruby_codes/rubyclass.rb)
 
 ## DAY 69, october 13th, 2022
-#### (caesar cipher)
+
+### (caesar cipher)
+
 today I have started my first project on ruby the [caesar cipher](./RUBY/Ruby_Projects/caesar_cipher/caesar_cipher.rb)
  what I have done today under this project has taught me:
      hands on splitting of string to array - `split and to_a`
@@ -822,7 +826,9 @@ today I have started my first project on ruby the [caesar cipher](./RUBY/Ruby_Pr
 **link to work:** [ceasar cipher](./RUBY/Ruby_Projects/caesar_cipher/)
 
 ## DAY 70, october 14th, 2022
-#### (caesar_cipher)
+
+### (caesar_cipher)
+
 building up on  the caesar_cipher game i started yesterday.
 today my program can encrypt your text well if all your inputs are in small letters.
 
@@ -831,7 +837,9 @@ today my program can encrypt your text well if all your inputs are in small lett
 **link to work:** [caesar_cipher](./RUBY/Ruby_Projects/caesar_cipher/)
 
 ## DAY 71, october 15th, 2022
-#### (substrings)
+
+### (substrings)
+
 another ruby project
 you pass a string and an array of words
 the method iterates over the array and checks if the word atleast exists in the string
@@ -842,7 +850,8 @@ it returns an hash of the word and the number of times it appears in the string
 **link to work:** [substrings](./RUBY/Ruby_Projects/Sub_strings/)
 
 ## DAY 72, october 16th 2022
-#### (stockPicker)
+
+### (stockPicker)
 
 you pass an array of stocks, the method looks for the day with least stock cost and high stock cost
 
@@ -864,7 +873,6 @@ we use the `File` library provided to us by Ruby.
 **thoughts:** with the `File` library we can read lines import content , modify content, delete content and basically much file manipulation
 
 **link to work:** [File Serialization](./RUBY/Ruby_Projects/event_manager/lib/event_manager.rb)
-
 
 ## Day 74, october 18th 2022
 
@@ -979,7 +987,6 @@ to execute sql databases in irb you use `.exec` method on the database you want 
 
 **link to work:** [postgres with ruby](./RUBYONRAILS/Databases/ruby-postgres.md)
 
-
 ## DAY 84, october 28th, 2022
 
 ### (rails routing)
@@ -988,7 +995,7 @@ today I learnt something new about routes in rails
 
 several routes can lead to the same url but different methods.
 
-there are 7 restful routes 
+there are 7 restful routes
 ![restful routes](./RUBYONRAILS/assets/restful-routes.jpeg)
 
 this restful routes can be used in one url under one controller.
@@ -1056,7 +1063,6 @@ ment of new features, allow for conﬁdent refactoring, and catch regres-
 sions.
 
 **link to work:** [sample app](./RUBYONRAILS/projects/sample_app/app/views/)
-
 
 ## DAY 89, november 2nd 2022
 
