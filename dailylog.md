@@ -1149,3 +1149,13 @@ I am trying to write my telegram bot in rust, but since it is my first encounter
 **thoughts:** I need to do more work on this rust thing
 
 **link to work:** [Telegram Bot with rust](./BOTS/julienrust/)
+
+## DAY 96 november 9th, 2022
+
+## (Meals ApI)
+
+today I started working with the meals api
+
+**thoughts:** I need to teach myself how to use javascript fetch
+
+**link to work:** [Meals API](API/mealapi/index.html)
