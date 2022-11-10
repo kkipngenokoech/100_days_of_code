@@ -1159,3 +1159,13 @@ today I started working with the meals api
 **thoughts:** I need to teach myself how to use javascript fetch
 
 **link to work:** [Meals API](API/mealapi/index.html)
+
+## DAY 97 november 10th, 2022
+
+## (QuizApi)
+
+today I have taught myself how to use fetch api to request data from the apis.
+
+**thoughts:** fetch always returns a promise irregardless of the http response. you have to jsonfy this response object.
+
+**link to work:** [QUIZ API](./API/quizapi/)
