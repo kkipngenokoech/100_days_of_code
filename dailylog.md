@@ -1169,3 +1169,15 @@ today I have taught myself how to use fetch api to request data from the apis.
 **thoughts:** fetch always returns a promise irregardless of the http response. you have to jsonfy this response object.
 
 **link to work:** [QUIZ API](./API/quizapi/)
+
+## DAY 98 november 11th, 2022
+
+### (JSON)
+
+json is a standard of sending data across the web to servers and back.
+
+you can convert objects to JSON, send them across and covert them back on the other end.
+
+**thoughts:** JSON is language independent and it is also text-based.
+
+**link to work:** [JSON](JAVASCRIPT/javascript_JSON/README.md)
