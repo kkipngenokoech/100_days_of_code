@@ -1181,3 +1181,17 @@ you can convert objects to JSON, send them across and covert them back on the ot
 **thoughts:** JSON is language independent and it is also text-based.
 
 **link to work:** [JSON](JAVASCRIPT/javascript_JSON/README.md)
+
+## DAY 99 november 12th, 2022
+
+### (web APIs)
+
+api stands from application programming interface.
+
+there are two types of apis. browser apis and server apis
+
+ APIs that are built into the browser and provide native features that can also be used in a web app
+
+**thoughts:** Browser APIs are built into the web browser and are able to use data from the browser and the computer environment to perform more complex actions with that data
+
+**link to work:** [BROWSER API](javascript_API/README.md)
