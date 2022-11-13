@@ -1195,3 +1195,20 @@ there are two types of apis. browser apis and server apis
 **thoughts:** Browser APIs are built into the web browser and are able to use data from the browser and the computer environment to perform more complex actions with that data
 
 **link to work:** [BROWSER API](javascript_API/README.md)
+
+## DAY 100 november 13th, 2022
+
+### (DAY 100/100)
+
+i have today completed my 100 days of code.
+
+i have learnt about:
+
+1. django framework
+2. javascript and a little bit about react
+3. ruby on rails framework
+4. and apis
+
+**thoughts:** the last 100 days have been a season of growth, learning,relearning and unlearning. what I have realized though is that backend comes easy for me and thats what I am going to specialize on going forward
+
+**link to work:** [100 days of code](../100_days_of_code/)
